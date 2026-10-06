@@ -1,0 +1,2773 @@
+<div class="charsheet">
+
+  <!-- ===================== ONGLETS ===================== -->
+  <input type="radio" class="tab-radio" id="tab-identite" name="attr_tab" value="identite" checked />
+  <input type="radio" class="tab-radio" id="tab-attributs" name="attr_tab" value="attributs" />
+  <input type="radio" class="tab-radio" id="tab-combat" name="attr_tab" value="combat" />
+  <input type="radio" class="tab-radio" id="tab-competences" name="attr_tab" value="competences" />
+  <input type="radio" class="tab-radio" id="tab-maitrise" name="attr_tab" value="maitrise" />
+  <input type="radio" class="tab-radio" id="tab-inventaire" name="attr_tab" value="inventaire" />
+  <input type="radio" class="tab-radio" id="tab-reputation" name="attr_tab" value="reputation" />
+  <input type="radio" class="tab-radio" id="tab-actions" name="attr_tab" value="actions" />
+
+  <div class="tabbar">
+    <label for="tab-identite">Identité</label>
+    <label for="tab-attributs">Attributs</label>
+    <label for="tab-combat">Combat</label>
+    <label for="tab-actions">Actions</label>
+    <label for="tab-competences">Compétences</label>
+    <label for="tab-maitrise">Maîtrise</label>
+    <label for="tab-inventaire">Inventaire</label>
+    <label for="tab-reputation">Réputation</label>
+  </div>
+
+  <h1 class="sheet-title">RUNETERRA — JDR</h1>
+
+  <!-- ===================== ONGLET 1 : IDENTITÉ ===================== -->
+  <div class="tab-pane pane-identite">
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Informations personnelles</div>
+      <div class="sheet-infoperso-layout">
+        <div class="sheet-infoperso-col">
+          <div class="sheet-row sheet-row-tight">
+            <div class="sheet-namecol">
+              <div class="sheet-field">
+                <label>Nom du personnage</label>
+                <input type="text" name="attr_charname" value="" />
+              </div>
+              <div class="sheet-field">
+                <label>Pseudo (joueur)</label>
+                <input type="text" name="attr_playername" value="" />
+              </div>
+            </div>
+          </div>
+          <div class="sheet-row sheet-row-equal">
+            <div class="sheet-field sheet-small">
+              <label>Niveau</label>
+              <input type="number" name="attr_niveau" value="1" min="1" max="18" />
+            </div>
+            <div class="sheet-field">
+              <label>Âge</label>
+              <input type="number" name="attr_age" value="" class="sheet-num" />
+            </div>
+            <div class="sheet-field">
+              <label>Poids (kg)</label>
+              <input type="number" name="attr_poids" value="" class="sheet-num" />
+            </div>
+          </div>
+        </div>
+        <div class="sheet-infoperso-col">
+          <div class="sheet-field">
+            <label>Région d'origine</label>
+            <select name="attr_region">
+              <option value="">— Choisir —</option>
+              <option>Demacia</option>
+              <option>Noxus</option>
+              <option>Ionia</option>
+              <option>Piltover</option>
+              <option>Zaun</option>
+              <option>Freljord</option>
+              <option>Shurima</option>
+              <option>Bilgewater</option>
+              <option>Îles Obscures</option>
+              <option>Ixtal</option>
+              <option>Targon</option>
+              <option>Bandle City</option>
+              <option>Néant</option>
+              <option>Sans région (Errant)</option>
+            </select>
+          </div>
+          <div class="sheet-field">
+            <label>Race</label>
+            <select name="attr_race">
+              <option value="">— Choisir —</option>
+              <option>Humain</option>
+              <option>Vastaya</option>
+              <option>Yordle</option>
+              <option>Transfiguré</option>
+              <option>Void / Symbiote</option>
+              <option>Troll</option>
+              <option>Freljordien</option>
+              <option>Darkin</option>
+              <option>Ascendu</option>
+              <option>Augmenté Chemtech</option>
+              <option>Être des Étoiles</option>
+              <option>Vessel d'Aspect</option>
+            </select>
+          </div>
+        </div>
+        <div class="sheet-photo-slot"><div class="sheet-photo-box">Photo</div></div>
+        <div class="sheet-infoperso-filler"></div>
+      </div>
+      <p class="sheet-hint">Les bonus/malus liés à la Région et à la Race (trait culturel, terrain connu, bonus racial) sont dans l'onglet Attributs.</p>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Rôle &amp; Sous-rôle</div>
+
+      <input type="radio" id="role-top" name="attr_role" value="TOP" class="role-radio" />
+      <input type="radio" id="role-jungle" name="attr_role" value="JUNGLE" class="role-radio" />
+      <input type="radio" id="role-mid" name="attr_role" value="MID" class="role-radio" />
+      <input type="radio" id="role-adc" name="attr_role" value="ADC" class="role-radio" />
+      <input type="radio" id="role-support" name="attr_role" value="SUPPORT" class="role-radio" />
+
+      <div class="role-buttons-row">
+        <label class="role-btn" for="role-top">TOP</label>
+        <label class="role-btn" for="role-jungle">JUNGLE</label>
+        <label class="role-btn" for="role-mid">MID</label>
+        <label class="role-btn" for="role-adc">ADC</label>
+        <label class="role-btn" for="role-support">SUPPORT</label>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow sousrole-container">
+          <label>Sous-rôle</label>
+
+          <select name="attr_sousrole" class="sousrole-select sousrole-top">
+            <option value="">— Choisir un sous-rôle TOP —</option>
+            <option>Bruiser</option>
+            <option>Juggernaut</option>
+            <option>Tank</option>
+          </select>
+
+          <select name="attr_sousrole" class="sousrole-select sousrole-jungle">
+            <option value="">— Choisir un sous-rôle JUNGLE —</option>
+            <option>Assassin</option>
+            <option>Skirmisher</option>
+            <option>Vanguard</option>
+          </select>
+
+          <select name="attr_sousrole" class="sousrole-select sousrole-mid">
+            <option value="">— Choisir un sous-rôle MID —</option>
+            <option>Control Mage</option>
+            <option>Battle Mage</option>
+            <option>Artilleur (AP)</option>
+          </select>
+
+          <select name="attr_sousrole" class="sousrole-select sousrole-adc">
+            <option value="">— Choisir un sous-rôle ADC —</option>
+            <option>Hypercarry</option>
+            <option>Sniper</option>
+            <option>Caster (AD)</option>
+          </select>
+
+          <select name="attr_sousrole" class="sousrole-select sousrole-support">
+            <option value="">— Choisir un sous-rôle SUPPORT —</option>
+            <option>Enchanteur</option>
+            <option>Initiateur</option>
+            <option>Catcher</option>
+          </select>
+
+          <p class="sheet-hint sousrole-select-empty">Choisis d'abord un rôle ci-dessus pour voir les sous-rôles correspondants.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Background</div>
+      <textarea name="attr_background" rows="6" placeholder="Racines, déclencheur, formation, relation vivante, objectif..."></textarea>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Notes libres</div>
+      <textarea name="attr_notes" rows="5"></textarea>
+    </div>
+
+  </div><!-- /pane-identite -->
+
+  <!-- ===================== ONGLET 2 : ATTRIBUTS ===================== -->
+  <div class="tab-pane pane-attributs">
+
+    <div class="sheet-section sheet-section-compact">
+      <span class="sheet-pointbuy-label">Point-buy (création, 8-15 avant Race) :</span>
+      <span name="attr_points_restants" class="sheet-readonly sheet-pointbuy-inline"></span>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Attributs</div>
+
+      <div class="statcards-row">
+        <div class="attr-card">
+          <div class="attr-card-header">
+            <span class="attr-card-name">FOR</span>
+            <span name="attr_for_seuil" class="attr-card-seuil">50</span>
+          </div>
+          <div class="statcard-detail">Base <input type="number" name="attr_for_base" value="10" min="8" max="15" class="tiny-input" /> + Bonus <input type="number" name="attr_for_racial" value="0" class="tiny-input" /> = <span name="attr_for_total" class="sheet-readonly">10</span></div>
+          <button type="roll" name="roll_for" value="&{template:default} {{name=Jet de FOR}} {{Résultat=[[1d100]]}} {{Seuil= @{for_seuil}}}">Jet</button>
+        </div>
+        <div class="attr-card">
+          <div class="attr-card-header">
+            <span class="attr-card-name">DEX</span>
+            <span name="attr_dex_seuil" class="attr-card-seuil">50</span>
+          </div>
+          <div class="statcard-detail">Base <input type="number" name="attr_dex_base" value="10" min="8" max="15" class="tiny-input" /> + Bonus <input type="number" name="attr_dex_racial" value="0" class="tiny-input" /> = <span name="attr_dex_total" class="sheet-readonly">10</span></div>
+          <button type="roll" name="roll_dex" value="&{template:default} {{name=Jet de DEX}} {{Résultat=[[1d100]]}} {{Seuil= @{dex_seuil}}}">Jet</button>
+        </div>
+        <div class="attr-card">
+          <div class="attr-card-header">
+            <span class="attr-card-name">CON</span>
+            <span name="attr_con_seuil" class="attr-card-seuil">50</span>
+          </div>
+          <div class="statcard-detail">Base <input type="number" name="attr_con_base" value="10" min="8" max="15" class="tiny-input" /> + Bonus <input type="number" name="attr_con_racial" value="0" class="tiny-input" /> = <span name="attr_con_total" class="sheet-readonly">10</span></div>
+          <button type="roll" name="roll_con" value="&{template:default} {{name=Jet de CON}} {{Résultat=[[1d100]]}} {{Seuil= @{con_seuil}}}">Jet</button>
+        </div>
+      </div>
+      <div class="statcards-row">
+        <div class="attr-card">
+          <div class="attr-card-header">
+            <span class="attr-card-name">INT</span>
+            <span name="attr_int_seuil" class="attr-card-seuil">50</span>
+          </div>
+          <div class="statcard-detail">Base <input type="number" name="attr_int_base" value="10" min="8" max="15" class="tiny-input" /> + Bonus <input type="number" name="attr_int_racial" value="0" class="tiny-input" /> = <span name="attr_int_total" class="sheet-readonly">10</span></div>
+          <button type="roll" name="roll_int" value="&{template:default} {{name=Jet d'INT}} {{Résultat=[[1d100]]}} {{Seuil= @{int_seuil}}}">Jet</button>
+        </div>
+        <div class="attr-card">
+          <div class="attr-card-header">
+            <span class="attr-card-name">VOL</span>
+            <span name="attr_vol_seuil" class="attr-card-seuil">50</span>
+          </div>
+          <div class="statcard-detail">Base <input type="number" name="attr_vol_base" value="10" min="8" max="15" class="tiny-input" /> + Bonus <input type="number" name="attr_vol_racial" value="0" class="tiny-input" /> = <span name="attr_vol_total" class="sheet-readonly">10</span></div>
+          <button type="roll" name="roll_vol" value="&{template:default} {{name=Jet de VOL}} {{Résultat=[[1d100]]}} {{Seuil= @{vol_seuil}}}">Jet</button>
+        </div>
+        <div class="attr-card">
+          <div class="attr-card-header">
+            <span class="attr-card-name">CHA</span>
+            <span name="attr_cha_seuil" class="attr-card-seuil">50</span>
+          </div>
+          <div class="statcard-detail">Base <input type="number" name="attr_cha_base" value="10" min="8" max="15" class="tiny-input" /> + Bonus <input type="number" name="attr_cha_racial" value="0" class="tiny-input" /> = <span name="attr_cha_total" class="sheet-readonly">10</span></div>
+          <button type="roll" name="roll_cha" value="&{template:default} {{name=Jet de CHA}} {{Résultat=[[1d100]]}} {{Seuil= @{cha_seuil}}}">Jet</button>
+        </div>
+      </div>
+
+      <p class="sheet-hint">L'Armure ne dépend jamais des attributs (rôle + objets uniquement). Bonus = tout ce qui est chiffré (Race notamment, mais aussi tout ce que tu veux y ajouter) ; les effets non chiffrés sont dans les cadres ci-dessous.</p>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Trait culturel</div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <span name="attr_trait_culturel" class="sheet-readonly sheet-race-hint"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Effets de Race</div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <span name="attr_race_narratif" class="sheet-readonly sheet-race-hint"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Maîtrise (nœuds pris)</div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <span name="attr_recap_maitrise" class="sheet-readonly sheet-race-hint"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Affinité élémentaire</div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <select name="attr_affinite">
+            <option>Aucune</option>
+            <option>Eau</option><option>Feu</option><option>Foudre</option>
+            <option>Terre</option><option>Néant</option><option>Lumière</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <span name="attr_affinite_info" class="sheet-readonly sheet-race-hint"></span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /pane-attributs -->
+
+  <!-- ===================== ONGLET 3 : COMBAT ===================== -->
+  <div class="tab-pane pane-combat">
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Vitals</div>
+      <div class="statcards-row">
+        <div class="statcard">
+          <div class="statcard-label">Armure</div>
+          <span name="attr_armure" class="statcard-value">0</span>
+          <div class="statcard-detail">+ <span name="attr_armure_objets" class="sheet-readonly">0</span> objets (auto)</div>
+        </div>
+        <div class="statcard statcard-wide">
+          <div class="statcard-label">PV</div>
+          <div class="statcard-hp">
+            <input type="number" name="attr_pv_actuel" value="0" class="statcard-hp-current" />
+            <span class="statcard-hp-sep">/</span>
+            <span name="attr_pv_max" class="statcard-hp-max">0</span>
+          </div>
+          <div class="statcard-detail">rôle+bonus auto + <span name="attr_pv_objets" class="sheet-readonly">0</span> objets (auto)</div>
+        </div>
+        <div class="statcard">
+          <div class="statcard-label">RM</div>
+          <span name="attr_rm" class="statcard-value">0</span>
+          <div class="statcard-detail">+ <span name="attr_rm_objets" class="sheet-readonly">0</span> objets (auto)</div>
+        </div>
+        <div class="statcard statcard-wide">
+          <div class="statcard-label">Ressource</div>
+          <div class="statcard-hp">
+            <input type="number" name="attr_ressource_actuelle" value="0" class="statcard-hp-current" />
+            <span class="statcard-hp-sep">/</span>
+            <span name="attr_ressource_max" class="statcard-hp-max">0</span>
+          </div>
+          <div class="statcard-detail">
+            <select name="attr_ressource_type" class="statcard-ressource-type">
+              <option>Mana</option>
+              <option>Énergie</option>
+              <option>Fureur/Rage</option>
+              <option>Sans ressource</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Dégâts</div>
+      <div class="statcards-row">
+        <div class="statcard">
+          <div class="statcard-label">AD</div>
+          <span name="attr_ad" class="statcard-value">0</span>
+          <div class="statcard-detail">+ <span name="attr_ad_objets" class="sheet-readonly">0</span> objets (auto)</div>
+        </div>
+        <div class="statcard">
+          <div class="statcard-label">Vit.Atq %</div>
+          <span name="attr_vitatt" class="statcard-value">100</span>
+          <div class="statcard-detail">base <input type="number" name="attr_vitatt_base" value="100" class="tiny-input" /> + DEX</div>
+        </div>
+        <div class="statcard">
+          <div class="statcard-label">AP</div>
+          <span name="attr_ap" class="statcard-value">0</span>
+          <div class="statcard-detail">+ <span name="attr_ap_objets" class="sheet-readonly">0</span> objets (auto)</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Mobilité &amp; divers</div>
+      <div class="statcards-row">
+        <div class="statcard">
+          <div class="statcard-label">Vit.Dépl</div>
+          <span name="attr_vitdep" class="statcard-value">6</span>
+          <div class="statcard-detail">+ <input type="number" name="attr_vitdep_objets" value="0" class="tiny-input" /> objets</div>
+        </div>
+        <div class="statcard">
+          <div class="statcard-label">Initiative</div>
+          <span name="attr_initiative" class="statcard-value">0</span>
+          <div class="statcard-detail">base <input type="number" name="attr_initiative_base" value="0" class="tiny-input" /> + DEX</div>
+        </div>
+        <div class="statcard">
+          <div class="statcard-label">Critique %</div>
+          <span name="attr_critique" class="statcard-value">0</span>
+          <div class="statcard-detail">base <input type="number" name="attr_critique_base" value="0" class="tiny-input" /> + <span name="attr_critique_objets" class="sheet-readonly">0</span> objets</div>
+        </div>
+        <div class="statcard">
+          <div class="statcard-label">CDR %</div>
+          <span name="attr_cdr" class="statcard-value">0</span>
+          <div class="statcard-detail">base <input type="number" name="attr_cdr_base" value="0" class="tiny-input" /> + <span name="attr_cdr_objets" class="sheet-readonly">0</span> objets</div>
+        </div>
+        <div class="statcard">
+          <div class="statcard-label">Vol de Vie %</div>
+          <span name="attr_volvie" class="statcard-value">0</span>
+          <div class="statcard-detail">+ <span name="attr_volvie_objets" class="sheet-readonly">0</span> objets/sorts</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">États &amp; K.O.</div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <div class="sheet-etat-grid-row sheet-etat-grid-4col"><div class="sheet-field sheet-etat-cell"><label class="sheet-checkbox-inline"><input type="checkbox" name="attr_etat_etourdi" value="1" /> Étourdi</label><input type="number" name="attr_etat_etourdi_rounds" placeholder="rd" class="sheet-etat-rounds" /></div><div class="sheet-field sheet-etat-cell"><label class="sheet-checkbox-inline"><input type="checkbox" name="attr_etat_ralenti" value="1" /> Ralenti</label><input type="number" name="attr_etat_ralenti_rounds" placeholder="rd" class="sheet-etat-rounds" /></div><div class="sheet-field sheet-etat-cell"><label class="sheet-checkbox-inline"><input type="checkbox" name="attr_etat_immobilise" value="1" /> Immobilisé</label><input type="number" name="attr_etat_immobilise_rounds" placeholder="rd" class="sheet-etat-rounds" /></div><div class="sheet-field sheet-etat-cell"><label class="sheet-checkbox-inline"><input type="checkbox" name="attr_etat_silence" value="1" /> Silence</label><input type="number" name="attr_etat_silence_rounds" placeholder="rd" class="sheet-etat-rounds" /></div></div>
+          <div class="sheet-etat-grid-row sheet-etat-grid-4col"><div class="sheet-field sheet-etat-cell"><label class="sheet-checkbox-inline"><input type="checkbox" name="attr_etat_aveugle" value="1" /> Aveuglé</label><input type="number" name="attr_etat_aveugle_rounds" placeholder="rd" class="sheet-etat-rounds" /></div><div class="sheet-field sheet-etat-cell"><label class="sheet-checkbox-inline"><input type="checkbox" name="attr_etat_peur" value="1" /> Peur</label><input type="number" name="attr_etat_peur_rounds" placeholder="rd" class="sheet-etat-rounds" /></div><div class="sheet-field sheet-etat-cell"><label class="sheet-checkbox-inline"><input type="checkbox" name="attr_etat_dot" value="1" /> Dégât continu</label><input type="number" name="attr_etat_dot_rounds" placeholder="rd" class="sheet-etat-rounds" /></div><div class="sheet-field sheet-etat-cell"><label class="sheet-checkbox-inline"><input type="checkbox" name="attr_etat_charme" value="1" /> Charme</label><input type="number" name="attr_etat_charme_rounds" placeholder="rd" class="sheet-etat-rounds" /></div></div>
+        </div>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field">
+          <label>Échecs de mort (0 PV, 3 = mort)</label>
+          <div class="sheet-etats-row">
+            <label class="sheet-checkbox-inline"><input type="checkbox" name="attr_mort_echec1" value="1" /> 1</label>
+            <label class="sheet-checkbox-inline"><input type="checkbox" name="attr_mort_echec2" value="1" /> 2</label>
+            <label class="sheet-checkbox-inline"><input type="checkbox" name="attr_mort_echec3" value="1" /> 3</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /pane-combat -->
+
+  <!-- ===================== ONGLET 4 : COMPÉTENCES ===================== -->
+  <div class="tab-pane pane-competences">
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Passif</div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow"><label>Nom</label><input type="text" name="attr_passif_nom" /></div>
+      </div>
+      <textarea name="attr_passif_effet" rows="2" placeholder="Effet du Passif"></textarea>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Q</div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field sheet-grow"><label>Nom</label><input type="text" name="attr_q_nom" /></div>
+        <div class="sheet-field">
+          <label>Rang</label>
+          <select name="attr_q_rang">
+
+            <option value="0">🔒 Verrouillé</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="sheet-field">
+          <label>Type</label>
+          <select name="attr_q_type">
+            <option>Physique</option>
+            <option>Magique</option>
+            <option>Utilitaire</option>
+            <option>Soin</option>
+            <option>Contrôle</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Cooldown</label><input type="text" name="attr_q_cooldown" placeholder="2-4 rounds" /></div>
+        <div class="sheet-field"><label>Portée</label>
+          <select name="attr_q_portee">
+            <option>Contact</option>
+            <option>Courte (3m)</option>
+            <option>Moyenne (8m)</option>
+            <option>Longue (15m+)</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Dé de base</label><input type="text" name="attr_q_de_base" placeholder="1d6" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Bonus fixe base</label><input type="number" name="attr_q_degats_base" value="0" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Ratio base</label><input type="number" step="0.1" name="attr_q_ratio_base" value="0" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Attribut lié</label>
+          <select name="attr_q_attribut">
+            <option value="for">FOR</option>
+            <option value="dex">DEX</option>
+            <option value="con">CON</option>
+            <option value="int">INT</option>
+            <option value="vol">VOL</option>
+            <option value="cha">CHA</option>
+          </select>
+        </div>
+        <div class="sheet-field"><label>Seuil</label><span name="attr_q_seuil_calcule" class="sheet-readonly sheet-num">50</span></div>
+        <div class="sheet-field"><label>&nbsp;</label><button type="roll" name="roll_q" value="&{template:default} {{name=Q}} {{Résultat=[[1d100]]}} {{Seuil= @{q_seuil_calcule}}}">Jet</button></div>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <label>Au rang actuel</label>
+          <span name="attr_q_resume_actuel" class="sheet-readonly sheet-race-hint"></span>
+        </div>
+      </div>
+      <textarea name="attr_q_effet" rows="2" placeholder="Effet du Q"></textarea>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">W</div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field sheet-grow"><label>Nom</label><input type="text" name="attr_w_nom" /></div>
+        <div class="sheet-field">
+          <label>Rang</label>
+          <select name="attr_w_rang">
+
+            <option value="0">🔒 Verrouillé</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="sheet-field">
+          <label>Type</label>
+          <select name="attr_w_type">
+            <option>Physique</option>
+            <option>Magique</option>
+            <option>Utilitaire</option>
+            <option>Soin</option>
+            <option>Contrôle</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Cooldown</label><input type="text" name="attr_w_cooldown" placeholder="3-5 rounds" /></div>
+        <div class="sheet-field"><label>Portée</label>
+          <select name="attr_w_portee">
+            <option>Contact</option>
+            <option>Courte (3m)</option>
+            <option>Moyenne (8m)</option>
+            <option>Longue (15m+)</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Dé de base</label><input type="text" name="attr_w_de_base" placeholder="1d6" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Bonus fixe base</label><input type="number" name="attr_w_degats_base" value="0" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Ratio base</label><input type="number" step="0.1" name="attr_w_ratio_base" value="0" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Attribut lié</label>
+          <select name="attr_w_attribut">
+            <option value="for">FOR</option>
+            <option value="dex">DEX</option>
+            <option value="con">CON</option>
+            <option value="int">INT</option>
+            <option value="vol">VOL</option>
+            <option value="cha">CHA</option>
+          </select>
+        </div>
+        <div class="sheet-field"><label>Seuil</label><span name="attr_w_seuil_calcule" class="sheet-readonly sheet-num">50</span></div>
+        <div class="sheet-field"><label>&nbsp;</label><button type="roll" name="roll_w" value="&{template:default} {{name=W}} {{Résultat=[[1d100]]}} {{Seuil= @{w_seuil_calcule}}}">Jet</button></div>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <label>Au rang actuel</label>
+          <span name="attr_w_resume_actuel" class="sheet-readonly sheet-race-hint"></span>
+        </div>
+      </div>
+      <textarea name="attr_w_effet" rows="2" placeholder="Effet du W"></textarea>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">E</div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field sheet-grow"><label>Nom</label><input type="text" name="attr_e_nom" /></div>
+        <div class="sheet-field">
+          <label>Rang</label>
+          <select name="attr_e_rang">
+
+            <option value="0">🔒 Verrouillé</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div class="sheet-field">
+          <label>Type</label>
+          <select name="attr_e_type">
+            <option>Physique</option>
+            <option>Magique</option>
+            <option>Utilitaire</option>
+            <option>Soin</option>
+            <option>Contrôle</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Cooldown</label><input type="text" name="attr_e_cooldown" placeholder="2-4 rounds" /></div>
+        <div class="sheet-field"><label>Portée</label>
+          <select name="attr_e_portee">
+            <option>Contact</option>
+            <option>Courte (3m)</option>
+            <option>Moyenne (8m)</option>
+            <option>Longue (15m+)</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Dé de base</label><input type="text" name="attr_e_de_base" placeholder="1d6" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Bonus fixe base</label><input type="number" name="attr_e_degats_base" value="0" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Ratio base</label><input type="number" step="0.1" name="attr_e_ratio_base" value="0" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Attribut lié</label>
+          <select name="attr_e_attribut">
+            <option value="for">FOR</option>
+            <option value="dex">DEX</option>
+            <option value="con">CON</option>
+            <option value="int">INT</option>
+            <option value="vol">VOL</option>
+            <option value="cha">CHA</option>
+          </select>
+        </div>
+        <div class="sheet-field"><label>Seuil</label><span name="attr_e_seuil_calcule" class="sheet-readonly sheet-num">50</span></div>
+        <div class="sheet-field"><label>&nbsp;</label><button type="roll" name="roll_e" value="&{template:default} {{name=E}} {{Résultat=[[1d100]]}} {{Seuil= @{e_seuil_calcule}}}">Jet</button></div>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <label>Au rang actuel</label>
+          <span name="attr_e_resume_actuel" class="sheet-readonly sheet-race-hint"></span>
+        </div>
+      </div>
+      <textarea name="attr_e_effet" rows="2" placeholder="Effet du E"></textarea>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">R (Ultime)</div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field sheet-grow"><label>Nom</label><input type="text" name="attr_r_nom" /></div>
+        <div class="sheet-field">
+          <label>Rang</label>
+          <select name="attr_r_rang">
+
+            <option value="0">🔒 Verrouillé</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="sheet-field">
+          <label>Type</label>
+          <select name="attr_r_type">
+            <option>Physique</option>
+            <option>Magique</option>
+            <option>Utilitaire</option>
+            <option>Soin</option>
+            <option>Contrôle</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Cooldown</label><input type="text" name="attr_r_cooldown" placeholder="5+ rounds ou 1x/combat" /></div>
+        <div class="sheet-field"><label>Portée</label>
+          <select name="attr_r_portee">
+            <option>Contact</option>
+            <option>Courte (3m)</option>
+            <option>Moyenne (8m)</option>
+            <option>Longue (15m+)</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Dé de base</label><input type="text" name="attr_r_de_base" placeholder="1d6" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Bonus fixe base</label><input type="number" name="attr_r_degats_base" value="0" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Ratio base</label><input type="number" step="0.1" name="attr_r_ratio_base" value="0" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Attribut lié</label>
+          <select name="attr_r_attribut">
+            <option value="for">FOR</option>
+            <option value="dex">DEX</option>
+            <option value="con">CON</option>
+            <option value="int">INT</option>
+            <option value="vol">VOL</option>
+            <option value="cha">CHA</option>
+          </select>
+        </div>
+        <div class="sheet-field"><label>Seuil</label><span name="attr_r_seuil_calcule" class="sheet-readonly sheet-num">50</span></div>
+        <div class="sheet-field"><label>&nbsp;</label><button type="roll" name="roll_r" value="&{template:default} {{name=Ultime}} {{Résultat=[[1d100]]}} {{Seuil= @{r_seuil_calcule}}}">Jet</button></div>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <label>Au rang actuel</label>
+          <span name="attr_r_resume_actuel" class="sheet-readonly sheet-race-hint"></span>
+        </div>
+      </div>
+      <textarea name="attr_r_effet" rows="2" placeholder="Effet du R (Ultime)"></textarea>
+    </div>
+
+    <p class="sheet-hint">Scaling par rang (5.1ter) : Q/W/E +2 dégâts/soin et +0,1 ratio par rang · Ultime +4 et +0,15 par rang. Fourchettes de base à la création (5.1bis) : Q/E 1d6-2d6 (ratio 0,4-0,7), W 2d6-2d8 (0,6-1,0), Ultime 2d8-3d10 (0,8-1,5).</p>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Combo (jusqu'à 4 compétences/round — Manuel 7.4bis)</div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Attribut de cette compétence</label>
+          <select name="attr_combo_attribut">
+            <option value="for">FOR</option>
+            <option value="dex">DEX</option>
+            <option value="con">CON</option>
+            <option value="int">INT</option>
+            <option value="vol">VOL</option>
+            <option value="cha">CHA</option>
+          </select>
+        </div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>2ᵉ compétence (-10)</label><button type="roll" name="roll_combo2" value="&{template:default} {{name=Combo — 2ᵉ compétence}} {{Résultat=[[1d100]]}} {{Seuil= [[@{combo_seuil_calcule}-10]]}}">Jet</button></div>
+        <div class="sheet-field"><label>3ᵉ compétence (-30)</label><button type="roll" name="roll_combo3" value="&{template:default} {{name=Combo — 3ᵉ compétence}} {{Résultat=[[1d100]]}} {{Seuil= [[@{combo_seuil_calcule}-30]]}}">Jet</button></div>
+        <div class="sheet-field"><label>Ultime en combo (-50)</label><button type="roll" name="roll_combo_ulti" value="&{template:default} {{name=Combo — Ultime}} {{Résultat=[[1d100]]}} {{Seuil= [[@{combo_seuil_calcule}-50]]}}">Jet</button></div>
+      </div>
+      <p class="sheet-hint">Choisis l'attribut de la compétence que tu enchaînes, puis clique le bouton correspondant à sa position dans le combo (l'Ultime garde toujours -50, peu importe sa position). La 1ʳᵉ compétence du combo se lance normalement (bouton Jet habituel de la compétence).</p>
+    </div>
+
+  </div><!-- /pane-competences -->
+
+  <!-- ===================== ONGLET 5 : MAÎTRISE ===================== -->
+  <div class="tab-pane pane-maitrise">
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Maîtrise (1 point/niveau, 18 au total)</div>
+
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Combat — points</label><input type="number" name="attr_maitrise_combat" value="0" min="0" max="18" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow"><span name="attr_maitrise_combat_rangee" class="sheet-readonly sheet-progression"></span></div>
+      </div>
+
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Volonté — points</label><input type="number" name="attr_maitrise_volonte" value="0" min="0" max="18" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow"><span name="attr_maitrise_volonte_rangee" class="sheet-readonly sheet-progression"></span></div>
+      </div>
+
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Utilitaire — points</label><input type="number" name="attr_maitrise_utilitaire" value="0" min="0" max="18" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow"><span name="attr_maitrise_utilitaire_rangee" class="sheet-readonly sheet-progression"></span></div>
+      </div>
+
+      <div class="sheet-row">
+        <div class="sheet-field sheet-grow">
+          <label>Total investi (max = niveau actuel, plafond 18)</label>
+          <span name="attr_maitrise_total" class="sheet-readonly sheet-race-hint"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Arbre COMBAT — nœuds (coche ceux que tu as pris + leur rang)</div>
+      <p class="sheet-hint">Répartition par Rangée : choix maison (le Manuel ne l'indique pas explicitement, voir suivi).</p>
+
+      <div class="sheet-palier">Rangée 1</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mc_frappe" value="1" /><label>Frappe Assurée</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mc_frappe_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : Avantage sur un jet d'Attaque raté. R2 : cette attaque réussit automatiquement, sans jet.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mc_piedleger" value="1" /><label>Pied Léger</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mc_piedleger_rang"><option>1</option><option>2</option><option>3</option></select></div>
+      </div>
+      <p class="sheet-hint">Illimité, chaque round — R1 : +1 case de Vit.Dépl. R2 : +2 cases. R3 (1×/combat) : jet DEX×5 pour un déplacement gratuit de 3 cases en plus.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mc_sangfroid" value="1" /><label>Sang-Froid</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mc_sangfroid_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : Avantage pour résister à un Étourdissement. R2 : l'ignore complètement, sans jet.</p>
+      </div>
+
+      <div class="sheet-palier">Rangée 2</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mc_ouverture" value="1" /><label>Ouverture</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mc_ouverture_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : Avantage sur l'attaque contre une cible n'ayant pas encore agi. R2 : réussit automatiquement.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mc_poursuite" value="1" /><label>Poursuite</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mc_poursuite_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : Avantage sur l'Initiative après avoir vaincu un ennemi. R2 : agit immédiatement après, sans jet.</p>
+      </div>
+
+      <div class="sheet-palier">Rangée 3</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mc_contre" value="1" /><label>Contre</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mc_contre_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : Avantage sur l'attaque suivant une Esquive réussie. R2 : réussit automatiquement.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mc_ragecontrolee" value="1" /><label>Rage Contrôlée</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mc_ragecontrolee_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : réduit de moitié les dégâts d'une attaque reçue. R2 : les annule complètement.</p>
+      </div>
+
+      <div class="sheet-palier">Rangée 4</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mc_secondsouffle" value="1" /><label>Second Souffle (1 rang)</label></div>
+      </div>
+      <p class="sheet-hint">1×/session — Remonte à 1 PV la première fois qu'il tombe à 0.</p>
+      </div>
+
+      <div class="sheet-palier sheet-palier-signature">★ Signature</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mc_signature" value="1" /><label>★ Impulsion de Combat</label></div>
+      </div>
+      <p class="sheet-hint">1×/combat — Prends un tour complet supplémentaire immédiatement (nouvelle Action + Déplacement).</p>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Arbre VOLONTÉ — nœuds</div>
+      <p class="sheet-hint">Répartition par Rangée : choix maison (le Manuel ne l'indique pas explicitement, voir suivi).</p>
+
+      <div class="sheet-palier">Rangée 1</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mv_peaudure" value="1" /><label>Peau Dure</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mv_peaudure_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : réduit de moitié les dégâts d'une attaque de base reçue. R2 : les annule complètement.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mv_clarte" value="1" /><label>Clarté d'Esprit</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mv_clarte_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/session — R1 : Avantage contre un Charme/Peur. R2 : résiste automatiquement, sans jet.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mv_sangfroidabsolu" value="1" /><label>Sang-Froid Absolu</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mv_sangfroidabsolu_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : Avantage pour résister à une Immobilisation. R2 : l'ignore complètement.</p>
+      </div>
+
+      <div class="sheet-palier">Rangée 2</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mv_vigilance" value="1" /><label>Vigilance</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mv_vigilance_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">Illimité, chaque combat — R1 : Avantage permanent sur l'Initiative. R2 : agit automatiquement en premier, sans jet.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mv_liengroupe" value="1" /><label>Lien du Groupe</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mv_liengroupe_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : un allié adjacent gagne Avantage sur son Initiative. R2 : il agit immédiatement après toi, sans jet.</p>
+      </div>
+
+      <div class="sheet-palier">Rangée 3</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mv_resilience" value="1" /><label>Résilience</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mv_resilience_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/session — R1 : Avantage pour se défaire d'un état négatif. R2 : le retire automatiquement, sans jet.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mv_dernierrempart" value="1" /><label>Dernier Rempart</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mv_dernierrempart_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/combat — R1 : absorbe un quart des dégâts destinés à un allié adjacent. R2 : absorbe la moitié.</p>
+      </div>
+
+      <div class="sheet-palier">Rangée 4</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mv_tenacite" value="1" /><label>Ténacité (1 rang, permanent)</label></div>
+      </div>
+      <p class="sheet-hint">Illimité — Réduit d'1 round la durée des Contrôles subis (minimum 1).</p>
+      </div>
+
+      <div class="sheet-palier sheet-palier-signature">★ Signature</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mv_signature" value="1" /><label>★ Inébranlable</label></div>
+      </div>
+      <p class="sheet-hint">1×/session — Ignore un coup qui t'aurait tué : reste à 1 PV.</p>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Arbre UTILITAIRE — nœuds</div>
+      <p class="sheet-hint">Répartition par Rangée : choix maison (le Manuel ne l'indique pas explicitement, voir suivi).</p>
+
+      <div class="sheet-palier">Rangée 1</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mu_debrouille" value="1" /><label>Débrouille</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mu_debrouille_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/scène — R1 : Avantage pour improviser un usage à un objet du quotidien. R2 : réussit automatiquement.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mu_memoire" value="1" /><label>Bonne Mémoire</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mu_memoire_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/session — R1 : Avantage pour se souvenir d'un détail sur un PNJ déjà croisé. R2 : automatique.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mu_orientation" value="1" /><label>Sens de l'Orientation</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mu_orientation_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/voyage — R1 : Avantage pour ignorer un malus de terrain. R2 : l'ignore automatiquement.</p>
+      </div>
+
+      <div class="sheet-palier">Rangée 2</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mu_beauparleur" value="1" /><label>Beau Parleur</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mu_beauparleur_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/session — R1 : Avantage pour changer d'approche sociale sans le malus anti-spam. R2 : change automatiquement, sans malus.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mu_bricoleur" value="1" /><label>Bricoleur</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mu_bricoleur_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/session — R1 : Avantage pour réparer ou évaluer un objet rare. R2 : réussit automatiquement.</p>
+      </div>
+
+      <div class="sheet-palier">Rangée 3</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mu_contact" value="1" /><label>Contact</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mu_contact_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/arc narratif — R1 : Avantage pour activer un contact utile dans une grande ville. R2 : disponible automatiquement.</p>
+      </div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mu_reserves" value="1" /><label>Réserves Cachées</label></div>
+        <div class="sheet-field"><label>Rang</label><select name="attr_mu_reserves_rang"><option>1</option><option>2</option></select></div>
+      </div>
+      <p class="sheet-hint">1×/session — R1 : récupère la moitié des effets d'une Potion de Soin déjà utilisée. R2 : la récupère entièrement.</p>
+      </div>
+
+      <div class="sheet-palier">Rangée 4</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mu_oeilaiguise" value="1" /><label>Œil Aiguisé (1 rang, permanent)</label></div>
+      </div>
+      <p class="sheet-hint">Illimité — Repère automatiquement les pièges/passages secrets évidents.</p>
+      </div>
+
+      <div class="sheet-palier sheet-palier-signature">★ Signature</div>
+
+      <div class="sheet-mastery-item">
+      <div class="sheet-row sheet-row-attr sheet-row-noborder">
+        <div class="sheet-field sheet-checkbox"><input type="checkbox" name="attr_mu_signature" value="1" /><label>★ Coup du Sort</label></div>
+      </div>
+      <p class="sheet-hint">1×/session — Transforme n'importe quel échec (combat compris) en réussite automatique.</p>
+      </div>
+    </div>
+
+  </div><!-- /pane-maitrise -->
+
+  <!-- ===================== ONGLET 6 : INVENTAIRE ===================== -->
+  <div class="tab-pane pane-inventaire">
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Inventaire (6 emplacements : 5 objets + 1 bottes)</div>
+      <div class="sheet-mastery-item">
+        <div class="sheet-row sheet-row-nowrap sheet-row-noborder">
+          <div class="sheet-field sheet-grow"><label>Emplacement 1 — Nom</label><input type="text" name="attr_objet1_nom" /></div>
+        </div>
+        <div class="sheet-row">
+          <div class="sheet-field sheet-grow"><label>Effet</label><input type="text" name="attr_objet1_effet" placeholder="Actif, passif, recette de craft..." /></div>
+        </div>
+        <div class="sheet-item-stats-row">
+          <div class="sheet-field sheet-item-stat"><label>AD</label><input type="number" name="attr_objet1_ad" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>AP</label><input type="number" name="attr_objet1_ap" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>PV</label><input type="number" name="attr_objet1_pv" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Arm</label><input type="number" name="attr_objet1_armure" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>RM</label><input type="number" name="attr_objet1_rm" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Crit%</label><input type="number" name="attr_objet1_critique" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>CDR%</label><input type="number" name="attr_objet1_cdr" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Res</label><input type="number" name="attr_objet1_ressource" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>VdV%</label><input type="number" name="attr_objet1_volvie" value="0" class="tiny-input" /></div>
+        </div>
+      </div>
+
+      <div class="sheet-mastery-item">
+        <div class="sheet-row sheet-row-nowrap sheet-row-noborder">
+          <div class="sheet-field sheet-grow"><label>Emplacement 2 — Nom</label><input type="text" name="attr_objet2_nom" /></div>
+        </div>
+        <div class="sheet-row">
+          <div class="sheet-field sheet-grow"><label>Effet</label><input type="text" name="attr_objet2_effet" placeholder="Actif, passif, recette de craft..." /></div>
+        </div>
+        <div class="sheet-item-stats-row">
+          <div class="sheet-field sheet-item-stat"><label>AD</label><input type="number" name="attr_objet2_ad" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>AP</label><input type="number" name="attr_objet2_ap" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>PV</label><input type="number" name="attr_objet2_pv" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Arm</label><input type="number" name="attr_objet2_armure" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>RM</label><input type="number" name="attr_objet2_rm" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Crit%</label><input type="number" name="attr_objet2_critique" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>CDR%</label><input type="number" name="attr_objet2_cdr" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Res</label><input type="number" name="attr_objet2_ressource" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>VdV%</label><input type="number" name="attr_objet2_volvie" value="0" class="tiny-input" /></div>
+        </div>
+      </div>
+
+      <div class="sheet-mastery-item">
+        <div class="sheet-row sheet-row-nowrap sheet-row-noborder">
+          <div class="sheet-field sheet-grow"><label>Emplacement 3 — Nom</label><input type="text" name="attr_objet3_nom" /></div>
+        </div>
+        <div class="sheet-row">
+          <div class="sheet-field sheet-grow"><label>Effet</label><input type="text" name="attr_objet3_effet" placeholder="Actif, passif, recette de craft..." /></div>
+        </div>
+        <div class="sheet-item-stats-row">
+          <div class="sheet-field sheet-item-stat"><label>AD</label><input type="number" name="attr_objet3_ad" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>AP</label><input type="number" name="attr_objet3_ap" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>PV</label><input type="number" name="attr_objet3_pv" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Arm</label><input type="number" name="attr_objet3_armure" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>RM</label><input type="number" name="attr_objet3_rm" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Crit%</label><input type="number" name="attr_objet3_critique" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>CDR%</label><input type="number" name="attr_objet3_cdr" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Res</label><input type="number" name="attr_objet3_ressource" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>VdV%</label><input type="number" name="attr_objet3_volvie" value="0" class="tiny-input" /></div>
+        </div>
+      </div>
+
+      <div class="sheet-mastery-item">
+        <div class="sheet-row sheet-row-nowrap sheet-row-noborder">
+          <div class="sheet-field sheet-grow"><label>Emplacement 4 — Nom</label><input type="text" name="attr_objet4_nom" /></div>
+        </div>
+        <div class="sheet-row">
+          <div class="sheet-field sheet-grow"><label>Effet</label><input type="text" name="attr_objet4_effet" placeholder="Actif, passif, recette de craft..." /></div>
+        </div>
+        <div class="sheet-item-stats-row">
+          <div class="sheet-field sheet-item-stat"><label>AD</label><input type="number" name="attr_objet4_ad" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>AP</label><input type="number" name="attr_objet4_ap" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>PV</label><input type="number" name="attr_objet4_pv" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Arm</label><input type="number" name="attr_objet4_armure" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>RM</label><input type="number" name="attr_objet4_rm" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Crit%</label><input type="number" name="attr_objet4_critique" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>CDR%</label><input type="number" name="attr_objet4_cdr" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Res</label><input type="number" name="attr_objet4_ressource" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>VdV%</label><input type="number" name="attr_objet4_volvie" value="0" class="tiny-input" /></div>
+        </div>
+      </div>
+
+      <div class="sheet-mastery-item">
+        <div class="sheet-row sheet-row-nowrap sheet-row-noborder">
+          <div class="sheet-field sheet-grow"><label>Emplacement 5 — Nom</label><input type="text" name="attr_objet5_nom" /></div>
+        </div>
+        <div class="sheet-row">
+          <div class="sheet-field sheet-grow"><label>Effet</label><input type="text" name="attr_objet5_effet" placeholder="Actif, passif, recette de craft..." /></div>
+        </div>
+        <div class="sheet-item-stats-row">
+          <div class="sheet-field sheet-item-stat"><label>AD</label><input type="number" name="attr_objet5_ad" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>AP</label><input type="number" name="attr_objet5_ap" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>PV</label><input type="number" name="attr_objet5_pv" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Arm</label><input type="number" name="attr_objet5_armure" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>RM</label><input type="number" name="attr_objet5_rm" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Crit%</label><input type="number" name="attr_objet5_critique" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>CDR%</label><input type="number" name="attr_objet5_cdr" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Res</label><input type="number" name="attr_objet5_ressource" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>VdV%</label><input type="number" name="attr_objet5_volvie" value="0" class="tiny-input" /></div>
+        </div>
+      </div>
+
+      <div class="sheet-mastery-item">
+        <div class="sheet-row sheet-row-nowrap sheet-row-noborder">
+          <div class="sheet-field sheet-grow"><label>Bottes — Nom</label><input type="text" name="attr_objet_bottes_nom" /></div>
+        </div>
+        <div class="sheet-row">
+          <div class="sheet-field sheet-grow"><label>Effet</label><input type="text" name="attr_objet_bottes_effet" placeholder="Actif, passif, recette de craft..." /></div>
+        </div>
+        <div class="sheet-item-stats-row">
+          <div class="sheet-field sheet-item-stat"><label>AD</label><input type="number" name="attr_objet_bottes_ad" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>AP</label><input type="number" name="attr_objet_bottes_ap" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>PV</label><input type="number" name="attr_objet_bottes_pv" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Arm</label><input type="number" name="attr_objet_bottes_armure" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>RM</label><input type="number" name="attr_objet_bottes_rm" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Crit%</label><input type="number" name="attr_objet_bottes_critique" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>CDR%</label><input type="number" name="attr_objet_bottes_cdr" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>Res</label><input type="number" name="attr_objet_bottes_ressource" value="0" class="tiny-input" /></div>
+          <div class="sheet-field sheet-item-stat"><label>VdV%</label><input type="number" name="attr_objet_bottes_volvie" value="0" class="tiny-input" /></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="sheet-section">
+      <div class="sheet-legend">Consommables &amp; Or</div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>1</label><input type="text" name="attr_conso1" placeholder="ex. Potion de Soin" /></div><div class="sheet-field sheet-grow"><label>2</label><input type="text" name="attr_conso2" placeholder="ex. Potion de Soin" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>3</label><input type="text" name="attr_conso3" /></div><div class="sheet-field sheet-grow"><label>4</label><input type="text" name="attr_conso4" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>5</label><input type="text" name="attr_conso5" /></div><div class="sheet-field sheet-grow"><label>6</label><input type="text" name="attr_conso6" /></div></div>
+      <div class="sheet-row">
+        <div class="sheet-field"><label>Or (po)</label><input type="number" name="attr_or" value="0" class="sheet-num" /></div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Kit d'aventurier &amp; autres objets du quotidien (gratuit, hors emplacements)</div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>1</label><input type="text" name="attr_kit1" placeholder="ex. Sac à dos" /></div><div class="sheet-field sheet-grow"><label>2</label><input type="text" name="attr_kit2" placeholder="ex. Corde (10m)" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>3</label><input type="text" name="attr_kit3" placeholder="ex. Silex et amadou" /></div><div class="sheet-field sheet-grow"><label>4</label><input type="text" name="attr_kit4" placeholder="ex. Gourde" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>5</label><input type="text" name="attr_kit5" placeholder="ex. Rations (3j)" /></div><div class="sheet-field sheet-grow"><label>6</label><input type="text" name="attr_kit6" placeholder="ex. Couverture" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>7</label><input type="text" name="attr_kit7" placeholder="ex. Torches ×3" /></div><div class="sheet-field sheet-grow"><label>8</label><input type="text" name="attr_kit8" placeholder="ex. Nécessaire de réparation" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>9</label><input type="text" name="attr_kit9" /></div><div class="sheet-field sheet-grow"><label>10</label><input type="text" name="attr_kit10" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>11</label><input type="text" name="attr_kit11" /></div><div class="sheet-field sheet-grow"><label>12</label><input type="text" name="attr_kit12" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>13</label><input type="text" name="attr_kit13" /></div><div class="sheet-field sheet-grow"><label>14</label><input type="text" name="attr_kit14" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>15</label><input type="text" name="attr_kit15" /></div><div class="sheet-field sheet-grow"><label>16</label><input type="text" name="attr_kit16" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>17</label><input type="text" name="attr_kit17" /></div><div class="sheet-field sheet-grow"><label>18</label><input type="text" name="attr_kit18" /></div></div>
+      <div class="sheet-row sheet-row-nowrap"><div class="sheet-field sheet-grow"><label>19</label><input type="text" name="attr_kit19" /></div><div class="sheet-field sheet-grow"><label>20</label><input type="text" name="attr_kit20" /></div></div>
+      <p class="sheet-hint">20 lignes prévues (large marge) — une vraie liste à rallonge illimitée demanderait les Sections Répétitives de Roll20, non testées ici pour l'instant.</p>
+    </div>
+
+  </div><!-- /pane-inventaire -->
+
+  <!-- ===================== ONGLET 7 : RÉPUTATION ===================== -->
+  <div class="tab-pane pane-reputation">
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Réputation régionale (-5 à +5, région d'origine à +1 par défaut)</div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Demacia</label><input type="number" name="attr_rep_demacia" value="0" min="-5" max="5" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Noxus</label><input type="number" name="attr_rep_noxus" value="0" min="-5" max="5" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Ionia</label><input type="number" name="attr_rep_ionia" value="0" min="-5" max="5" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Piltover</label><input type="number" name="attr_rep_piltover" value="0" min="-5" max="5" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Zaun</label><input type="number" name="attr_rep_zaun" value="0" min="-5" max="5" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Freljord</label><input type="number" name="attr_rep_freljord" value="0" min="-5" max="5" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Shurima</label><input type="number" name="attr_rep_shurima" value="0" min="-5" max="5" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Bilgewater</label><input type="number" name="attr_rep_bilgewater" value="0" min="-5" max="5" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Îles Obscures</label><input type="number" name="attr_rep_ilesobscures" value="0" min="-5" max="5" class="sheet-num" /></div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Ixtal</label><input type="number" name="attr_rep_ixtal" value="0" min="-5" max="5" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Targon</label><input type="number" name="attr_rep_targon" value="0" min="-5" max="5" class="sheet-num" /></div>
+        <div class="sheet-field"><label>Bandle City</label><input type="number" name="attr_rep_bandlecity" value="0" min="-5" max="5" class="sheet-num" /></div>
+      </div>
+    </div>
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Palier de réputation → modificateur social</div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Traqué (-5)</label><span class="sheet-readonly sheet-num">-30</span></div>
+        <div class="sheet-field"><label>Ennemi (-3/-4)</label><span class="sheet-readonly sheet-num">-20</span></div>
+        <div class="sheet-field"><label>Méfiant (-1/-2)</label><span class="sheet-readonly sheet-num">-10</span></div>
+        <div class="sheet-field"><label>Neutre (0)</label><span class="sheet-readonly sheet-num">0</span></div>
+      </div>
+      <div class="sheet-row sheet-row-attr">
+        <div class="sheet-field"><label>Cordial (+1/+2)</label><span class="sheet-readonly sheet-num">+10</span></div>
+        <div class="sheet-field"><label>Allié (+3/+4)</label><span class="sheet-readonly sheet-num">+20</span></div>
+        <div class="sheet-field"><label>Accès exclusif (+5)</label><span class="sheet-readonly sheet-num">+30</span></div>
+      </div>
+    </div>
+
+  </div><!-- /pane-reputation -->
+  <!-- ===================== ONGLET 8 : ACTIONS ===================== -->
+  <div class="tab-pane pane-actions">
+
+    <div class="sheet-section">
+      <div class="sheet-legend">Actions neutres (jets communs — Manuel du Joueur 3.5, Seuil = Attribut × 5)</div>
+      <div class="sheet-actions-2col-row">
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Attaque en mêlée</label><span class="sheet-readonly">FOR</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_for_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_for_attaque en mêlée" value="&{template:default} {{name=Attaque en mêlée}} {{Résultat=[[1d100]]}} {{Seuil= @{for_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Survie</label><span class="sheet-readonly">VOL</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_vol_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_vol_survie" value="&{template:default} {{name=Survie}} {{Résultat=[[1d100]]}} {{Seuil= @{vol_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+      </div>
+      <div class="sheet-actions-2col-row">
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Attaque à distance</label><span class="sheet-readonly">DEX</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_dex_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_dex_attaque à distance" value="&{template:default} {{name=Attaque à distance}} {{Résultat=[[1d100]]}} {{Seuil= @{dex_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Premiers secours</label><span class="sheet-readonly">INT</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_int_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_int_premiers secours" value="&{template:default} {{name=Premiers secours}} {{Résultat=[[1d100]]}} {{Seuil= @{int_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+      </div>
+      <div class="sheet-actions-2col-row">
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Sort magique</label><span class="sheet-readonly">INT</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_int_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_int_sort magique" value="&{template:default} {{name=Sort magique}} {{Résultat=[[1d100]]}} {{Seuil= @{int_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Athlétisme</label><span class="sheet-readonly">FOR</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_for_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_for_athlétisme" value="&{template:default} {{name=Athlétisme}} {{Résultat=[[1d100]]}} {{Seuil= @{for_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+      </div>
+      <div class="sheet-actions-2col-row">
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Esquive</label><span class="sheet-readonly">DEX</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_dex_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_dex_esquive" value="&{template:default} {{name=Esquive}} {{Résultat=[[1d100]]}} {{Seuil= @{dex_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Persuasion</label><span class="sheet-readonly">CHA</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_cha_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_cha_persuasion" value="&{template:default} {{name=Persuasion}} {{Résultat=[[1d100]]}} {{Seuil= @{cha_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+      </div>
+      <div class="sheet-actions-2col-row">
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Résistance mentale</label><span class="sheet-readonly">VOL</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_vol_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_vol_résistance mentale" value="&{template:default} {{name=Résistance mentale}} {{Résultat=[[1d100]]}} {{Seuil= @{vol_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Tromperie</label><span class="sheet-readonly">CHA</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_cha_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_cha_tromperie" value="&{template:default} {{name=Tromperie}} {{Résultat=[[1d100]]}} {{Seuil= @{cha_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+      </div>
+      <div class="sheet-actions-2col-row">
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Concentration</label><span class="sheet-readonly">VOL</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_vol_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_vol_concentration" value="&{template:default} {{name=Concentration}} {{Résultat=[[1d100]]}} {{Seuil= @{vol_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Intimidation</label><span class="sheet-readonly">CHA</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_cha_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_cha_intimidation" value="&{template:default} {{name=Intimidation}} {{Résultat=[[1d100]]}} {{Seuil= @{cha_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+      </div>
+      <div class="sheet-actions-2col-row">
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Discrétion</label><span class="sheet-readonly">DEX</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_dex_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_dex_discrétion" value="&{template:default} {{name=Discrétion}} {{Résultat=[[1d100]]}} {{Seuil= @{dex_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Escamotage</label><span class="sheet-readonly">DEX</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_dex_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_dex_escamotage" value="&{template:default} {{name=Escamotage}} {{Résultat=[[1d100]]}} {{Seuil= @{dex_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+      </div>
+      <div class="sheet-actions-2col-row">
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Perception</label><span class="sheet-readonly">VOL</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_vol_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_vol_perception" value="&{template:default} {{name=Perception}} {{Résultat=[[1d100]]}} {{Seuil= @{vol_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Érudition</label><span class="sheet-readonly">INT</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_int_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_int_érudition" value="&{template:default} {{name=Érudition}} {{Résultat=[[1d100]]}} {{Seuil= @{int_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+      </div>
+      <div class="sheet-actions-2col-row">
+        <div class="sheet-actions-col">
+        <div class="sheet-actions-col-inner">
+          <div class="sheet-field sheet-grow"><label>Enquête</label><span class="sheet-readonly">INT</span></div>
+          <div class="sheet-field"><label>Seuil</label><span name="attr_int_seuil" class="sheet-readonly sheet-num">0</span></div>
+          <div class="sheet-field"><button type="roll" name="roll_action_int_enquête" value="&{template:default} {{name=Enquête}} {{Résultat=[[1d100]]}} {{Seuil= @{int_seuil}}}">Jet</button></div>
+        </div>
+        </div>
+        <div class="sheet-actions-col">
+          <div class="sheet-field sheet-grow"></div><div class="sheet-field"></div><div class="sheet-field"></div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /pane-actions -->
+
+
+</div>
+
+<script type="text/worker">
+  // ============================================================
+  // RUNETERRA - JDR : Sheet Workers Roll20
+  // Regles apprises : jamais de <fieldset> (casse le rafraichissement
+  // visuel des valeurs calculees), toujours <div> + display:table pour
+  // les alignements fiables, spans ou inputs texte pour les champs
+  // calcules (readonly n'est pas obligatoire, c'est fieldset le vrai
+  // coupable). JS en var/function (compatible partout), rien en
+  // dehors de on/getAttrs/setAttrs cote sheet worker.
+  // ============================================================
+
+  var attrs = ["for", "dex", "con", "int", "vol", "cha"];
+
+  function calculerTout(v, updates) {
+    for (var i = 0; i < attrs.length; i++) {
+      var key = attrs[i];
+      var base = parseInt(v[key + "_base"], 10) || 0;
+      var racial = parseInt(v[key + "_racial"], 10) || 0;
+      var total = base + racial;
+      updates[key + "_total"] = String(total);
+      updates[key + "_seuil"] = String(total * 5);
+    }
+  }
+
+  var pointBuyCost = { 8: 0, 9: 1, 10: 2, 11: 3, 12: 4, 13: 5, 14: 7, 15: 9 };
+  var pointBuyOrdreDecroissant = [15, 14, 13, 12, 11, 10, 9, 8];
+
+  // Budget total : 21 points de base, +1 aux niveaux 3/6/9/12/15/18 (6 paliers, 27 max)
+  function budgetPointBuy(niveau) {
+    var n = parseInt(niveau, 10) || 1;
+    var paliers = Math.min(6, Math.floor(n / 3));
+    return 21 + paliers;
+  }
+
+  function clampBase(v) {
+    if (v < 8) { return 8; }
+    if (v > 15) { return 15; }
+    return v;
+  }
+
+  function coutValeur(v) {
+    return pointBuyCost[clampBase(v)];
+  }
+
+  // Valeur maximum atteignable avec le budget restant donne
+  function valeurMaxAffordable(budgetRestant) {
+    for (var i = 0; i < pointBuyOrdreDecroissant.length; i++) {
+      if (pointBuyCost[pointBuyOrdreDecroissant[i]] <= budgetRestant) {
+        return pointBuyOrdreDecroissant[i];
+      }
+    }
+    return 8;
+  }
+
+  // Affichage seul (aucune mutation) : suppose que les bases sont deja valides
+  function calculerPointBuyAffichage(v, updates) {
+    var i, key, totalCost, restant, texte, budget;
+    totalCost = 0;
+    for (i = 0; i < attrs.length; i++) {
+      key = attrs[i];
+      totalCost += coutValeur(parseInt(v[key + "_base"], 10) || 8);
+    }
+    budget = budgetPointBuy(v.niveau);
+    restant = budget - totalCost;
+    texte = "Points dépensés : " + totalCost + " / " + budget + " (restants : " + restant + ")";
+    updates.points_restants = texte;
+  }
+
+  // Utilise a l'ouverture de la fiche : clamp chaque base a 8-15 sans logique
+  // de priorite entre attributs (juste une securite si une valeur invalide
+  // a ete stockee), puis affiche le total.
+  function calculerPointBuy(v, updates) {
+    var i, key, baseRaw, baseClamped;
+    for (i = 0; i < attrs.length; i++) {
+      key = attrs[i];
+      baseRaw = parseInt(v[key + "_base"], 10) || 8;
+      baseClamped = clampBase(baseRaw);
+      if (baseClamped !== baseRaw) {
+        updates[key + "_base"] = String(baseClamped);
+        v[key + "_base"] = String(baseClamped);
+      }
+    }
+    calculerPointBuyAffichage(v, updates);
+  }
+
+  function champsBase() {
+    var champs = [];
+    for (var i = 0; i < attrs.length; i++) {
+      champs.push(attrs[i] + "_base");
+      champs.push(attrs[i] + "_racial");
+    }
+    champs.push("niveau");
+    return champs;
+  }
+
+  // Un handler separe par attribut : necessaire pour savoir PRECISEMENT
+  // lequel vient d'etre modifie, afin de le plafonner lui (et lui seul)
+  // au maximum que le budget des 5 AUTRES attributs permet encore.
+  function gererChangementBase(attrKey) {
+    on("change:" + attrKey + "_base", function () {
+      getAttrs(champsBase(), function (v) {
+        var updates = {};
+        var i, key, otherCost, budgetRestant, raw, clampe, maxAffordable, valeurFinale, budget;
+
+        raw = parseInt(v[attrKey + "_base"], 10) || 8;
+        clampe = clampBase(raw);
+
+        otherCost = 0;
+        for (i = 0; i < attrs.length; i++) {
+          key = attrs[i];
+          if (key !== attrKey) {
+            otherCost += coutValeur(parseInt(v[key + "_base"], 10) || 8);
+          }
+        }
+        budget = budgetPointBuy(v.niveau);
+        budgetRestant = budget - otherCost;
+        maxAffordable = valeurMaxAffordable(budgetRestant);
+        valeurFinale = Math.min(clampe, maxAffordable);
+
+        if (String(valeurFinale) !== v[attrKey + "_base"]) {
+          updates[attrKey + "_base"] = String(valeurFinale);
+          v[attrKey + "_base"] = String(valeurFinale);
+        }
+
+        calculerPointBuyAffichage(v, updates);
+        calculerTout(v, updates);
+        setAttrs(updates);
+      });
+    });
+  }
+
+  for (var pbIndex = 0; pbIndex < attrs.length; pbIndex++) {
+    gererChangementBase(attrs[pbIndex]);
+  }
+
+  on("change:for_racial change:dex_racial change:con_racial change:int_racial change:vol_racial change:cha_racial change:niveau", function () {
+    getAttrs(champsBase(), function (v) {
+      var updates = {};
+      calculerPointBuyAffichage(v, updates);
+      calculerTout(v, updates);
+      setAttrs(updates);
+    });
+  });
+
+  // ============================================================
+  // RACE : bonus/malus racial FLAT automatique + effets narratifs
+  // (Manuel du Joueur, Partie 2, section 2)
+  // ============================================================
+
+  var racesFixes = {
+    "Humain": {
+      fixe: {},
+      choix: "+1 point d'attribut libre (au choix) - ajoute-le toi-meme dans le Bonus de l'attribut concerne.",
+      narratifBonus: "Polyvalence (aucune contrainte sur où appliquer le +1 libre).",
+      narratifMalus: "Aucun malus racial (norme de référence)."
+    },
+    "Vastaya": {
+      fixe: { cha: -1 },
+      choix: "+1 FOR, DEX ou VOL au choix (lignée animale) - ajoute-le toi-même dans le Bonus de l'attribut concerné.",
+      narratifBonus: "Sens aiguisé (bonus Perception).",
+      narratifMalus: "Apparence non-humaine parfois stigmatisée (en plus du -1 CHA déjà appliqué)."
+    },
+    "Yordle": {
+      fixe: { dex: 2, for: -1 },
+      choix: "",
+      narratifBonus: "+1 en tests de Discrétion, résistance mentale contre la peur.",
+      narratifMalus: "Portée de mêlée réduite."
+    },
+    "Transfiguré": {
+      fixe: { vol: 1 },
+      choix: "",
+      narratifBonus: "Forme mineure de métamorphose utilisable en jeu (bonus temporaire à un test, 1×/scène).",
+      narratifMalus: "Forme instable : un échec critique en métamorphose peut provoquer une perte de contrôle temporaire (au choix du MJ)."
+    },
+    "Void / Symbiote": {
+      fixe: { cha: -1 },
+      choix: "",
+      narratifBonus: "Résistance aux dégâts magiques du Néant, vision dans le noir total, +1 en tests d'intimidation.",
+      narratifMalus: "Suscite la peur/méfiance de la majorité des PNJ, vulnérable aux effets de Lumière/Purification (en plus du -1 CHA déjà appliqué)."
+    },
+    "Troll": {
+      fixe: { for: 2, int: -1 },
+      choix: "",
+      narratifBonus: "Régénération naturelle (petit soin passif entre les scènes).",
+      narratifMalus: "Réputation de \"sauvage\" qui complique les interactions dans les grandes cités."
+    },
+    "Freljordien": {
+      fixe: { con: 1 },
+      choix: "",
+      narratifBonus: "Résistance totale au froid, +1 en Survie.",
+      narratifMalus: "-1 en tests liés à la chaleur extrême/déshydratation."
+    },
+    "Darkin": {
+      fixe: {},
+      choix: "+2 dans un attribut au choix - ajoute-le toi-même dans le Bonus de l'attribut concerné.",
+      narratifBonus: "Résistance aux dégâts physiques.",
+      narratifMalus: "Corruption latente : la puissance grandit avec l'usage (compteur de corruption narratif tenu par le MJ), forte notoriété/crainte des PNJ."
+    },
+    "Ascendu": {
+      fixe: {},
+      choix: "+2 dans un attribut au choix - ajoute-le toi-même dans le Bonus de l'attribut concerné.",
+      narratifBonus: "Résistance à la chaleur extrême, immunité à la soif/faim prolongée.",
+      narratifMalus: "Statut hors du commun : suscite crainte ou vénération selon les régions, ne peut plus jamais vivre une existence anonyme parmi les mortels."
+    },
+    "Augmenté Chemtech": {
+      fixe: {},
+      choix: "+1 attribut au choix - ajoute-le toi-même dans le Bonus de l'attribut concerné.",
+      narratifBonus: "Gadget mineur de départ.",
+      narratifMalus: "Dépendance à l'entretien de l'augmentation (coût en argent régulier), méfiance de certains PNJ conservateurs."
+    },
+    "Être des Étoiles": {
+      fixe: { vol: 2, con: -1 },
+      choix: "",
+      narratifBonus: "Résistance à la magie du Néant.",
+      narratifMalus: "Rêves/visions parfois incontrôlables (le MJ peut s'en servir narrativement)."
+    },
+    "Vessel d'Aspect": {
+      fixe: { vol: 2 },
+      choix: "",
+      narratifBonus: "Avantage sur les jets de Résistance mentale contre la peur/le désespoir.",
+      narratifMalus: "Cible vivante du schisme religieux de Targon : le camp opposé le considère comme une menace ou une hérésie."
+    }
+  };
+
+  function texteRaceNarratif(race) {
+    var data = racesFixes[race];
+    if (!data) { return ""; }
+    var parts = [];
+    if (data.narratifBonus) { parts.push("Bonus : " + data.narratifBonus); }
+    if (data.narratifMalus) { parts.push("Malus : " + data.narratifMalus); }
+    if (data.choix) { parts.push("À faire toi-même : " + data.choix); }
+    return parts.join("\n");
+  }
+
+  // ============================================================
+  // REGION : trait culturel automatique (Manuel du Joueur, Partie 2, section 1)
+  // ============================================================
+
+  var regionsData = {
+    "Demacia": "+1 en tests de Volonté contre la peur/magie hostile (discipline martiale)",
+    "Noxus": "+1 dégâts infligés quand seul contre plusieurs ennemis (\"la force prime\")",
+    "Ionia": "+1 en tests d'Esquive/DEX (harmonie du mouvement)",
+    "Piltover": "+1 en tests d'artisanat/Hextech, accès à des objets technologiques exclusifs",
+    "Zaun": "Résistance aux poisons/maladies, accès au marché noir chimtech",
+    "Freljord": "Résistance au froid, +1 PV max par niveau supplémentaire",
+    "Shurima": "Résistance à la chaleur/déshydratation, +1 en tests d'Histoire ancienne",
+    "Bilgewater": "+1 en Charisme (marchandage, intimidation de bas-fonds), résistance à l'ivresse",
+    "Îles Obscures": "Résistance à la peur surnaturelle, mais -1 Charisme avec les non-initiés (aura étrange)",
+    "Ixtal": "+1 en Discrétion/survie en milieu naturel, affinité Nature facilitée",
+    "Bandle City": "+1 DEX, taille réduite (avantage discrétion, désavantage portée de mêlée)",
+    "Targon": "+1 en Volonté, sensibilité accrue aux Aspects/entités célestes",
+    "Néant": "Résistance à la peur surnaturelle et à la corruption mentale ; perception accrue des anomalies du Néant",
+    "Sans région (Errant)": "Polyvalent : +1 à un attribut au choix, déterminé à la création selon ton histoire personnelle"
+  };
+
+  // ============================================================
+  // REPUTATION : +1 automatique sur la region d'origine (Manuel du
+  // Joueur, Partie 2, section 4). L'Errant recoit +1 PARTOUT au lieu
+  // d'une seule region. Ne touche JAMAIS une valeur deja non-nulle
+  // (la reputation se gagne/se perd en jeu, on ne veut pas ecraser
+  // une progression deja trackee par le joueur).
+  // ============================================================
+
+  var champRepParRegion = {
+    "Demacia": "rep_demacia", "Noxus": "rep_noxus", "Ionia": "rep_ionia",
+    "Piltover": "rep_piltover", "Zaun": "rep_zaun", "Freljord": "rep_freljord",
+    "Shurima": "rep_shurima", "Bilgewater": "rep_bilgewater", "Îles Obscures": "rep_ilesobscures",
+    "Ixtal": "rep_ixtal", "Targon": "rep_targon", "Bandle City": "rep_bandlecity"
+  };
+  var tousLesChampsRep = ["rep_demacia", "rep_noxus", "rep_ionia", "rep_piltover", "rep_zaun", "rep_freljord",
+    "rep_shurima", "rep_bilgewater", "rep_ilesobscures", "rep_ixtal", "rep_targon", "rep_bandlecity"];
+
+  on("change:region", function () {
+    getAttrs(tousLesChampsRep.concat(["region", "rep_derniere_region", "rep_derniere_errant"]), function (v) {
+      var updates = {};
+      var i, champ;
+      var region = v.region;
+      var ancienneRegion = v.rep_derniere_region || "";
+      var ancienEtaitErrant = v.rep_derniere_errant === "1";
+
+      // Retire l'ancien +1 automatique s'il n'a jamais ete touche depuis (encore exactement a 1)
+      if (ancienEtaitErrant) {
+        for (i = 0; i < tousLesChampsRep.length; i++) {
+          champ = tousLesChampsRep[i];
+          if (parseInt(v[champ], 10) === 1) { updates[champ] = "0"; }
+        }
+      } else if (ancienneRegion && champRepParRegion[ancienneRegion] && ancienneRegion !== region) {
+        champ = champRepParRegion[ancienneRegion];
+        if (parseInt(v[champ], 10) === 1) { updates[champ] = "0"; }
+      }
+
+      // Applique le nouveau +1 automatique (jamais sur une valeur deja non-nulle)
+      if (region === "Sans région (Errant)") {
+        for (i = 0; i < tousLesChampsRep.length; i++) {
+          champ = tousLesChampsRep[i];
+          var valeurActuelle = updates[champ] !== undefined ? parseInt(updates[champ], 10) : (parseInt(v[champ], 10) || 0);
+          if (!valeurActuelle) { updates[champ] = "1"; }
+        }
+        updates.rep_derniere_errant = "1";
+        updates.rep_derniere_region = "";
+      } else if (champRepParRegion[region]) {
+        champ = champRepParRegion[region];
+        var valeurActuelle2 = updates[champ] !== undefined ? parseInt(updates[champ], 10) : (parseInt(v[champ], 10) || 0);
+        if (!valeurActuelle2) { updates[champ] = "1"; }
+        updates.rep_derniere_region = region;
+        updates.rep_derniere_errant = "0";
+      } else {
+        updates.rep_derniere_region = "";
+        updates.rep_derniere_errant = "0";
+      }
+
+      if (Object.keys(updates).length > 0) { setAttrs(updates); }
+    });
+  });
+
+  // ============================================================
+  // FONCTION UNIFIEE : recalcule TOUT (race + region) en une seule
+  // fois, pour eviter toute race condition entre deux changements
+  // rapproches (ex: changer de race PUIS de region tres vite).
+  // ============================================================
+
+  function appliquerRaceEtRegion(race, region, vBase) {
+    var raceData = racesFixes[race];
+    var updates = {};
+    var i, key, valeur, vTemp;
+
+    // 1) Bonus flat de chaque attribut selon la race (renseigné dans le champ "Bonus", ex-Racial)
+    for (i = 0; i < attrs.length; i++) {
+      key = attrs[i];
+      valeur = (raceData && raceData.fixe && typeof raceData.fixe[key] !== "undefined") ? raceData.fixe[key] : 0;
+      updates[key + "_racial"] = String(valeur);
+    }
+
+    // 2) Total/Seuil recalcules avec le nouveau Bonus
+    vTemp = {};
+    for (i = 0; i < attrs.length; i++) {
+      key = attrs[i];
+      vTemp[key + "_base"] = vBase[key + "_base"];
+      vTemp[key + "_racial"] = updates[key + "_racial"];
+    }
+    calculerTout(vTemp, updates);
+
+    // 3) Trait culturel (region, non chiffre, lecture seule)
+    updates.trait_culturel = regionsData[region] || "";
+
+    // 4) Effets de Race non chiffres (lecture seule)
+    updates.race_narratif = texteRaceNarratif(race);
+
+    setAttrs(updates);
+  }
+
+  on("change:race", function () {
+    getAttrs(champsBase().concat(["race", "region"]), function (v) {
+      appliquerRaceEtRegion(v.race, v.region, v);
+    });
+  });
+
+  on("change:region", function () {
+    getAttrs(champsBase().concat(["race", "region"]), function (v) {
+      appliquerRaceEtRegion(v.race, v.region, v);
+    });
+  });
+
+  // ============================================================
+  // STATS DE COMBAT LIEES AUX ATTRIBUTS (Manuel du Joueur, 3.4bis)
+  // Bonus = (Total attribut - 10) x coefficient, jamais negatif pour l'AP.
+  // ============================================================
+
+  function totalAttribut(v, key) {
+    return (parseInt(v[key + "_base"], 10) || 0) + (parseInt(v[key + "_racial"], 10) || 0);
+  }
+
+  // ============================================================
+  // ARCHETYPES DE COMBAT (Manuel du Joueur, Partie 1, section 3.3)
+  // ============================================================
+
+  var archetypes = {
+    "Tank":     { pv1: 65, pv18: 224, armure: 20, rm: 20, adBase: 10, apBase: 0 },
+    "Juggernaut": { pv1: 59, pv18: 212, armure: 16, rm: 14, adBase: 14, apBase: 0 },
+    "Assassin": { pv1: 44, pv18: 165, armure: 10, rm: 10, adBase: 13, apBase: 0 },
+    "Mage":     { pv1: 44, pv18: 159, armure: 8,  rm: 12, adBase: 6,  apBase: 18 },
+    "Marksman": { pv1: 44, pv18: 171, armure: 9,  rm: 9,  adBase: 11, apBase: 0 },
+    "Support":  { pv1: 47, pv18: 153, armure: 9,  rm: 11, adBase: 5,  apBase: 9 }
+  };
+
+  // ============================================================
+  // SOUS-RÔLES : archetype de base + modificateurs (section 4.1)
+  // pvMod : multiplicateur sur PV1 et PV18 (fixe, sauf Hypercarry qui varie
+  // de 0.9 a 1.1 - gere a part). dmgMod : multiplicateur sur le AD/AP de
+  // base ; dmgType : quelle stat de degats est concernee. vitDeplMod :
+  // ajustement de la Vitesse de Deplacement (base 6). profil : Precoce /
+  // Standard / Tardif (section 4.2, courbe de progression des degats).
+  // ============================================================
+
+  var sousRoles = {
+    "Bruiser":          { archetype: "Juggernaut", pvMod: 1.0,  dmgMod: 1.0,  dmgType: "ad", vitDeplMod: 0,  profil: "Standard" },
+    "Juggernaut":       { archetype: "Juggernaut", pvMod: 1.1,  dmgMod: 1.1,  dmgType: "ad", vitDeplMod: -1, profil: "Standard" },
+    "Tank":             { archetype: "Tank",       pvMod: 1.2,  dmgMod: 0.7,  dmgType: "ad", vitDeplMod: -1, profil: "Precoce" },
+    "Assassin":         { archetype: "Assassin",   pvMod: 0.85, dmgMod: 1.2,  dmgType: "ad", vitDeplMod: 1,  profil: "Precoce" },
+    "Skirmisher":       { archetype: "Juggernaut", pvMod: 0.95, dmgMod: 1.1,  dmgType: "ad", vitDeplMod: 1,  profil: "Standard" },
+    "Vanguard":         { archetype: "Tank",       pvMod: 1.1,  dmgMod: 0.8,  dmgType: "ad", vitDeplMod: 0,  profil: "Precoce" },
+    "Control Mage":     { archetype: "Mage",       pvMod: 0.85, dmgMod: 1.0,  dmgType: "ap", vitDeplMod: 0,  profil: "Standard" },
+    "Battle Mage":      { archetype: "Mage",       pvMod: 1.05, dmgMod: 0.95, dmgType: "ap", vitDeplMod: 0,  profil: "Standard" },
+    "Artilleur (AP)":   { archetype: "Mage",       pvMod: 0.75, dmgMod: 1.2,  dmgType: "ap", vitDeplMod: 0,  profil: "Tardif" },
+    "Hypercarry":       { archetype: "Marksman",   pvMod1: 0.9, pvMod18: 1.1, dmgMod: 1.0,  dmgType: "ad", vitDeplMod: 0, profil: "Tardif" },
+    "Sniper":           { archetype: "Marksman",   pvMod: 1.0,  dmgMod: 1.0,  dmgType: "ad", vitDeplMod: 0,  profil: "Standard" },
+    "Caster (AD)":      { archetype: "Marksman",   pvMod: 0.95, dmgMod: 1.05, dmgType: "ad", vitDeplMod: 1,  profil: "Standard" },
+    "Enchanteur":       { archetype: "Support",    pvMod: 0.9,  dmgMod: 0.7,  dmgType: "ap", vitDeplMod: 0,  profil: "Standard" },
+    "Initiateur":       { archetype: "Support",    pvMod: 1.05, dmgMod: 0.85, dmgType: "ap", vitDeplMod: 0,  profil: "Precoce" },
+    "Catcher":          { archetype: "Support",    pvMod: 0.95, dmgMod: 0.8,  dmgType: "ap", vitDeplMod: 0,  profil: "Standard" }
+  };
+
+  // Progression lineaire avec bond aux niveaux 6/11/16 (section 5.3)
+  function progressionNiveau(val1, val18, niveau) {
+    var r = Math.round((val18 - val1) / 20);
+    var total = val1;
+    for (var lvl = 2; lvl <= niveau; lvl++) {
+      total += (lvl === 6 || lvl === 11 || lvl === 16) ? (2 * r) : r;
+    }
+    return Math.round(total);
+  }
+
+  function calculerStatsRole(sousRole, niveau, updates) {
+    var sr = sousRoles[sousRole];
+    var arch, pv1, pv18, dmgVal1, dmgVal18, dmgTotal, armureTotal, rmTotal, vitDepl;
+
+    if (!sr) {
+      updates.pv_role = "0";
+      updates.ad_role = "0";
+      updates.ap_role = "0";
+      updates.armure_role = "0";
+      updates.rm_role = "0";
+      updates.vitdep_role = "6";
+      return;
+    }
+
+    arch = archetypes[sr.archetype];
+
+    // PV (avec cas particulier Hypercarry : modificateur qui varie lui-meme avec le niveau)
+    if (sr.pvMod1 !== undefined) {
+      pv1 = arch.pv1 * sr.pvMod1;
+      pv18 = arch.pv18 * sr.pvMod18;
+    } else {
+      pv1 = arch.pv1 * sr.pvMod;
+      pv18 = arch.pv18 * sr.pvMod;
+    }
+    updates.pv_role = String(progressionNiveau(pv1, pv18, niveau));
+
+    // Degats (AD ou AP selon dmgType), selon le profil de scaling (4.2)
+    var baseArchDmg = (sr.dmgType === "ap") ? arch.apBase : arch.adBase;
+    if (sr.profil === "Precoce") {
+      dmgVal1 = baseArchDmg * sr.dmgMod;
+      dmgVal18 = dmgVal1 * 1.3;
+    } else if (sr.profil === "Tardif") {
+      dmgVal1 = baseArchDmg * sr.dmgMod * 0.8;
+      dmgVal18 = dmgVal1 * 1.3;
+    } else {
+      dmgVal1 = baseArchDmg * sr.dmgMod;
+      dmgVal18 = dmgVal1 * 1.6;
+    }
+    dmgTotal = progressionNiveau(dmgVal1, dmgVal18, niveau);
+
+    if (sr.dmgType === "ap") {
+      updates.ap_role = String(Math.max(0, dmgTotal));
+      updates.ad_role = "0";
+    } else {
+      updates.ad_role = String(Math.max(0, dmgTotal));
+      updates.ap_role = "0";
+    }
+
+    // Armure / RM : archetype pur, progression standard +60% au niv.18, pas de modif sous-role
+    armureTotal = progressionNiveau(arch.armure, arch.armure * 1.6, niveau);
+    rmTotal = progressionNiveau(arch.rm, arch.rm * 1.6, niveau);
+    updates.armure_role = String(armureTotal);
+    updates.rm_role = String(rmTotal);
+
+    // Vitesse de deplacement : base 6 + modificateur fixe du sous-role (pas de scaling niveau)
+    vitDepl = 6 + (sr.vitDeplMod || 0);
+    updates.vitdep_role = String(vitDepl);
+  }
+
+  function calculerStatsCombat(v, updates) {
+    var conBonus = totalAttribut(v, "con") - 10;
+    var forBonus = totalAttribut(v, "for") - 10;
+    var intBonus = totalAttribut(v, "int") - 10;
+    var volBonus = totalAttribut(v, "vol") - 10;
+    var dexBonus = totalAttribut(v, "dex") - 10;
+
+    var niveau = parseInt(v.niveau, 10) || 1;
+    calculerStatsRole(v.sousrole, niveau, updates);
+
+    var pvRole = parseInt(updates.pv_role, 10) || 0;
+    var adRole = parseInt(updates.ad_role, 10) || 0;
+    var apRole = parseInt(updates.ap_role, 10) || 0;
+    var armureRole = parseInt(updates.armure_role, 10) || 0;
+    var rmRole = parseInt(updates.rm_role, 10) || 0;
+    var vitDeplRole = parseInt(updates.vitdep_role, 10) || 6;
+
+    var pvObjets = parseInt(v.pv_objets, 10) || 0;
+    var adObjets = parseInt(v.ad_objets, 10) || 0;
+    var apObjets = parseInt(v.ap_objets, 10) || 0;
+    var armureObjets = parseInt(v.armure_objets, 10) || 0;
+    var rmObjets = parseInt(v.rm_objets, 10) || 0;
+    var vitDeplObjets = parseInt(v.vitdep_objets, 10) || 0;
+    var vitattBase = parseInt(v.vitatt_base, 10) || 100;
+    var initBase = parseInt(v.initiative_base, 10) || 0;
+
+    var pvBonus = conBonus * 6;
+    var adBonus = forBonus * 1;
+    var apBonus = intBonus * 2;
+    var rmBonus = volBonus * 1;
+    var vitattBonus = dexBonus * 1;
+    var initBonus = dexBonus * 1;
+
+    updates.pv_bonus = String(pvBonus);
+    updates.pv_max = String(pvRole + pvObjets + pvBonus);
+
+    updates.ad_bonus = String(adBonus);
+    updates.ad = String(adRole + adObjets + adBonus);
+
+    updates.ap_bonus = String(apBonus);
+    updates.ap = String(Math.max(0, apRole + apObjets + apBonus));
+
+    updates.armure = String(armureRole + armureObjets);
+
+    updates.rm_bonus = String(rmBonus);
+    updates.rm = String(rmRole + rmObjets + rmBonus);
+
+    updates.vitdep = String(vitDeplRole + vitDeplObjets);
+
+    updates.vitatt_bonus = String(vitattBonus);
+    updates.vitatt = String(vitattBase + vitattBonus);
+
+    updates.initiative_bonus = String(initBonus);
+    updates.initiative = String(initBase + initBonus);
+
+    var critiqueBase = parseInt(v.critique_base, 10) || 0;
+    var critiqueObjets = parseInt(v.critique_objets, 10) || 0;
+    updates.critique = String(critiqueBase + critiqueObjets);
+
+    var cdrBase = parseInt(v.cdr_base, 10) || 0;
+    var cdrObjets = parseInt(v.cdr_objets, 10) || 0;
+    updates.cdr = String(cdrBase + cdrObjets);
+  }
+
+  function champsCombatBase() {
+    return [
+      "pv_objets", "ad_objets", "ap_objets", "armure_objets", "rm_objets", "vitdep_objets",
+      "vitatt_base", "initiative_base", "sousrole", "niveau",
+      "critique_base", "critique_objets", "cdr_base", "cdr_objets"
+    ];
+  }
+
+  // ============================================================
+  // SOMME AUTOMATIQUE DES BONUS D'OBJETS (Inventaire -> Combat)
+  // Les 6 emplacements (objet1-5 + bottes) peuvent chacun donner
+  // AD/AP/PV/Armure/RM ; le total remplace la saisie manuelle des
+  // champs "objets" du Combat.
+  // ============================================================
+
+  var slotsInventaire = ["objet1", "objet2", "objet3", "objet4", "objet5", "objet_bottes"];
+  var statsInventaire = ["ad", "ap", "pv", "armure", "rm", "critique", "cdr", "ressource", "volvie"];
+
+  function champsInventaireStats() {
+    var champs = [];
+    var i, j;
+    for (i = 0; i < slotsInventaire.length; i++) {
+      for (j = 0; j < statsInventaire.length; j++) {
+        champs.push(slotsInventaire[i] + "_" + statsInventaire[j]);
+      }
+    }
+    return champs;
+  }
+
+  function calculerObjetsDepuisInventaire(v, updates) {
+    var totaux = { ad: 0, ap: 0, pv: 0, armure: 0, rm: 0, critique: 0, cdr: 0, ressource: 0, volvie: 0 };
+    var i, j, slot, stat;
+    for (i = 0; i < slotsInventaire.length; i++) {
+      slot = slotsInventaire[i];
+      for (j = 0; j < statsInventaire.length; j++) {
+        stat = statsInventaire[j];
+        totaux[stat] += parseInt(v[slot + "_" + stat], 10) || 0;
+      }
+    }
+    updates.ad_objets = String(totaux.ad);
+    updates.ap_objets = String(totaux.ap);
+    updates.pv_objets = String(totaux.pv);
+    updates.armure_objets = String(totaux.armure);
+    updates.rm_objets = String(totaux.rm);
+    updates.critique_objets = String(totaux.critique);
+    updates.cdr_objets = String(totaux.cdr);
+    updates.ressource_objets = String(totaux.ressource);
+    updates.volvie_objets = String(totaux.volvie);
+    updates.volvie = String(totaux.volvie);
+  }
+
+  on(
+    champsInventaireStats().map(function (c) { return "change:" + c; }).join(" "),
+    function () {
+      getAttrs(champsInventaireStats(), function (vInv) {
+        var updatesInv = {};
+        calculerObjetsDepuisInventaire(vInv, updatesInv);
+        getAttrs(champsBase().concat(champsCombatBase()), function (v) {
+          var key;
+          for (key in updatesInv) { v[key] = updatesInv[key]; }
+          var updates = {};
+          calculerStatsCombat(v, updates);
+          for (key in updatesInv) { updates[key] = updatesInv[key]; }
+          setAttrs(updates);
+        });
+      });
+    }
+  );
+
+  on("change:for_base change:for_racial change:dex_base change:dex_racial change:con_base change:con_racial change:int_base change:int_racial change:vol_base change:vol_racial change:cha_base change:cha_racial change:pv_objets change:ad_objets change:ap_objets change:armure_objets change:rm_objets change:vitdep_objets change:vitatt_base change:initiative_base change:sousrole change:niveau change:critique_base change:cdr_base", function () {
+    getAttrs(champsBase().concat(champsCombatBase()), function (v) {
+      var updates = {};
+      calculerStatsCombat(v, updates);
+      setAttrs(updates);
+    });
+  });
+
+  // ============================================================
+  // RESSOURCE : Max reellement calcule (pas juste suggere) + progression
+  // par niveau pour le Mana (Manuel du Joueur, 3.2bis : +60% au niv.18,
+  // meme formule que l'AD/AP, section 5.3/4.2)
+  // ============================================================
+
+  function calculerRessourceMax(type, intTotal, niveau, objets) {
+    var mana1, mana18, base;
+    if (type === "Mana") {
+      mana1 = 30 + intTotal * 2;
+      mana18 = mana1 * 1.6;
+      base = progressionNiveau(mana1, mana18, niveau);
+    } else if (type === "Énergie") {
+      base = 100;
+    } else if (type === "Fureur/Rage") {
+      base = 100;
+    } else {
+      base = 0;
+    }
+    return base + (objets || 0);
+  }
+
+  function texteRessource(type) {
+    if (type === "Mana") {
+      return "Régén 10%/round en combat, plein entre les scènes.";
+    } else if (type === "Énergie") {
+      return "Régén 20%/round automatiquement.";
+    } else if (type === "Fureur/Rage") {
+      return "+10 par attaque portée ou subie ; -20/round hors combat.";
+    }
+    return "Sans ressource : seul le cooldown limite les sorts.";
+  }
+
+  on("change:ressource_type change:int_total change:niveau change:ressource_objets", function () {
+    getAttrs(["ressource_type", "int_total", "niveau", "ressource_objets"], function (v) {
+      var intTotal = parseInt(v.int_total, 10) || 10;
+      var niveau = parseInt(v.niveau, 10) || 1;
+      var objets = parseInt(v.ressource_objets, 10) || 0;
+      var max = calculerRessourceMax(v.ressource_type, intTotal, niveau, objets);
+      setAttrs({
+        ressource_max: String(max),
+        ressource_actuelle: String(max),
+        ressource_suggestion: texteRessource(v.ressource_type)
+      });
+    });
+  });
+
+  // ============================================================
+  // MAITRISE : rangee atteinte par arbre + total investi (paliers 0/1/3/5/10 pour Signature)
+  // ============================================================
+
+  function rangeeMaitrise(points) {
+    var paliers = [
+      { seuil: 0, nom: "R1" },
+      { seuil: 1, nom: "R2" },
+      { seuil: 3, nom: "R3" },
+      { seuil: 5, nom: "R4" },
+      { seuil: 10, nom: "Signature" }
+    ];
+    var parts = [];
+    var i;
+    for (i = 0; i < paliers.length; i++) {
+      if (points >= paliers[i].seuil) {
+        parts.push("✅ " + paliers[i].nom);
+      } else {
+        parts.push("🔒 " + paliers[i].nom + " (" + paliers[i].seuil + "pts)");
+      }
+    }
+    return parts.join("  →  ");
+  }
+
+  var arbres = ["combat", "volonte", "utilitaire"];
+
+  function enregistrerArbre(arbre) {
+    on("change:maitrise_" + arbre, function () {
+      getAttrs(["maitrise_" + arbre], function (v) {
+        var points = parseInt(v["maitrise_" + arbre], 10) || 0;
+        var updates = {};
+        updates["maitrise_" + arbre + "_rangee"] = rangeeMaitrise(points);
+        setAttrs(updates);
+      });
+    });
+  }
+
+  for (var j = 0; j < arbres.length; j++) {
+    enregistrerArbre(arbres[j]);
+  }
+
+  // ============================================================
+  // BLOCAGE REEL DES NOEUDS DE MAITRISE (8.1)
+  // Repartition par Rangee : CHOIX MAISON (le Manuel ne l'indique pas
+  // explicitement au niveau du noeud, seulement les seuils generaux -
+  // voir Runeterra-JDR-Suivi.xlsx pour la justification de ce choix).
+  // Seuils reels du Manuel : R1=0, R2=1, R3=3, R4=5, Signature=10.
+  // ============================================================
+
+  var noeudSeuil = {
+    // COMBAT
+    mc_frappe: 0, mc_piedleger: 0, mc_sangfroid: 0,
+    mc_ouverture: 1, mc_poursuite: 1,
+    mc_contre: 3, mc_ragecontrolee: 3,
+    mc_secondsouffle: 5,
+    mc_signature: 10,
+    // VOLONTE
+    mv_peaudure: 0, mv_clarte: 0, mv_sangfroidabsolu: 0,
+    mv_vigilance: 1, mv_liengroupe: 1,
+    mv_resilience: 3, mv_dernierrempart: 3,
+    mv_tenacite: 5,
+    mv_signature: 10,
+    // UTILITAIRE
+    mu_debrouille: 0, mu_memoire: 0, mu_orientation: 0,
+    mu_beauparleur: 1, mu_bricoleur: 1,
+    mu_contact: 3, mu_reserves: 3,
+    mu_oeilaiguise: 5,
+    mu_signature: 10
+  };
+
+  var noeudArbre = {};
+  (function () {
+    var cle, prefixe;
+    for (cle in noeudSeuil) {
+      prefixe = cle.substring(0, 2);
+      if (prefixe === "mc") { noeudArbre[cle] = "combat"; }
+      else if (prefixe === "mv") { noeudArbre[cle] = "volonte"; }
+      else if (prefixe === "mu") { noeudArbre[cle] = "utilitaire"; }
+    }
+  }());
+
+  var tousLesNoeuds = Object.keys(noeudSeuil);
+  var signatureParArbre = { combat: "mc_signature", volonte: "mv_signature", utilitaire: "mu_signature" };
+
+  var noeudLabel = {
+    mc_frappe: "Frappe Assurée", mc_piedleger: "Pied Léger", mc_sangfroid: "Sang-Froid",
+    mc_ouverture: "Ouverture", mc_poursuite: "Poursuite", mc_contre: "Contre", mc_ragecontrolee: "Rage Contrôlée",
+    mc_secondsouffle: "Second Souffle", mc_signature: "★ Impulsion de Combat",
+    mv_peaudure: "Peau Dure", mv_clarte: "Clarté d'Esprit", mv_sangfroidabsolu: "Sang-Froid Absolu",
+    mv_vigilance: "Vigilance", mv_liengroupe: "Lien du Groupe", mv_resilience: "Résilience", mv_dernierrempart: "Dernier Rempart",
+    mv_tenacite: "Ténacité", mv_signature: "★ Inébranlable",
+    mu_debrouille: "Débrouille", mu_memoire: "Bonne Mémoire", mu_orientation: "Sens de l'Orientation",
+    mu_beauparleur: "Beau Parleur", mu_bricoleur: "Bricoleur", mu_contact: "Contact", mu_reserves: "Réserves Cachées",
+    mu_oeilaiguise: "Œil Aiguisé", mu_signature: "★ Coup du Sort"
+  };
+
+  function genererRecapMaitrise(v) {
+    var pris = [];
+    var i, n, rang;
+    for (i = 0; i < tousLesNoeuds.length; i++) {
+      n = tousLesNoeuds[i];
+      if (v[n] === "1") {
+        rang = v[n + "_rang"];
+        pris.push(noeudLabel[n] + (rang ? " (rang " + rang + ")" : ""));
+      }
+    }
+    return pris.length > 0 ? pris.join(" · ") : "Aucun nœud de Maîtrise pris pour l'instant.";
+  }
+
+  function champsRecapMaitrise() {
+    var champs = [];
+    var i, n;
+    for (i = 0; i < tousLesNoeuds.length; i++) {
+      n = tousLesNoeuds[i];
+      champs.push(n);
+      if (n !== "mc_secondsouffle" && n !== "mv_tenacite" && n !== "mu_oeilaiguise" &&
+          n !== "mc_signature" && n !== "mv_signature" && n !== "mu_signature") {
+        champs.push(n + "_rang");
+      }
+    }
+    return champs;
+  }
+
+  on(
+    champsRecapMaitrise().map(function (c) { return "change:" + c; }).join(" "),
+    function () {
+      getAttrs(champsRecapMaitrise(), function (v) {
+        setAttrs({ recap_maitrise: genererRecapMaitrise(v) });
+      });
+    }
+  );
+
+  function noeudsDeArbre(arbre) {
+    return tousLesNoeuds.filter(function (n) { return noeudArbre[n] === arbre; });
+  }
+
+  // Noeuds sans selecteur de rang (capstone + Signature) : cout fixe de 1 si coches.
+  var noeudSansRang = {
+    mc_secondsouffle: 1, mv_tenacite: 1, mu_oeilaiguise: 1,
+    mc_signature: 1, mv_signature: 1, mu_signature: 1
+  };
+
+  // Rang maximum possible par noeud (2 par defaut, 3 pour Pied Leger uniquement)
+  var noeudRangMax = { mc_piedleger: 3 };
+  function rangMaxDe(noeud) {
+    return noeudRangMax[noeud] || 2;
+  }
+
+  // Cout en points d'un noeud : le rang choisi (rang 2 = 2 points), ou 1 point
+  // fixe pour un noeud sans rang (capstone/Signature). 0 si pas coche.
+  function coutNoeud(v, noeud) {
+    if (v[noeud] !== "1") { return 0; }
+    if (noeudSansRang[noeud]) { return 1; }
+    return parseInt(v[noeud + "_rang"], 10) || 1;
+  }
+
+  function coutTotalArbre(v, noeuds) {
+    var i, total = 0;
+    for (i = 0; i < noeuds.length; i++) {
+      total += coutNoeud(v, noeuds[i]);
+    }
+    return total;
+  }
+
+  function champsCoutNoeuds(noeuds) {
+    var champs = [];
+    var i, n;
+    for (i = 0; i < noeuds.length; i++) {
+      n = noeuds[i];
+      champs.push(n);
+      if (!noeudSansRang[n]) { champs.push(n + "_rang"); }
+    }
+    return champs;
+  }
+
+  // Revalide TOUS les noeuds d'un arbre (utilise quand ses points changent) :
+  // seuil de Rangee par noeud + cout total (rang inclus) <= points investis
+  // (decoche en priorite les noeuds au seuil le plus eleve en cas de depassement)
+  function enregistrerBlocageArbre(arbre) {
+    on("change:maitrise_" + arbre, function () {
+      var noeuds = noeudsDeArbre(arbre);
+      getAttrs(["maitrise_" + arbre].concat(champsCoutNoeuds(noeuds)), function (v) {
+        var points = parseInt(v["maitrise_" + arbre], 10) || 0;
+        var updates = {};
+        var i, n;
+
+        for (i = 0; i < noeuds.length; i++) {
+          n = noeuds[i];
+          if (points < noeudSeuil[n] && v[n] === "1") { updates[n] = "0"; v[n] = "0"; }
+        }
+
+        var noeudsTriesDesc = noeuds.slice().sort(function (a, b) { return noeudSeuil[b] - noeudSeuil[a]; });
+        var coutTotal = coutTotalArbre(v, noeuds);
+        i = 0;
+        while (coutTotal > points && i < noeudsTriesDesc.length) {
+          n = noeudsTriesDesc[i];
+          if (v[n] === "1") {
+            coutTotal -= coutNoeud(v, n);
+            updates[n] = "0";
+            v[n] = "0";
+          }
+          i++;
+        }
+
+        if (Object.keys(updates).length > 0) { setAttrs(updates); }
+      });
+    });
+  }
+
+  for (var bIdx = 0; bIdx < arbres.length; bIdx++) {
+    enregistrerBlocageArbre(arbres[bIdx]);
+  }
+
+  // Verifie un noeud precis quand SA case change : seuil de Rangee ET
+  // cout total de l'arbre (rang inclus) <= points investis
+  function enregistrerBlocageNoeud(noeud) {
+    on("change:" + noeud, function () {
+      var arbre = noeudArbre[noeud];
+      var noeuds = noeudsDeArbre(arbre);
+      getAttrs(["maitrise_" + arbre].concat(champsCoutNoeuds(noeuds)), function (v) {
+        var points = parseInt(v["maitrise_" + arbre], 10) || 0;
+        var updates = {};
+
+        if (points < noeudSeuil[noeud] && v[noeud] === "1") {
+          updates[noeud] = "0";
+        } else if (v[noeud] === "1") {
+          var coutTotal = coutTotalArbre(v, noeuds);
+          if (coutTotal > points) {
+            updates[noeud] = "0";
+          }
+        }
+
+        if (Object.keys(updates).length > 0) { setAttrs(updates); }
+      });
+    });
+  }
+
+  for (var nIdx = 0; nIdx < tousLesNoeuds.length; nIdx++) {
+    enregistrerBlocageNoeud(tousLesNoeuds[nIdx]);
+  }
+
+  // Verifie le RANG lui-meme quand il change : le cout total de l'arbre
+  // (avec ce nouveau rang) ne doit jamais depasser les points investis.
+  // Si depassement, plafonne au rang le plus haut encore abordable.
+  function enregistrerBlocageRang(noeud) {
+    on("change:" + noeud + "_rang", function () {
+      var arbre = noeudArbre[noeud];
+      var noeuds = noeudsDeArbre(arbre);
+      getAttrs(["maitrise_" + arbre].concat(champsCoutNoeuds(noeuds)), function (v) {
+        var points = parseInt(v["maitrise_" + arbre], 10) || 0;
+        var updates = {};
+        var i, autreCout = 0;
+
+        for (i = 0; i < noeuds.length; i++) {
+          if (noeuds[i] !== noeud) { autreCout += coutNoeud(v, noeuds[i]); }
+        }
+
+        var budgetRestant = points - autreCout;
+        var rangDemande = parseInt(v[noeud + "_rang"], 10) || 1;
+        var rangMax = rangMaxDe(noeud);
+        var rangFinal = Math.min(rangDemande, rangMax, Math.max(0, budgetRestant));
+
+        if (v[noeud] === "1" && rangFinal < 1) {
+          // Meme le rang 1 ne rentre plus dans le budget : decoche le noeud entier
+          updates[noeud] = "0";
+        } else if (rangFinal >= 1 && String(rangFinal) !== v[noeud + "_rang"]) {
+          updates[noeud + "_rang"] = String(rangFinal);
+        }
+
+        if (Object.keys(updates).length > 0) { setAttrs(updates); }
+      });
+    });
+  }
+
+  for (var rIdx = 0; rIdx < tousLesNoeuds.length; rIdx++) {
+    if (!noeudSansRang[tousLesNoeuds[rIdx]]) {
+      enregistrerBlocageRang(tousLesNoeuds[rIdx]);
+    }
+  }
+
+  // Exclusivite des Signatures : une seule active au total, en plus du seuil de 10 points
+  function enregistrerExclusiviteSignature(arbre) {
+    on("change:" + signatureParArbre[arbre], function () {
+      getAttrs(["mc_signature", "mv_signature", "mu_signature"], function (v) {
+        if (v[signatureParArbre[arbre]] !== "1") { return; }
+        var autres = ["mc_signature", "mv_signature", "mu_signature"].filter(function (s) {
+          return s !== signatureParArbre[arbre];
+        });
+        var i, updates = {}, decoche = false;
+        for (i = 0; i < autres.length; i++) {
+          if (v[autres[i]] === "1") { updates[autres[i]] = "0"; decoche = true; }
+        }
+        if (decoche) { setAttrs(updates); }
+      });
+    });
+  }
+
+  for (var eIdx = 0; eIdx < arbres.length; eIdx++) {
+    enregistrerExclusiviteSignature(arbres[eIdx]);
+  }
+
+  function texteMaitriseTotal(c, vo, u, niveau) {
+    var total = c + vo + u;
+    var maxAttendu = Math.min(niveau, 18);
+    return total + " / " + maxAttendu + " (niveau " + niveau + ")";
+  }
+
+  // Un handler separe par arbre : necessaire pour savoir PRECISEMENT lequel
+  // vient d'etre modifie, afin de le plafonner lui (et lui seul) au maximum
+  // que le budget total (niveau, plafond 18) permet encore.
+  function gererChangementMaitriseArbre(arbreKey) {
+    on("change:maitrise_" + arbreKey, function () {
+      getAttrs(
+        ["maitrise_combat", "maitrise_volonte", "maitrise_utilitaire", "niveau"],
+        function (v) {
+          var updates = {};
+          var niveau = parseInt(v.niveau, 10) || 1;
+          var maxTotal = Math.min(niveau, 18);
+          var arbresKeys = ["combat", "volonte", "utilitaire"];
+          var i, autreCost = 0, raw, valeurFinale;
+
+          raw = parseInt(v["maitrise_" + arbreKey], 10) || 0;
+          if (raw < 0) { raw = 0; }
+          if (raw > 18) { raw = 18; }
+
+          for (i = 0; i < arbresKeys.length; i++) {
+            if (arbresKeys[i] !== arbreKey) {
+              autreCost += parseInt(v["maitrise_" + arbresKeys[i]], 10) || 0;
+            }
+          }
+
+          valeurFinale = Math.min(raw, Math.max(0, maxTotal - autreCost));
+
+          if (String(valeurFinale) !== v["maitrise_" + arbreKey]) {
+            updates["maitrise_" + arbreKey] = String(valeurFinale);
+            v["maitrise_" + arbreKey] = String(valeurFinale);
+          }
+
+          updates.maitrise_total = texteMaitriseTotal(
+            parseInt(v.maitrise_combat, 10) || 0,
+            parseInt(v.maitrise_volonte, 10) || 0,
+            parseInt(v.maitrise_utilitaire, 10) || 0,
+            niveau
+          );
+
+          setAttrs(updates);
+        }
+      );
+    });
+  }
+
+  gererChangementMaitriseArbre("combat");
+  gererChangementMaitriseArbre("volonte");
+  gererChangementMaitriseArbre("utilitaire");
+
+  // Si le niveau change (montee OU perte de niveau), replafonne les 3 arbres
+  on("change:niveau", function () {
+    getAttrs(
+      ["maitrise_combat", "maitrise_volonte", "maitrise_utilitaire", "niveau"],
+      function (v) {
+        var updates = {};
+        var niveau = parseInt(v.niveau, 10) || 1;
+        var maxTotal = Math.min(niveau, 18);
+        var arbresKeys = ["combat", "volonte", "utilitaire"];
+        var valeurs = {};
+        var i, total = 0;
+
+        for (i = 0; i < arbresKeys.length; i++) {
+          valeurs[arbresKeys[i]] = parseInt(v["maitrise_" + arbresKeys[i]], 10) || 0;
+          total += valeurs[arbresKeys[i]];
+        }
+
+        // Reduit dans l'ordre utilitaire, volonte, combat jusqu'a rentrer dans le budget
+        var ordre = ["utilitaire", "volonte", "combat"];
+        i = 0;
+        while (total > maxTotal && i < ordre.length) {
+          var cle = ordre[i];
+          var trop = total - maxTotal;
+          var reduction = Math.min(valeurs[cle], trop);
+          valeurs[cle] -= reduction;
+          total -= reduction;
+          i++;
+        }
+
+        for (i = 0; i < arbresKeys.length; i++) {
+          updates["maitrise_" + arbresKeys[i]] = String(valeurs[arbresKeys[i]]);
+        }
+
+        updates.maitrise_total = texteMaitriseTotal(valeurs.combat, valeurs.volonte, valeurs.utilitaire, niveau);
+
+        setAttrs(updates);
+      }
+    );
+  });
+
+  // ============================================================
+  // AFFINITE ELEMENTAIRE : bonus/malus texte (Partie 2, section 5.1)
+  // ============================================================
+
+  var affinitesData = {
+    "Eau": "Bonus : ralentit -1 case de Vit.Dépl 1 round ; 3 stacks Givre = immobilisation 1 round. Jet : +10 en Attaque/Sort vs cible ralentie. Faiblesse : -2 dégâts fixes sur toutes ses attaques/sorts.",
+    "Feu": "Bonus : +1d4 dégâts vs cible déjà brûlée ; critique applique Brûlure (3 dégâts/round, 2 rounds). Jet : +10 en Attaque/Sort vs cible déjà affectée par le Feu. Faiblesse : -2 dégâts fixes vs cible résistante au feu.",
+    "Foudre": "Bonus : critique propage la moitié des dégâts à une cible proche ; critique étourdit brièvement. Jet : +10 en Attaque/Sort vs cible en contact eau/métal. Faiblesse : -2 dégâts fixes en milieu aquatique/mouillé.",
+    "Terre": "Bonus : +1d4 PV bonus en soin, ou +1d4 dégâts vs cible immobilisée ; régén 5 PV/round au contact du sol. Jet : +10 en Attaque/Sort de soin/buff. Faiblesse : -2 dégâts fixes, profil plus soutien/contrôle.",
+    "Néant": "Bonus : +1d6 dégâts vs cible sous 30% PV (finisher) ; critique applique Corruption (-5 Rés. mentale). Jet : +10 en Intimidation. Faiblesse : +2 dégâts subis fixes de sources Lumière.",
+    "Lumière": "Bonus : +1d6 dégâts vs créatures Ombre/Néant ; sorts de zone soignent aussi 10 PV à un allié touché. Jet : +10 en Rés. mentale vs peur/contrôle mental. Faiblesse : désavantage en Discrétion ; -2 dégâts fixes en territoire Néant pur."
+  };
+
+  on("change:affinite", function () {
+    getAttrs(["affinite"], function (v) {
+      var texte = affinitesData[v.affinite] || "Aucune affinité choisie (entièrement facultatif).";
+      setAttrs({ affinite_info: texte });
+    });
+  });
+
+  // ============================================================
+  // VERROUILLAGE REEL DES RANGS Q/W/E/R selon le niveau (5.2)
+  // ============================================================
+
+  function limitesCompetences(niveau) {
+    var nbDebloques = niveau >= 3 ? 3 : (niveau >= 2 ? 2 : 1);
+    var extra = niveau >= 4 ? (niveau - 3) : 0;
+    var totalAutorise = nbDebloques + extra;
+    var ultiMax = niveau >= 16 ? 3 : (niveau >= 11 ? 2 : (niveau >= 6 ? 1 : 0));
+    return { nbDebloques: nbDebloques, totalAutorise: totalAutorise, ultiMax: ultiMax };
+  }
+
+  function gererChangementRangQWE(cle) {
+    on("change:" + cle + "_rang", function () {
+      getAttrs(["q_rang", "w_rang", "e_rang", "niveau"], function (v) {
+        var lim = limitesCompetences(parseInt(v.niveau, 10) || 1);
+        var rangs = {
+          q: parseInt(v.q_rang, 10) || 0,
+          w: parseInt(v.w_rang, 10) || 0,
+          e: parseInt(v.e_rang, 10) || 0
+        };
+        var raw = rangs[cle];
+        var updates = {};
+
+        // Combien de competences sont deja "prises" (rang >= 1) parmi les AUTRES
+        var autresPrises = 0;
+        var autresSomme = 0;
+        var autre;
+        for (autre in rangs) {
+          if (autre !== cle) {
+            if (rangs[autre] >= 1) { autresPrises++; }
+            autresSomme += rangs[autre];
+          }
+        }
+
+        var valeurFinale = raw;
+
+        // Regle 1 : nombre de competences differentes debloquees (slots)
+        if (raw >= 1 && autresPrises >= lim.nbDebloques) {
+          // Deja assez de competences prises ailleurs, celle-ci ne peut pas s'ajouter
+          valeurFinale = 0;
+        } else {
+          // Regle 2 : total de points Q+W+E ne doit pas depasser le budget autorise
+          var budgetRestant = lim.totalAutorise - autresSomme;
+          valeurFinale = Math.max(0, Math.min(raw, Math.min(5, budgetRestant)));
+        }
+
+        if (String(valeurFinale) !== v[cle + "_rang"]) {
+          updates[cle + "_rang"] = String(valeurFinale);
+        }
+
+        setAttrs(updates);
+      });
+    });
+  }
+
+  gererChangementRangQWE("q");
+  gererChangementRangQWE("w");
+  gererChangementRangQWE("e");
+
+  on("change:r_rang", function () {
+    getAttrs(["r_rang", "niveau"], function (v) {
+      var lim = limitesCompetences(parseInt(v.niveau, 10) || 1);
+      var raw = parseInt(v.r_rang, 10) || 0;
+      var valeurFinale = Math.max(0, Math.min(raw, lim.ultiMax));
+      if (String(valeurFinale) !== v.r_rang) {
+        setAttrs({ r_rang: String(valeurFinale) });
+      }
+    });
+  });
+
+  function revaliderRangsCompetences(v, updates) {
+    var lim = limitesCompetences(parseInt(v.niveau, 10) || 1);
+    var q = parseInt(v.q_rang, 10) || 0;
+    var w = parseInt(v.w_rang, 10) || 0;
+    var e = parseInt(v.e_rang, 10) || 0;
+    var r = parseInt(v.r_rang, 10) || 0;
+    var somme = q + w + e;
+
+    if (somme > lim.totalAutorise) {
+      var ordre = ["e", "w", "q"];
+      var valeurs = { e: e, w: w, q: q };
+      var i = 0;
+      while (somme > lim.totalAutorise && i < ordre.length) {
+        var cle = ordre[i];
+        var trop = somme - lim.totalAutorise;
+        var reduction = Math.min(valeurs[cle], trop);
+        valeurs[cle] -= reduction;
+        somme -= reduction;
+        i++;
+      }
+      updates.q_rang = String(valeurs.q);
+      updates.w_rang = String(valeurs.w);
+      updates.e_rang = String(valeurs.e);
+    }
+
+    if (r > lim.ultiMax) {
+      updates.r_rang = String(lim.ultiMax);
+    }
+  }
+
+  // ============================================================
+  // SCALING DEGATS/RATIO PAR RANG (Manuel du Joueur, 5.1ter)
+  // Q/E/W : +2 degats fixes et +0.1 ratio par rang (jusqu'au rang 5)
+  // Ultime : +4 degats fixes et +0.15 ratio par rang (jusqu'au rang 3)
+  // Format exemple du Manuel (5.1) : "1d6+4 (+0.5 AD) degats physiques"
+  // ============================================================
+
+  function resumeSkillActuel(prefixe, incDegats, incRatio, v) {
+    var rang = parseInt(v[prefixe + "_rang"], 10) || 0;
+    var deBase = v[prefixe + "_de_base"] || "";
+    var bonusBase = parseInt(v[prefixe + "_degats_base"], 10) || 0;
+    var ratioBase = parseFloat(v[prefixe + "_ratio_base"]) || 0;
+    var type = v[prefixe + "_type"] || "";
+
+    if (rang < 1) {
+      return "Verrouillé — pas encore de valeurs à calculer.";
+    }
+
+    var bonusActuel = bonusBase + (rang - 1) * incDegats;
+    var ratioActuel = Math.round((ratioBase + (rang - 1) * incRatio) * 100) / 100;
+
+    var texte = "";
+    if (deBase) { texte += deBase; }
+    if (bonusActuel !== 0) { texte += (bonusActuel > 0 ? "+" : "") + bonusActuel; }
+    if (ratioActuel !== 0) { texte += " (+" + ratioActuel + " AD/AP)"; }
+    if (type) { texte += " — " + type; }
+    if (!texte) { texte = "Rempli le dé/bonus/ratio de base pour voir le calcul ici."; }
+
+    return texte;
+  }
+
+  function calculerScalingSkill(prefixe, incDegats, incRatio) {
+    on("change:" + prefixe + "_rang change:" + prefixe + "_de_base change:" + prefixe + "_degats_base change:" + prefixe + "_ratio_base change:" + prefixe + "_type", function () {
+      getAttrs([prefixe + "_rang", prefixe + "_de_base", prefixe + "_degats_base", prefixe + "_ratio_base", prefixe + "_type"], function (v) {
+        var updates = {};
+        updates[prefixe + "_resume_actuel"] = resumeSkillActuel(prefixe, incDegats, incRatio, v);
+        setAttrs(updates);
+      });
+    });
+  }
+
+  calculerScalingSkill("q", 2, 0.1);
+  calculerScalingSkill("w", 2, 0.1);
+  calculerScalingSkill("e", 2, 0.1);
+  calculerScalingSkill("r", 4, 0.15);
+
+  function calculerScalingSkillDirect(prefixe, incDegats, incRatio, v, updates) {
+    updates[prefixe + "_resume_actuel"] = resumeSkillActuel(prefixe, incDegats, incRatio, v);
+  }
+
+  // ============================================================
+  // SEUIL DE JET PAR COMPETENCE : suit l'attribut choisi par le joueur
+  // (Q/W/E/R n'ont pas d'attribut fixe dans le Manuel, le joueur le
+  // choisit lui-meme selon la nature de son sort).
+  // ============================================================
+
+  function champsSeuilSkill(prefixe) {
+    return [prefixe + "_attribut", "for_seuil", "dex_seuil", "con_seuil", "int_seuil", "vol_seuil", "cha_seuil"];
+  }
+
+  function calculerSeuilSkill(prefixe, v, updates) {
+    var attribut = v[prefixe + "_attribut"] || "for";
+    updates[prefixe + "_seuil_calcule"] = v[attribut + "_seuil"] || "50";
+  }
+
+  function enregistrerSeuilSkill(prefixe) {
+    on(
+      "change:" + prefixe + "_attribut change:for_seuil change:dex_seuil change:con_seuil change:int_seuil change:vol_seuil change:cha_seuil",
+      function () {
+        getAttrs(champsSeuilSkill(prefixe), function (v) {
+          var updates = {};
+          calculerSeuilSkill(prefixe, v, updates);
+          setAttrs(updates);
+        });
+      }
+    );
+  }
+
+  enregistrerSeuilSkill("q");
+  enregistrerSeuilSkill("w");
+  enregistrerSeuilSkill("e");
+  enregistrerSeuilSkill("r");
+  enregistrerSeuilSkill("combo");
+
+  // Si le niveau change (montee OU perte de niveau), revalide tous les rangs actuels
+  on("change:niveau", function () {
+    getAttrs(["q_rang", "w_rang", "e_rang", "r_rang", "niveau"], function (v) {
+      var updates = {};
+      revaliderRangsCompetences(v, updates);
+
+      if (Object.keys(updates).length > 0) { setAttrs(updates); }
+    });
+  });
+
+  // ============================================================
+  // INITIALISATION : calcule tout au premier chargement de la fiche
+  // ============================================================
+
+  on("sheet:opened", function () {
+    getAttrs(
+      champsBase().concat(champsCombatBase()).concat([
+        "ressource_type", "niveau",
+        "maitrise_combat", "maitrise_volonte", "maitrise_utilitaire",
+        "race", "region", "affinite",
+        "q_rang", "w_rang", "e_rang", "r_rang",
+        "q_de_base", "q_degats_base", "q_ratio_base", "q_type",
+        "w_de_base", "w_degats_base", "w_ratio_base", "w_type",
+        "e_de_base", "e_degats_base", "e_ratio_base", "e_type",
+        "r_de_base", "r_degats_base", "r_ratio_base", "r_type",
+        "q_attribut", "w_attribut", "e_attribut", "r_attribut", "combo_attribut"
+      ]).concat(champsRecapMaitrise()).concat(champsInventaireStats()).concat(tousLesChampsRep),
+      function (v) {
+        var updates = {};
+        var intTotalInit, c, vo, u, niveau, maxAttendu, texte, k, arbre, points;
+
+        // Plafonne le total de points de Maitrise (niveau, plafond 18) EN PREMIER,
+        // pour que la validation des noeuds juste apres se base sur les bons points
+        c = parseInt(v.maitrise_combat, 10) || 0;
+        vo = parseInt(v.maitrise_volonte, 10) || 0;
+        u = parseInt(v.maitrise_utilitaire, 10) || 0;
+        niveau = parseInt(v.niveau, 10) || 1;
+        maxAttendu = Math.min(niveau, 18);
+        if (c + vo + u > maxAttendu) {
+          var valeursOuverture = { combat: c, volonte: vo, utilitaire: u };
+          var totalOuverture = c + vo + u;
+          var ordreOuverture = ["utilitaire", "volonte", "combat"];
+          var kOrdre = 0;
+          while (totalOuverture > maxAttendu && kOrdre < ordreOuverture.length) {
+            var cleOuverture = ordreOuverture[kOrdre];
+            var tropOuverture = totalOuverture - maxAttendu;
+            var reductionOuverture = Math.min(valeursOuverture[cleOuverture], tropOuverture);
+            valeursOuverture[cleOuverture] -= reductionOuverture;
+            totalOuverture -= reductionOuverture;
+            kOrdre++;
+          }
+          c = valeursOuverture.combat;
+          vo = valeursOuverture.volonte;
+          u = valeursOuverture.utilitaire;
+          updates.maitrise_combat = String(c);
+          updates.maitrise_volonte = String(vo);
+          updates.maitrise_utilitaire = String(u);
+          v.maitrise_combat = String(c);
+          v.maitrise_volonte = String(vo);
+          v.maitrise_utilitaire = String(u);
+        }
+        updates.maitrise_total = texteMaitriseTotal(c, vo, u, niveau);
+
+        // Revalide TOUS les verrous de Maitrise (seuil par noeud + exclusivite Signature)
+        var signaturesActives = 0;
+        var iNoeud, n;
+        for (iNoeud = 0; iNoeud < tousLesNoeuds.length; iNoeud++) {
+          n = tousLesNoeuds[iNoeud];
+          arbre = noeudArbre[n];
+          points = parseInt(v["maitrise_" + arbre], 10) || 0;
+          if (points < noeudSeuil[n] && v[n] === "1") {
+            updates[n] = "0";
+            v[n] = "0";
+          } else if (noeudSeuil[n] === 10 && v[n] === "1") {
+            signaturesActives++;
+            if (signaturesActives > 1) { updates[n] = "0"; v[n] = "0"; }
+          }
+        }
+
+        // Revalide aussi le cout total des noeuds (rang inclus) vs points investis
+        for (iNoeud = 0; iNoeud < arbres.length; iNoeud++) {
+          arbre = arbres[iNoeud];
+          var noeudsArbreOuverture = noeudsDeArbre(arbre);
+          points = parseInt(v["maitrise_" + arbre], 10) || 0;
+          var coutTotalOuverture = coutTotalArbre(v, noeudsArbreOuverture);
+          var noeudsTriesOuverture = noeudsArbreOuverture.slice().sort(function (a, b) { return noeudSeuil[b] - noeudSeuil[a]; });
+          var jNoeud = 0;
+          while (coutTotalOuverture > points && jNoeud < noeudsTriesOuverture.length) {
+            var nn = noeudsTriesOuverture[jNoeud];
+            if (v[nn] === "1") {
+              coutTotalOuverture -= coutNoeud(v, nn);
+              updates[nn] = "0";
+              v[nn] = "0";
+            }
+            jNoeud++;
+          }
+        }
+
+        calculerTout(v, updates);
+        for (var attrKeyIdx = 0; attrKeyIdx < attrs.length; attrKeyIdx++) {
+          var attrKeySync = attrs[attrKeyIdx];
+          v[attrKeySync + "_total"] = updates[attrKeySync + "_total"];
+          v[attrKeySync + "_seuil"] = updates[attrKeySync + "_seuil"];
+        }
+        calculerPointBuy(v, updates);
+
+        var updatesInv = {};
+        calculerObjetsDepuisInventaire(v, updatesInv);
+        var clefInv;
+        for (clefInv in updatesInv) { v[clefInv] = updatesInv[clefInv]; updates[clefInv] = updatesInv[clefInv]; }
+
+        calculerStatsCombat(v, updates);
+
+        updates.affinite_info = affinitesData[v.affinite] || "Aucune affinité choisie (entièrement facultatif).";
+        updates.recap_maitrise = genererRecapMaitrise(v);
+        revaliderRangsCompetences(v, updates);
+        calculerScalingSkillDirect("q", 2, 0.1, v, updates);
+        calculerScalingSkillDirect("w", 2, 0.1, v, updates);
+        calculerScalingSkillDirect("e", 2, 0.1, v, updates);
+        calculerScalingSkillDirect("r", 4, 0.15, v, updates);
+        calculerSeuilSkill("q", v, updates);
+        calculerSeuilSkill("w", v, updates);
+        calculerSeuilSkill("e", v, updates);
+        calculerSeuilSkill("r", v, updates);
+        calculerSeuilSkill("combo", v, updates);
+
+        intTotalInit = (parseInt(v.int_base, 10) || 0) + (parseInt(v.int_racial, 10) || 0);
+        updates.ressource_max = String(calculerRessourceMax(v.ressource_type, intTotalInit, parseInt(v.niveau, 10) || 1, parseInt(v.ressource_objets, 10) || 0));
+        updates.ressource_suggestion = texteRessource(v.ressource_type);
+
+        for (k = 0; k < arbres.length; k++) {
+          arbre = arbres[k];
+          points = parseInt(v["maitrise_" + arbre], 10) || 0;
+          updates["maitrise_" + arbre + "_rangee"] = rangeeMaitrise(points);
+        }
+
+
+        if (v.region === "Sans région (Errant)") {
+          for (k = 0; k < tousLesChampsRep.length; k++) {
+            if (!parseInt(v[tousLesChampsRep[k]], 10)) { updates[tousLesChampsRep[k]] = "1"; }
+          }
+          updates.rep_derniere_errant = "1";
+          updates.rep_derniere_region = "";
+        } else if (champRepParRegion[v.region]) {
+          if (!parseInt(v[champRepParRegion[v.region]], 10)) { updates[champRepParRegion[v.region]] = "1"; }
+          updates.rep_derniere_region = v.region;
+          updates.rep_derniere_errant = "0";
+        }
+
+        setAttrs(updates);
+
+        if (v.race || v.region) { appliquerRaceEtRegion(v.race, v.region, v); }
+      }
+    );
+  });
+</script>

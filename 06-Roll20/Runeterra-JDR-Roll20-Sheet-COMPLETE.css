@@ -1,0 +1,854 @@
+.charsheet {
+  font-family: "Georgia", "Times New Roman", serif;
+  color: #2b1d0e;
+  background: #f4ecd8;
+  padding: 12px;
+  max-width: 900px;
+}
+
+.charsheet h1 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #6b2e1f;
+  border-bottom: 3px solid #c9a227;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.sheet-section {
+  border: 1px solid #c9a227;
+  border-radius: 6px;
+  background: #fbf6ea;
+  margin-bottom: 12px;
+  padding: 8px 12px 12px 12px;
+}
+
+.sheet-section-compact {
+  padding: 4px 10px;
+  margin-bottom: 8px;
+}
+
+.sheet-pointbuy-label {
+  font-size: 10px;
+  color: #8a7550;
+  margin-right: 6px;
+}
+
+.sheet-pointbuy-inline {
+  font-size: 11px;
+  font-weight: bold;
+  color: #6b2e1f;
+}
+
+.sheet-photo-box {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed #a88a4a;
+  border-radius: 6px;
+  background: #ece2c8;
+  color: #a88a4a;
+  text-align: center;
+  line-height: 100px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sheet-namecol {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1 auto;
+}
+
+.sheet-race-hint {
+  display: block;
+  width: auto;
+  min-height: 2.4em;
+  white-space: pre-line;
+  line-height: 1.4;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+.sheet-palier {
+  display: block;
+  background: #ece2c8;
+  color: #6b2e1f;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin: 10px 0 6px 0;
+  border-left: 4px solid #c9a227;
+}
+
+.sheet-palier-signature {
+  background: #6b2e1f;
+  color: #f4ecd8;
+  border-left-color: #f4ecd8;
+}
+
+.sheet-progression {
+  display: block;
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  padding: 4px 6px;
+  margin-bottom: 6px;
+}
+
+.sheet-row-nowrap {
+  display: table !important;
+  width: auto;
+  table-layout: auto;
+  margin-bottom: 8px;
+}
+
+.sheet-row-nowrap > * {
+  display: table-cell !important;
+  vertical-align: top;
+  padding-right: 180px;
+}
+
+.sheet-row-nowrap > *:last-child {
+  padding-right: 0;
+}
+
+/* Ligne resserrée : peu d'espace entre les champs (Niveau/Âge/Poids) */
+.sheet-row-tight {
+  display: table !important;
+  width: auto;
+  table-layout: auto;
+  margin-bottom: 8px;
+}
+
+.sheet-row-tight > * {
+  display: table-cell !important;
+  vertical-align: top;
+  padding-right: 14px;
+}
+
+.sheet-row-tight > *:last-child {
+  padding-right: 0;
+}
+
+/* Lignes d'attributs (FOR/DEX/CON/INT/VOL/CHA) : 4 champs par ligne, écart raisonnable */
+.sheet-row-attr {
+  display: table !important;
+  width: auto;
+  table-layout: auto;
+  margin-bottom: 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #d9c48a;
+}
+
+/* Nœud de Maîtrise : regroupe contrôles + explication, la séparation
+   pointillée vient APRÈS l'explication (pas entre elle et ses contrôles) */
+.sheet-mastery-item {
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px dashed #d9c48a;
+}
+
+.sheet-mastery-item .sheet-row-noborder {
+  border-bottom: none;
+  margin-bottom: 4px;
+  padding-bottom: 0;
+}
+
+.sheet-mastery-item .sheet-hint {
+  margin: 0;
+}
+
+.sheet-mastery-item:has(input[type="checkbox"]:not(:checked)) .sheet-hint {
+  opacity: 0.35;
+  font-size: 9px;
+}
+
+.sheet-row-attr:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.sheet-row-attr > * {
+  display: table-cell !important;
+  vertical-align: top;
+  padding-right: 20px;
+}
+
+.sheet-row-attr > *:last-child {
+  padding-right: 0;
+}
+
+/* Niveau/Âge/Poids : largeur forcée identique pour un espacement visuellement égal,
+   quelle que soit la longueur du libellé */
+.sheet-row-equal {
+  display: table !important;
+  width: auto;
+  table-layout: fixed;
+  margin-bottom: 8px;
+}
+
+.sheet-row-equal > * {
+  display: table-cell !important;
+  vertical-align: top;
+  width: 90px;
+}
+
+/* Disposition Informations personnelles : colonne de gauche + Photo
+   vraiment centrée au milieu de la boîte (positionnement absolu,
+   indépendant de la largeur du contenu de gauche) */
+.sheet-infoperso-layout {
+  display: table !important;
+  width: 100%;
+  table-layout: auto;
+}
+
+.sheet-infoperso-col {
+  display: table-cell !important;
+  vertical-align: top;
+  padding-right: 30px;
+  width: 1%;
+  white-space: nowrap;
+}
+
+.sheet-infoperso-layout > .sheet-photo-slot {
+  display: table-cell !important;
+  vertical-align: top;
+  width: 100px;
+}
+
+.sheet-infoperso-filler {
+  display: table-cell !important;
+  width: 100%;
+}
+
+.sheet-section legend {
+  font-weight: bold;
+  color: #6b2e1f;
+  padding: 0 6px;
+  font-size: 13px;
+}
+
+/* Remplace <legend> : <fieldset> casse le rafraîchissement des valeurs
+   calculées par script sur cette version de Roll20. On utilise donc
+   des <div class="sheet-section"> avec un titre stylé en <div class="sheet-legend">
+   à la place de <fieldset><legend>. */
+.sheet-legend {
+  font-weight: bold;
+  color: #6b2e1f;
+  font-size: 13px;
+  margin-bottom: 6px;
+  border-bottom: 1px solid #e3d5ae;
+  padding-bottom: 4px;
+}
+
+.sheet-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 8px;
+  align-items: flex-end;
+}
+
+.sheet-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 80px;
+}
+
+.sheet-field.sheet-grow {
+  flex: 1 1 auto;
+}
+
+.sheet-field.sheet-small {
+  min-width: 60px;
+  max-width: 70px;
+}
+
+.sheet-field label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #6b2e1f;
+  margin-bottom: 2px;
+}
+
+.charsheet input[type="text"],
+.charsheet input[type="number"],
+.charsheet select,
+.charsheet textarea {
+  border: 1px solid #a88a4a;
+  border-radius: 3px;
+  background: #fffdf7;
+  padding: 3px 5px;
+  font-family: inherit;
+  font-size: 12px;
+  color: #2b1d0e;
+}
+
+.charsheet textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.sheet-num {
+  width: 55px;
+}
+
+.sheet-readonly,
+input.sheet-readonly,
+.charsheet input[readonly] {
+  background: #ece2c8;
+  color: #4a3a1f;
+  font-weight: bold;
+}
+
+/* Les champs calculés utilisent maintenant des <span> (plus fiable que
+   <input readonly> pour l'affichage des valeurs mises à jour par script) */
+span.sheet-readonly {
+  display: inline-block;
+  background: #ece2c8;
+  color: #4a3a1f;
+  font-weight: bold;
+  border: 1px solid #a88a4a;
+  border-radius: 3px;
+  padding: 3px 6px;
+  font-size: 12px;
+  font-family: inherit;
+  min-width: 40px;
+  min-height: 1em;
+}
+
+span.sheet-num.sheet-readonly {
+  width: 55px;
+  text-align: center;
+}
+
+.sheet-checkbox {
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+}
+
+.sheet-checkbox label {
+  margin-bottom: 0;
+  text-transform: none;
+  font-size: 11px;
+}
+
+.role-buttons-row {
+  display: block;
+}
+
+/* ===================== BOUTONS DE RÔLE (radios cachées + labels-boutons) ===================== */
+
+.charsheet input.role-radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+.role-btn {
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 6px;
+  padding: 5px 12px;
+  background: #ece2c8;
+  color: #6b2e1f;
+  border: 1px solid #a88a4a;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.role-btn:hover {
+  background: #f4ecd8;
+}
+
+.sheet-etats-row {
+  display: block;
+}
+
+.sheet-etat-grid-row {
+  display: table !important;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 4px;
+}
+
+.sheet-etat-cell {
+  display: table-cell !important;
+  width: 50%;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+
+.sheet-etat-grid-4col .sheet-etat-cell {
+  width: 25%;
+}
+
+.sheet-item-stats-row {
+  display: table !important;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 4px;
+}
+
+.sheet-item-stat {
+  display: table-cell !important;
+  width: 11.1%;
+  text-align: center;
+  padding-right: 4px;
+}
+
+.sheet-item-stat label {
+  display: block;
+  font-size: 8px;
+  color: #8a7550;
+  margin-bottom: 1px;
+}
+
+.sheet-item-stat .tiny-input {
+  width: 90%;
+}
+
+.sheet-actions-2col-row {
+  display: table !important;
+  width: 100%;
+  table-layout: fixed;
+  margin-bottom: 8px;
+}
+
+.sheet-actions-col {
+  display: table-cell !important;
+  width: 50%;
+  padding-right: 15px;
+  vertical-align: top;
+}
+
+.sheet-actions-col-inner {
+  display: table !important;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.sheet-actions-col-inner .sheet-field {
+  display: table-cell !important;
+  vertical-align: bottom;
+}
+
+.sheet-actions-col-inner .sheet-field:first-child {
+  width: 42%;
+}
+
+.sheet-actions-col-inner .sheet-field:nth-child(2) {
+  width: 30%;
+}
+
+.sheet-actions-col-inner .sheet-field:nth-child(3) {
+  width: 28%;
+}
+
+.sheet-etat-cell .sheet-checkbox-inline {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 10px;
+  color: #6b2e1f;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  margin-right: 4px;
+}
+
+.sheet-etat-rounds {
+  width: 28px;
+  font-size: 9px;
+  padding: 1px 2px;
+  vertical-align: middle;
+}
+
+.sheet-etats-row .sheet-checkbox-inline {
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 4px;
+  font-weight: bold;
+  font-size: 11px;
+  color: #6b2e1f;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.sheet-etats-row .sheet-checkbox-inline input {
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+#role-top:checked ~ .role-buttons-row label[for="role-top"],
+#role-jungle:checked ~ .role-buttons-row label[for="role-jungle"],
+#role-mid:checked ~ .role-buttons-row label[for="role-mid"],
+#role-adc:checked ~ .role-buttons-row label[for="role-adc"],
+#role-support:checked ~ .role-buttons-row label[for="role-support"] {
+  background: #6b2e1f;
+  color: #f4ecd8;
+  border-color: #6b2e1f;
+}
+
+.sheet-attr-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+
+.sheet-attr-table th {
+  text-align: left;
+  color: #6b2e1f;
+  border-bottom: 2px solid #c9a227;
+  padding: 3px 4px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.sheet-attr-table td {
+  padding: 3px 4px;
+  border-bottom: 1px solid #e3d5ae;
+  vertical-align: middle;
+}
+
+.sheet-hint {
+  font-size: 10px;
+  font-style: italic;
+  color: #6b5533;
+  margin: 4px 0 0 0;
+}
+
+.sheet-skill {
+  border-top: 1px dashed #c9a227;
+  padding-top: 6px;
+  margin-top: 6px;
+}
+
+.sheet-skill:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.sheet-rep-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.sheet-rep-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ece2c8;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.sheet-rep-item label {
+  font-size: 10px;
+  color: #6b2e1f;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.sheet-rep-item input {
+  width: 50px;
+  text-align: center;
+}
+
+.sheet-checkrow {
+  font-size: 10.5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+}
+
+.sheet-checkrow label {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+button[type="roll"] {
+  background: #6b2e1f;
+  color: #f4ecd8;
+  border: 1px solid #c9a227;
+  border-radius: 4px;
+  padding: 3px 8px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+button[type="roll"]:hover {
+  background: #8a3d29;
+}
+
+@media (max-width: 700px) {
+  .sheet-rep-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===================== SOUS-RÔLE FILTRÉ PAR RÔLE ===================== */
+
+.sousrole-select {
+  display: none;
+  width: 100%;
+}
+
+.sousrole-select-empty {
+  display: block;
+}
+
+#role-top:checked ~ .sheet-row .sousrole-container .sousrole-top,
+#role-jungle:checked ~ .sheet-row .sousrole-container .sousrole-jungle,
+#role-mid:checked ~ .sheet-row .sousrole-container .sousrole-mid,
+#role-adc:checked ~ .sheet-row .sousrole-container .sousrole-adc,
+#role-support:checked ~ .sheet-row .sousrole-container .sousrole-support {
+  display: block;
+}
+
+#role-top:checked ~ .sheet-row .sousrole-container .sousrole-select-empty,
+#role-jungle:checked ~ .sheet-row .sousrole-container .sousrole-select-empty,
+#role-mid:checked ~ .sheet-row .sousrole-container .sousrole-select-empty,
+#role-adc:checked ~ .sheet-row .sousrole-container .sousrole-select-empty,
+#role-support:checked ~ .sheet-row .sousrole-container .sousrole-select-empty {
+  display: none;
+}
+
+/* ===================== ONGLETS ===================== */
+
+.charsheet input.tab-radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+.tabbar {
+  display: table !important;
+  width: auto;
+  table-layout: auto;
+  border-collapse: separate;
+  border-spacing: 3px 0;
+  border-bottom: 3px solid #c9a227;
+  margin-bottom: 10px;
+}
+
+.tabbar label {
+  display: table-cell !important;
+  white-space: nowrap;
+  width: 1%;
+  padding: 6px 12px;
+  background: #ece2c8;
+  color: #6b2e1f;
+  border: 1px solid #c9a227;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  font-weight: bold;
+  user-select: none;
+}
+
+.tabbar label:hover {
+  background: #f4ecd8;
+}
+
+.tab-pane {
+  display: none;
+}
+
+/* Afficher le panneau correspondant à l'onglet coché */
+#tab-identite:checked ~ .pane-identite,
+#tab-attributs:checked ~ .pane-attributs,
+#tab-combat:checked ~ .pane-combat,
+#tab-competences:checked ~ .pane-competences,
+#tab-maitrise:checked ~ .pane-maitrise,
+#tab-inventaire:checked ~ .pane-inventaire,
+#tab-reputation:checked ~ .pane-reputation,
+#tab-actions:checked ~ .pane-actions {
+  display: block;
+}
+
+/* Mettre en surbrillance le label de l'onglet actif */
+#tab-identite:checked ~ .tabbar label[for="tab-identite"],
+#tab-attributs:checked ~ .tabbar label[for="tab-attributs"],
+#tab-combat:checked ~ .tabbar label[for="tab-combat"],
+#tab-competences:checked ~ .tabbar label[for="tab-competences"],
+#tab-maitrise:checked ~ .tabbar label[for="tab-maitrise"],
+#tab-inventaire:checked ~ .tabbar label[for="tab-inventaire"],
+#tab-reputation:checked ~ .tabbar label[for="tab-reputation"],
+#tab-actions:checked ~ .tabbar label[for="tab-actions"] {
+  background: #6b2e1f;
+  color: #f4ecd8;
+  border-color: #6b2e1f;
+}
+
+@media (max-width: 700px) {
+  .tabbar label { font-size: 10px; padding: 5px 8px; }
+}
+
+/* ===================== CARTES DE STATS COMPACTES (onglet Combat) ===================== */
+
+.statcards-row {
+  display: table !important;
+  width: auto;
+  table-layout: auto;
+  border-spacing: 10px 0;
+}
+
+.statcard {
+  display: table-cell !important;
+  vertical-align: top;
+  min-width: 80px;
+  text-align: center;
+  padding: 8px 10px;
+  border: 1px solid #c9a227;
+  border-radius: 8px;
+  background: #fbf6ea;
+}
+
+.statcard-wide {
+  min-width: 140px;
+}
+
+.attr-card {
+  display: table-cell !important;
+  vertical-align: top;
+  min-width: 140px;
+  text-align: center;
+  padding: 8px 10px;
+  border: 1px solid #c9a227;
+  border-radius: 8px;
+  background: #fbf6ea;
+}
+
+.attr-card-header {
+  display: table !important;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.attr-card-name {
+  display: table-cell !important;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+  color: #6b2e1f;
+}
+
+.attr-card-seuil {
+  display: table-cell !important;
+  text-align: right;
+  vertical-align: middle;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2b1d0e;
+  line-height: 1;
+}
+
+.statcard-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #6b2e1f;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.statcard-value {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2b1d0e;
+  line-height: 1.1;
+}
+
+.statcard-value-input {
+  display: block;
+  width: 60px;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #a88a4a;
+  border-radius: 4px;
+  background: #fffdf7;
+  color: #2b1d0e;
+}
+
+.statcard-hp {
+  white-space: nowrap;
+}
+
+.statcard-hp-current {
+  width: 55px;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: right;
+  border: 1px solid #a88a4a;
+  border-radius: 4px;
+  background: #fffdf7;
+  color: #2b1d0e;
+}
+
+.statcard-hp-sep {
+  font-size: 20px;
+  color: #a88a4a;
+}
+
+.statcard-hp-max {
+  font-size: 26px;
+  font-weight: bold;
+  color: #2b1d0e;
+}
+
+.statcard-ressource-type {
+  font-size: 9px;
+  padding: 1px 2px;
+  width: 100%;
+  max-width: 90px;
+}
+
+.statcard-detail {
+  font-size: 9px;
+  color: #8a7550;
+  margin-top: 4px;
+  line-height: 1.3;
+}
+
+.tiny-input {
+  width: 32px;
+  font-size: 9px;
+  padding: 1px 2px;
+  border: 1px solid #a88a4a;
+  border-radius: 3px;
+  background: #fffdf7;
+  color: #2b1d0e;
+}
+
+@media (max-width: 700px) {
+  .statcard { min-width: 65px; padding: 6px; }
+  .statcard-value { font-size: 22px; }
+}

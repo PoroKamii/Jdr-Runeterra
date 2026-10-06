@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1490 1360" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTozYjY4YTc0Ni0zYzkxLTQ2NDgtOTdlNy1mYThmNjU2YzM3ZTMAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaJLd2lgXH7cqPmUCRr4NtqwAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDozNDU0YzhmNi0yNWIzLTQwYzEtOTJkNi05YjVmZjg1NjdjM2RscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNo6m92udwkluToi7gNUgYZ+wAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggZMjxLykt82lB2GPpmYIEQ+GwpobVOqV/R1MbjnxTvrSkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaEvZAU5pHsNVYYNnT+v5sCUAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCBEb8bmtjSA25z0oUhSdCbpWoNLumfWj8c4SlXnBE3FbGRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBjDZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjNiNjhhNzQ2LTNjOTEtNDY0OC05N2U3LWZhOGY2NTZjMzdlMy9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjg1ZjExNjc2LTNhMGUtNDZmNi1iZDM3LTQwM2YwNTM1ZGEyZXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBkyPEvKS3zaUHYY+mZggRD4bCmhtU6pX9HUxuOfFO+tKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggCJOmNCx8Lgu3joG4o4x+N5LIxcSxTTfiNfwPYsLyjhOiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggHeo2nu83p7Bromc5ZyTwZZIpYdGdaOK5ODEUiNn2ZGR0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQHZB+Scdb4R3akffDY2vBc2axtL8Xmxsw7iI/iZq9txJ2dA9D2R0QZeAH+9BWv7NK6h+mXzP0k2XT0fOuEAlMXk=</c2pa:manifest></metadata>
+<defs>
+<pattern id="seaWaves" width="40" height="20" patternUnits="userSpaceOnUse">
+  <path d="M0,10 Q10,4 20,10 T40,10" fill="none" stroke="#7d9c94" stroke-width="1.1" opacity="0.55"/>
+  <path d="M0,17 Q10,11 20,17 T40,17" fill="none" stroke="#7d9c94" stroke-width="0.8" opacity="0.4"/>
+</pattern>
+<pattern id="iceLines" width="26" height="26" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+  <line x1="0" y1="0" x2="0" y2="26" stroke="#9fc4cf" stroke-width="1.4" opacity="0.5"/>
+</pattern>
+<pattern id="desertDots" width="22" height="22" patternUnits="userSpaceOnUse">
+  <circle cx="5" cy="5" r="1.3" fill="#a9863f" opacity="0.5"/>
+  <circle cx="15" cy="14" r="1.1" fill="#a9863f" opacity="0.4"/>
+</pattern>
+<pattern id="royalHatch" width="18" height="18" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="18" stroke="#b89b5e" stroke-width="1" opacity="0.4"/>
+</pattern>
+<pattern id="rustHatch" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)">
+  <line x1="0" y1="0" x2="0" y2="16" stroke="#7a3d24" stroke-width="1.6" opacity="0.45"/>
+</pattern>
+<pattern id="forestLight" width="30" height="30" patternUnits="userSpaceOnUse">
+  <circle cx="7" cy="8" r="3" fill="#4f7a4a" opacity="0.5"/>
+  <circle cx="20" cy="20" r="2.5" fill="#4f7a4a" opacity="0.4"/>
+</pattern>
+<pattern id="occupiedHatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+  <line x1="0" y1="0" x2="0" y2="10" stroke="#8a2a2a" stroke-width="1.6" opacity="0.55"/>
+</pattern>
+<pattern id="brassHatch" width="14" height="14" patternUnits="userSpaceOnUse">
+  <line x1="0" y1="0" x2="14" y2="0" stroke="#8a6f3a" stroke-width="1" opacity="0.4"/>
+  <line x1="0" y1="0" x2="0" y2="14" stroke="#8a6f3a" stroke-width="1" opacity="0.4"/>
+</pattern>
+<pattern id="industrialHatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(20)">
+  <line x1="0" y1="0" x2="0" y2="12" stroke="#4a5a3e" stroke-width="2" opacity="0.35"/>
+</pattern>
+<pattern id="forestDark" width="26" height="26" patternUnits="userSpaceOnUse">
+  <circle cx="6" cy="7" r="3.4" fill="#2f4a2a" opacity="0.55"/>
+  <circle cx="18" cy="18" r="3" fill="#2f4a2a" opacity="0.5"/>
+</pattern>
+<pattern id="mountainChevrons" width="24" height="18" patternUnits="userSpaceOnUse">
+  <path d="M2,16 L8,6 L14,16" fill="none" stroke="#5c4a6a" stroke-width="1.3" opacity="0.55"/>
+</pattern>
+<pattern id="sandHatch" width="16" height="8" patternUnits="userSpaceOnUse">
+  <line x1="0" y1="4" x2="16" y2="4" stroke="#8a6a3a" stroke-width="1" stroke-dasharray="3,4" opacity="0.4"/>
+</pattern>
+<pattern id="mistSwirl" width="30" height="16" patternUnits="userSpaceOnUse">
+  <path d="M0,8 Q7,2 15,8 T30,8" fill="none" stroke="#3a3a45" stroke-width="1.2" opacity="0.5"/>
+</pattern>
+<filter id="paperTexture" x="-5%" y="-5%" width="110%" height="110%">
+  <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="3" result="noise" seed="7"/>
+  <feColorMatrix in="noise" type="matrix" values="0 0 0 0 0.30  0 0 0 0 0.24  0 0 0 0 0.15  0 0 0 0.06 0"/>
+</filter>
+</defs>
+<rect x="0" y="0" width="1490" height="1360" fill="#1c1712"/>
+<text x="745.0" y="46" text-anchor="middle" font-size="30" font-weight="bold" fill="#ecdfc0" style="letter-spacing:5px">ATLAS RÉGIONAL — RUNETERRA</text>
+<text x="745.0" y="66" text-anchor="middle" font-size="13" font-style="italic" fill="#c9bfa0">Lot 3/3 — Îles Obscures · Ixtal · Targon · Kumungu</text>
+<g transform="translate(30,90)">
+<rect x="0" y="0" width="700" height="600" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="4"/>
+<rect x="8" y="8" width="684" height="584" fill="none" stroke="#3b2a1a" stroke-width="1"/>
+<rect x="190.0" y="16" width="320" height="52" rx="4" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="2"/>
+<text x="350.0" y="42" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#2b1e10" style="letter-spacing:3px">ÎLES OBSCURES</text>
+<text x="350.0" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#5a4a30">La Brume Noire</text>
+<g transform="translate(0,80)">
+<rect x="10" y="0" width="680" height="480" fill="url(#seaWaves)" opacity="0.5"/>
+<path d="M 100.0,170.0 C 115.0,138.3 160.0,115.0 200.0,100.0 C 240.0,85.0 296.7,76.7 340.0,80.0 C 383.3,83.3 431.7,96.7 460.0,120.0 C 488.3,143.3 510.0,186.7 510.0,220.0 C 510.0,253.3 488.3,291.7 460.0,320.0 C 431.7,348.3 381.7,381.7 340.0,390.0 C 298.3,398.3 248.3,386.7 210.0,370.0 C 171.7,353.3 128.3,323.3 110.0,290.0 Z" fill="#6b6f7a" stroke="#3b2a1a" stroke-width="3"/>
+<path d="M 100.0,170.0 C 115.0,138.3 160.0,115.0 200.0,100.0 C 240.0,85.0 296.7,76.7 340.0,80.0 C 383.3,83.3 431.7,96.7 460.0,120.0 C 488.3,143.3 510.0,186.7 510.0,220.0 C 510.0,253.3 488.3,291.7 460.0,320.0 C 431.7,348.3 381.7,381.7 340.0,390.0 C 298.3,398.3 248.3,386.7 210.0,370.0 C 171.7,353.3 128.3,323.3 110.0,290.0 Z" fill="url(#mistSwirl)"/>
+<path d="M 300,211 L 302.6,217 L 309,217 L 303.6,221.2 L 305.6,227.5 L 300,223.5 L 294.4,227.5 L 296.4,221.2 L 291,217 L 297.4,217 Z" fill="#c9a227" stroke="#3b2a1a" stroke-width="1"/><text x="314" y="214" text-anchor="start" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#2b1e10">Helia (en ruines)</text><text x="314" y="227" text-anchor="start" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">ancienne capitale des Îles Bénies</text>
+<path d="M 300,211 Q 250,255 200,300" fill="none" stroke="#aeb6c2" stroke-width="2" stroke-dasharray="1,4" stroke-linecap="round" opacity="0.8"/>
+<text x="235" y="245" text-anchor="middle" font-family="Georgia, serif" font-size="8" font-style="italic" fill="#5a4a30">Pont des Îles Bénies</text>
+<circle cx="240" cy="150" r="5" fill="#4a6a8a" stroke="#3b2a1a" stroke-width="1.2"/><text x="228" y="146" text-anchor="end" font-family="Georgia, serif" font-size="11" font-weight="normal" fill="#2b1e10">Les Eaux de Vie</text><text x="228" y="159" text-anchor="end" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">source corrompue par le rituel de Viego</text>
+<circle cx="430" cy="170" r="5" fill="#7a7a7a" stroke="#3b2a1a" stroke-width="1.2"/><text x="444" y="166" text-anchor="start" font-family="Georgia, serif" font-size="11" font-weight="normal" fill="#2b1e10">Bibliothèque engloutie</text><text x="444" y="179" text-anchor="start" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">savoir des Îles Bénies, ruines arcaniques</text>
+<circle cx="200" cy="300" r="5" fill="#8a2a2a" stroke="#3b2a1a" stroke-width="1.2"/><text x="188" y="310" text-anchor="end" font-family="Georgia, serif" font-size="11" font-weight="normal" fill="#2b1e10">L'Allée Torse</text><text x="188" y="323" text-anchor="end" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">forêt tordue par la Brume</text>
+<g><circle cx="390" cy="300" r="5" fill="#8a2a2a" stroke="#3b2a1a" stroke-width="1.2"/><text x="404" y="310" text-anchor="start" font-family="Georgia, serif" font-size="11" font-weight="normal" fill="#2b1e10">La Forêt Torturée</text><text x="404" y="323" text-anchor="start" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">gardée par le Culte de l'Araignée — Champ de Justice (11bis)</text><g transform="translate(372,282) scale(0.85)">
+<circle cx="0" cy="0" r="13" fill="#3a2a10" stroke="#d4af37" stroke-width="2"/>
+<circle cx="0" cy="0" r="9" fill="none" stroke="#d4af37" stroke-width="1"/>
+<path d="M -6,-6 L 6,6 M -6,6 L 6,-6" stroke="#d4af37" stroke-width="2.2" stroke-linecap="round"/>
+</g></g>
+<text x="300" y="340" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#5a2a2a">Brume Noire — recouvre l'ensemble des Îles</text>
+</g>
+<rect x="450" y="78" width="230" height="98" rx="4" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="1.5" opacity="0.97"/>
+<text x="460" y="94" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#2b1e10">LÉGENDE</text>
+<path d="M 466,101 L 468,106 L 473,106 L 469,109 L 470,114 L 466,111 L 462,114 L 463,109 L 459,106 L 464,106 Z" fill="#c9a227" stroke="#3b2a1a" stroke-width="0.6"/>
+<text x="480" y="111" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Capitale / lieu principal</text>
+<circle cx="466" cy="126" r="4" fill="#8a2a2a" stroke="#3b2a1a" stroke-width="0.8"/>
+<text x="480" y="129" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Lieu secondaire</text>
+<circle cx="466" cy="144" r="6" fill="#3a2a10" stroke="#d4af37" stroke-width="1.2"/>
+<path d="M 463,141 L 469,147 M 463,147 L 469,141" stroke="#d4af37" stroke-width="1"/>
+<text x="480" y="147" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Champ de Justice (Manuel du MJ, 11bis)</text>
+<line x1="459" y1="162" x2="473" y2="162" stroke="#aeb6c2" stroke-width="1.6" stroke-dasharray="1,3" stroke-linecap="round"/>
+<text x="480" y="165" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Chemin / pont</text>
+<text x="350.0" y="586" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#3b2a1a" opacity="0.6" font-style="italic">Carte régionale originale — lieux issus du lore officiel + éléments établis dans nos manuels</text>
+</g>
+<g transform="translate(760,90)">
+<rect x="0" y="0" width="700" height="600" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="4"/>
+<rect x="8" y="8" width="684" height="584" fill="none" stroke="#3b2a1a" stroke-width="1"/>
+<rect x="190.0" y="16" width="320" height="52" rx="4" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="2"/>
+<text x="350.0" y="42" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#2b1e10" style="letter-spacing:3px">IXTAL</text>
+<text x="350.0" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#5a4a30">Le Conseil des Yun Tal</text>
+<g transform="translate(0,80)">
+<rect x="10" y="0" width="680" height="480" fill="url(#seaWaves)" opacity="0.5"/>
+<path d="M 70.0,160.0 C 88.3,135.0 128.3,105.0 170.0,90.0 C 211.7,75.0 271.7,66.7 320.0,70.0 C 368.3,73.3 423.3,86.7 460.0,110.0 C 496.7,133.3 533.3,175.0 540.0,210.0 C 546.7,245.0 526.7,288.3 500.0,320.0 C 473.3,351.7 423.3,388.3 380.0,400.0 C 336.7,411.7 283.3,403.3 240.0,390.0 C 196.7,376.7 150.0,345.0 120.0,320.0 C 90.0,295.0 68.3,266.7 60.0,240.0 Z" fill="#7fa373" stroke="#3b2a1a" stroke-width="3"/>
+<path d="M 70.0,160.0 C 88.3,135.0 128.3,105.0 170.0,90.0 C 211.7,75.0 271.7,66.7 320.0,70.0 C 368.3,73.3 423.3,86.7 460.0,110.0 C 496.7,133.3 533.3,175.0 540.0,210.0 C 546.7,245.0 526.7,288.3 500.0,320.0 C 473.3,351.7 423.3,388.3 380.0,400.0 C 336.7,411.7 283.3,403.3 240.0,390.0 C 196.7,376.7 150.0,345.0 120.0,320.0 C 90.0,295.0 68.3,266.7 60.0,240.0 Z" fill="url(#forestDark)"/>
+<path d="M 480.0,140.0 C 473.3,153.3 443.3,193.3 440.0,220.0 C 436.7,246.7 463.3,275.0 460.0,300.0 " fill="none" stroke="#5f8ca8" stroke-width="4" opacity="0.7" stroke-linecap="round"/>
+<g transform="translate(160,180) scale(1.0)">
+<rect x="-1.5" y="6" width="3" height="6" fill="#4a3520"/>
+<path d="M0,-14 L9,4 L-9,4 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+<path d="M0,-6 L7,7 L-7,7 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+</g>
+<g transform="translate(420,180) scale(1.0)">
+<rect x="-1.5" y="6" width="3" height="6" fill="#4a3520"/>
+<path d="M0,-14 L9,4 L-9,4 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+<path d="M0,-6 L7,7 L-7,7 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+</g>
+<g transform="translate(300,320) scale(0.9)">
+<rect x="-1.5" y="6" width="3" height="6" fill="#4a3520"/>
+<path d="M0,-14 L9,4 L-9,4 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+<path d="M0,-6 L7,7 L-7,7 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+</g>
+<path d="M 280,231 L 282.6,237 L 289,237 L 283.6,241.2 L 285.6,247.5 L 280,243.5 L 274.4,247.5 L 276.4,241.2 L 271,237 L 277.4,237 Z" fill="#c9a227" stroke="#3b2a1a" stroke-width="1"/><text x="294" y="234" text-anchor="start" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#2b1e10">Ixaocan</text><text x="294" y="247" text-anchor="start" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">cité-arcologie cachée dans la jungle</text>
+<circle cx="270" cy="195" r="4" fill="#5a3a5a" stroke="#3b2a1a" stroke-width="1"/><text x="284" y="207" text-anchor="start" font-family="Georgia, serif" font-size="10" font-weight="normal" fill="#2b1e10">Chambre de Skarner</text><text x="284" y="219" text-anchor="start" font-family="Georgia, serif" font-size="8" font-style="italic" fill="#5a4a30">antre souterrain, sous Ixaocan</text>
+<path d="M 280,231 Q 220,200 150,170" fill="none" stroke="#8a6f3a" stroke-width="1.8" stroke-dasharray="1,5" stroke-linecap="round" opacity="0.7"/>
+<path d="M 280,231 Q 340,200 400,170" fill="none" stroke="#8a6f3a" stroke-width="1.8" stroke-dasharray="1,5" stroke-linecap="round" opacity="0.7"/>
+<circle cx="140" cy="150" r="4" fill="#8a3a2a" stroke="#3b2a1a" stroke-width="1"/><text x="128" y="146" text-anchor="end" font-family="Georgia, serif" font-size="10" font-weight="normal" fill="#2b1e10">Arcologie du Feu</text><text x="128" y="158" text-anchor="end" font-family="Georgia, serif" font-size="8" font-style="italic" fill="#5a4a30">magma, roche, magnétisme</text>
+<circle cx="420" cy="150" r="4" fill="#3a6a8a" stroke="#3b2a1a" stroke-width="1"/><text x="432" y="146" text-anchor="start" font-family="Georgia, serif" font-size="10" font-weight="normal" fill="#2b1e10">Arcologie de l'Eau</text><text x="432" y="158" text-anchor="start" font-family="Georgia, serif" font-size="8" font-style="italic" fill="#5a4a30">eau, glace, vapeur</text>
+<circle cx="170" cy="290" r="5" fill="#8a2a2a" stroke="#3b2a1a" stroke-width="1.2"/><text x="158" y="300" text-anchor="end" font-family="Georgia, serif" font-size="11" font-weight="normal" fill="#2b1e10">Village de Kiilash</text><text x="158" y="313" text-anchor="end" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">avant-poste rural</text>
+<text x="460" y="330" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#5a2a2a">Delta Serpentin (frontière naturelle, Shurima)</text>
+</g>
+<rect x="450" y="78" width="230" height="116" rx="4" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="1.5" opacity="0.97"/>
+<text x="460" y="94" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#2b1e10">LÉGENDE</text>
+<path d="M 466,101 L 468,106 L 473,106 L 469,109 L 470,114 L 466,111 L 462,114 L 463,109 L 459,106 L 464,106 Z" fill="#c9a227" stroke="#3b2a1a" stroke-width="0.6"/>
+<text x="480" y="111" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Capitale / lieu principal</text>
+<circle cx="466" cy="126" r="4" fill="#8a2a2a" stroke="#3b2a1a" stroke-width="0.8"/>
+<text x="480" y="129" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Lieu secondaire</text>
+<path d="M 466,138 L 470,146 L 462,146 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.6"/>
+<text x="480" y="147" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Zone boisée</text>
+<path d="M 459,162 Q 464,157 469,162 T 475,162" fill="none" stroke="#5f8ca8" stroke-width="2"/>
+<text x="480" y="165" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Cours d'eau</text>
+<line x1="459" y1="180" x2="473" y2="180" stroke="#8a6f3a" stroke-width="1.6" stroke-dasharray="1,3" stroke-linecap="round"/>
+<text x="480" y="183" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Ligne de pouvoir</text>
+<text x="350.0" y="586" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#3b2a1a" opacity="0.6" font-style="italic">Carte régionale originale — lieux issus du lore officiel + éléments établis dans nos manuels</text>
+</g>
+<g transform="translate(30,720)">
+<rect x="0" y="0" width="700" height="600" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="4"/>
+<rect x="8" y="8" width="684" height="584" fill="none" stroke="#3b2a1a" stroke-width="1"/>
+<rect x="190.0" y="16" width="320" height="52" rx="4" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="2"/>
+<text x="350.0" y="42" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#2b1e10" style="letter-spacing:3px">TARGON</text>
+<text x="350.0" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#5a4a30">La Montagne Sacrée</text>
+<g transform="translate(0,80)">
+<rect x="10" y="0" width="680" height="480" fill="url(#seaWaves)" opacity="0.5"/>
+<path d="M 120.0,380.0 C 120.0,350.0 173.3,298.3 200.0,260.0 C 226.7,221.7 258.3,183.3 280.0,150.0 C 301.7,116.7 313.3,60.0 330.0,60.0 C 346.7,60.0 358.3,116.7 380.0,150.0 C 401.7,183.3 433.3,221.7 460.0,260.0 C 486.7,298.3 540.0,350.0 540.0,380.0 C 540.0,410.0 495.0,425.0 460.0,440.0 C 425.0,455.0 373.3,470.0 330.0,470.0 C 286.7,470.0 235.0,455.0 200.0,440.0 Z" fill="#b7a9c9" stroke="#3b2a1a" stroke-width="3"/>
+<path d="M 120.0,380.0 C 120.0,350.0 173.3,298.3 200.0,260.0 C 226.7,221.7 258.3,183.3 280.0,150.0 C 301.7,116.7 313.3,60.0 330.0,60.0 C 346.7,60.0 358.3,116.7 380.0,150.0 C 401.7,183.3 433.3,221.7 460.0,260.0 C 486.7,298.3 540.0,350.0 540.0,380.0 C 540.0,410.0 495.0,425.0 460.0,440.0 C 425.0,455.0 373.3,470.0 330.0,470.0 C 286.7,470.0 235.0,455.0 200.0,440.0 Z" fill="url(#mountainChevrons)"/>
+<circle cx="330" cy="120" r="5" fill="#8a2a2a" stroke="#3b2a1a" stroke-width="1.2"/><text x="346" y="120" text-anchor="start" font-family="Georgia, serif" font-size="11" font-weight="normal" fill="#2b1e10">Temple Solaire</text><text x="346" y="133" text-anchor="start" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">sommet, culte Solari</text>
+<path d="M 330,321 L 332.6,327 L 339,327 L 333.6,331.2 L 335.6,337.5 L 330,333.5 L 324.4,337.5 L 326.4,331.2 L 321,327 L 327.4,327 Z" fill="#c9a227" stroke="#3b2a1a" stroke-width="1"/><text x="346" y="330" text-anchor="start" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#2b1e10">Marus Omegnum</text><text x="346" y="343" text-anchor="start" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">sanctuaire Lunari (établi) — apparaît rarement</text>
+<circle cx="220" cy="400" r="5" fill="#8a2a2a" stroke="#3b2a1a" stroke-width="1.2"/><text x="208" y="408" text-anchor="end" font-family="Georgia, serif" font-size="11" font-weight="normal" fill="#2b1e10">Grottes Rakkor</text><text x="208" y="421" text-anchor="end" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">base de la montagne</text>
+<path d="M 220,395 C 260,372 320,345 335,321 C 350,297 262,280 250,255 C 238,230 372,208 380,183 C 388,158 350,140 330,125" fill="none" stroke="#8a6f3a" stroke-width="2" stroke-dasharray="1,5" stroke-linecap="round" opacity="0.8"/>
+<text x="277" y="358" text-anchor="middle" font-family="Georgia, serif" font-size="8" font-style="italic" fill="#5a4a30" transform="rotate(-33 277 358)">La Voie Voûtée</text>
+<circle cx="245" cy="385" r="4" fill="#7a7a7a" stroke="#3b2a1a" stroke-width="1"/><text x="259" y="381" text-anchor="start" font-family="Georgia, serif" font-size="10" font-weight="normal" fill="#2b1e10">La Pierre des Adieux</text><text x="259" y="393" text-anchor="start" font-family="Georgia, serif" font-size="8" font-style="italic" fill="#5a4a30">limite du camp, début de l'ascension</text>
+<text x="330" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#5a2a2a">Sommet — le Forgeron d'Étoiles rôderait ici</text>
+</g>
+<rect x="450" y="78" width="230" height="80" rx="4" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="1.5" opacity="0.97"/>
+<text x="460" y="94" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#2b1e10">LÉGENDE</text>
+<path d="M 466,101 L 468,106 L 473,106 L 469,109 L 470,114 L 466,111 L 462,114 L 463,109 L 459,106 L 464,106 Z" fill="#c9a227" stroke="#3b2a1a" stroke-width="0.6"/>
+<text x="480" y="111" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Capitale / lieu principal</text>
+<circle cx="466" cy="126" r="4" fill="#8a2a2a" stroke="#3b2a1a" stroke-width="0.8"/>
+<text x="480" y="129" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Lieu secondaire</text>
+<line x1="459" y1="144" x2="473" y2="144" stroke="#8a6f3a" stroke-width="1.6" stroke-dasharray="1,3" stroke-linecap="round"/>
+<text x="480" y="147" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Chemin / route</text>
+<text x="350.0" y="586" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#3b2a1a" opacity="0.6" font-style="italic">Carte régionale originale — lieux issus du lore officiel + éléments établis dans nos manuels</text>
+</g>
+<g transform="translate(760,720)">
+<rect x="0" y="0" width="700" height="600" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="4"/>
+<rect x="8" y="8" width="684" height="584" fill="none" stroke="#3b2a1a" stroke-width="1"/>
+<rect x="190.0" y="16" width="320" height="52" rx="4" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="2"/>
+<text x="350.0" y="42" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#2b1e10" style="letter-spacing:3px">KUMUNGU</text>
+<text x="350.0" y="60" text-anchor="middle" font-family="Georgia, serif" font-size="11" font-style="italic" fill="#5a4a30">La jungle engloutie</text>
+<g transform="translate(0,80)">
+<rect x="10" y="0" width="680" height="480" fill="url(#seaWaves)" opacity="0.5"/>
+<path d="M 70.0,180.0 C 85.0,148.3 135.0,116.7 180.0,100.0 C 225.0,83.3 291.7,75.0 340.0,80.0 C 388.3,85.0 440.0,103.3 470.0,130.0 C 500.0,156.7 521.7,205.0 520.0,240.0 C 518.3,275.0 493.3,313.3 460.0,340.0 C 426.7,366.7 366.7,393.3 320.0,400.0 C 273.3,406.7 218.3,398.3 180.0,380.0 C 141.7,361.7 108.3,323.3 90.0,290.0 Z" fill="#6f8f5e" stroke="#3b2a1a" stroke-width="3"/>
+<path d="M 70.0,180.0 C 85.0,148.3 135.0,116.7 180.0,100.0 C 225.0,83.3 291.7,75.0 340.0,80.0 C 388.3,85.0 440.0,103.3 470.0,130.0 C 500.0,156.7 521.7,205.0 520.0,240.0 C 518.3,275.0 493.3,313.3 460.0,340.0 C 426.7,366.7 366.7,393.3 320.0,400.0 C 273.3,406.7 218.3,398.3 180.0,380.0 C 141.7,361.7 108.3,323.3 90.0,290.0 Z" fill="url(#forestDark)"/>
+<g transform="translate(200,180) scale(1.1)">
+<rect x="-1.5" y="6" width="3" height="6" fill="#4a3520"/>
+<path d="M0,-14 L9,4 L-9,4 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+<path d="M0,-6 L7,7 L-7,7 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+</g>
+<g transform="translate(350,160) scale(1.0)">
+<rect x="-1.5" y="6" width="3" height="6" fill="#4a3520"/>
+<path d="M0,-14 L9,4 L-9,4 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+<path d="M0,-6 L7,7 L-7,7 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+</g>
+<g transform="translate(280,300) scale(1.0)">
+<rect x="-1.5" y="6" width="3" height="6" fill="#4a3520"/>
+<path d="M0,-14 L9,4 L-9,4 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+<path d="M0,-6 L7,7 L-7,7 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+</g>
+<g transform="translate(420,260) scale(0.9)">
+<rect x="-1.5" y="6" width="3" height="6" fill="#4a3520"/>
+<path d="M0,-14 L9,4 L-9,4 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+<path d="M0,-6 L7,7 L-7,7 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.8"/>
+</g>
+<path d="M 300,221 L 302.6,227 L 309,227 L 303.6,231.2 L 305.6,237.5 L 300,233.5 L 294.4,237.5 L 296.4,231.2 L 291,227 L 297.4,227 Z" fill="#c9a227" stroke="#3b2a1a" stroke-width="1"/><text x="314" y="224" text-anchor="start" font-family="Georgia, serif" font-size="13" font-weight="bold" fill="#2b1e10">Ruines englouties</text><text x="314" y="237" text-anchor="start" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">vestiges de l'ancienne nation (établi)</text>
+<circle cx="110" cy="280" r="5" fill="#8a2a2a" stroke="#3b2a1a" stroke-width="1.2"/><text x="124" y="276" text-anchor="start" font-family="Georgia, serif" font-size="11" font-weight="normal" fill="#2b1e10">Mudtown</text><text x="124" y="289" text-anchor="start" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">cité franche côtière, jeu et contrebande</text>
+<circle cx="380" cy="340" r="5" fill="#7a2a5a" stroke="#3b2a1a" stroke-width="1.2"/><text x="394" y="336" text-anchor="start" font-family="Georgia, serif" font-size="11" font-weight="normal" fill="#2b1e10">Jardins de Zyr</text><text x="394" y="349" text-anchor="start" font-family="Georgia, serif" font-size="9" font-style="italic" fill="#5a4a30">plantes carnivores, magie élémentaire</text>
+<circle cx="230" cy="330" r="4" fill="#5a4a30" stroke="#3b2a1a" stroke-width="1"/><text x="218" y="326" text-anchor="end" font-family="Georgia, serif" font-size="10" font-weight="normal" fill="#2b1e10">Repaire de Nidalee</text>
+<text x="300" y="360" text-anchor="middle" font-family="Georgia, serif" font-size="10" font-style="italic" fill="#5a2a2a">Territoire des tribus rares — aucune autorité centrale</text>
+</g>
+<rect x="450" y="78" width="230" height="62" rx="4" fill="#ecdfc0" stroke="#3b2a1a" stroke-width="1.5" opacity="0.97"/>
+<text x="460" y="94" font-family="Georgia, serif" font-size="10" font-weight="bold" fill="#2b1e10">LÉGENDE</text>
+<path d="M 466,101 L 468,106 L 473,106 L 469,109 L 470,114 L 466,111 L 462,114 L 463,109 L 459,106 L 464,106 Z" fill="#c9a227" stroke="#3b2a1a" stroke-width="0.6"/>
+<text x="480" y="111" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Capitale / lieu principal</text>
+<path d="M 466,120 L 470,128 L 462,128 Z" fill="#3d5a3d" stroke="#2a3d2a" stroke-width="0.6"/>
+<text x="480" y="129" font-family="Georgia, serif" font-size="9" fill="#2b1e10">Zone boisée</text>
+<text x="350.0" y="586" text-anchor="middle" font-family="Georgia, serif" font-size="9" fill="#3b2a1a" opacity="0.6" font-style="italic">Carte régionale originale — lieux issus du lore officiel + éléments établis dans nos manuels</text>
+</g>
+</svg>
