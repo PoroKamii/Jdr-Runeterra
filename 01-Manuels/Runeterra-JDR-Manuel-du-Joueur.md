@@ -463,7 +463,7 @@ Autrement dit, au niveau 3, les trois compétences Q/W/E sont toutes débloquée
 
 **À partir du niveau 4**, le point de compétence gagné chaque niveau peut être investi librement dans Q, W ou E (au choix du joueur, max rang 5 chacun) pour continuer à les monter en puissance. Un personnage niveau 18 a donc au final : Passif + Q5 + W5 + E5 + R3 — le total est identique quel que soit l'ordre de déblocage choisi au début.
 
-Le rythme de montée de niveau dépend du MJ : généralement **1 niveau par session ou par arc narratif important**, pas par combat individuel.
+Le rythme de montée de niveau est géré par le MJ : le groupe gagne un niveau en **franchissant un jalon** (quête majeure, éclat de Rune du Monde, boss vaincu, choix qui fait bouger le monde…), jamais pour un combat individuel. Le détail, plafonds compris, est dans le Manuel du MJ (Partie 1, section 2).
 
 ### 5.2bis Identité générique des emplacements
 
@@ -755,7 +755,7 @@ Ce Manuel du Joueur couvre tout ce qu'il faut pour créer et jouer un personnage
 
 Pour construire l'historique de son personnage (étape 7 de la création), voir le **Questionnaire de Background** — une version MJ (guide de discussion avec relances) et une version Joueur (à remplir en amont de la session 0) sont disponibles séparément.
 
-Reste à venir dans de futurs suppléments : campagne longue. *(Le scénario tuto existe en document séparé complet ; quêtes régionales et fiche de personnage Roll20 + macros existent aussi déjà séparément — voir le suivi de projet.)*
+La campagne se joue en **monde ouvert** : vous allez où vous voulez, et vos choix ont des conséquences sur le monde. Une trame légère, le fil rouge, donne à chaque campagne un début et une fin ; son contenu est réservé au MJ. *(Les quêtes régionales et la fiche de personnage Roll20 + macros existent aussi séparément — voir le suivi de projet.)*
 
 ---
 
@@ -837,7 +837,7 @@ Chaque région dispose d'une **jauge de réputation indépendante** allant de **
 | **-3 / -4** | Ennemi : prix fortement gonflés ou refus de vendre, accès interdit à certains lieux, surveillance active |
 | **-5** | Traqué activement : primes sur la tête du personnage, la région peut organiser une chasse contre lui |
 
-La réputation évolue selon les actions du groupe (quêtes accomplies, choix politiques, factions soutenues) et **peut avoir des répercussions croisées** : aider Demacia dans un conflit contre Noxus fera monter la réputation en Demacia... et baisser celle à Noxus. C'est le moteur principal des embranchements narratifs de la campagne (voir Runeterra-JDR-Campagne-Principale-Ouverture.md, section 7 — l'Horloge du Monde, document séparé du Manuel du Joueur).
+La réputation évolue selon les actions du groupe (quêtes accomplies, choix politiques, factions soutenues) et **peut avoir des répercussions croisées** : aider Demacia dans un conflit contre Noxus fera monter la réputation en Demacia... et baisser celle à Noxus. C'est le moteur principal des embranchements narratifs de la campagne (l'Horloge du Monde, décrite dans le Manuel du MJ, Partie 3, section 2).
 
 ---
 

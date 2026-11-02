@@ -168,10 +168,13 @@ Pour un PNJ important nommé : jauge personnelle indépendante, même échelle. 
 
 ## Rythme de campagne (repère)
 
-| Étape | Durée | Niveaux |
-|---|---|---|
-| Scénario tuto | 2-4h | 1 → 2-3 |
-| Ouverture | ~10h (ou 2 parties) | 3 → 6 |
-| Campagne longue | Arc complet | 6 → 18 |
+1 niveau par **jalon** franchi (quête majeure, palier d'Horloge déplacé, éclat de Rune du Monde, boss, objectif perso), environ 1 par session, jamais par combat individuel. Plafond selon l'étape du fil rouge :
 
-1 niveau par session ou arc narratif important, jamais par combat individuel. Un personnage mort revient au **niveau actuel du groupe** (jamais niveau 1), réputation repartant à 0 (+1 région d'origine).
+| Étape | Niveaux |
+|---|---|
+| Éveil | 1 → 6 |
+| Montée | 6 → 11 |
+| Crise | 11 → 16 |
+| Dénouement | 16 → 18 |
+
+Au plafond : +1 réputation ou un objet à la place du niveau. En retard au changement d'étape : +1 niveau de rattrapage. Un personnage mort revient au **niveau actuel du groupe** (jamais niveau 1), réputation repartant à 0 (+1 région d'origine).

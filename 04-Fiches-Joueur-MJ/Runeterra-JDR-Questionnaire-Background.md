@@ -148,4 +148,4 @@ Rappel rapide des tensions/factions déjà établies par région (détail comple
 
 ---
 
-*Prochaine étape du projet : scénario tuto (niveau 1 → 2-3). Ce questionnaire est conçu pour être utilisé juste avant, à la création des personnages qui joueront ce scénario.*
+*Ce questionnaire s'utilise à la création des personnages, juste avant la première session. Pour lancer la campagne, voir les accroches de première session du fil rouge (Runeterra-JDR-Campagne-FilRouge-EchosDeLaGuerre.md, section 7) : les réponses des joueurs aident à choisir celle qui les touchera le plus.*

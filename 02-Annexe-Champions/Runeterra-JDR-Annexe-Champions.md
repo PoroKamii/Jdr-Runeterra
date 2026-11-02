@@ -1791,7 +1791,7 @@ Effet : Étourdit toutes les cibles touchées dans la zone pendant 1 round.
 
 ---
 
-*Les 5 personnages sont au niveau 1 : Passif + une compétence active débloquée (au choix du joueur, Q recommandé pour rester dans l'esprit du champion) — les autres se débloquent aux niveaux 2 et 3, l'Ultime au niveau 6 (voir Partie 1, section 5.2). Prochaine étape suggérée : le scénario tuto pour les mettre en jeu.*
+*Les 5 personnages sont au niveau 1 : Passif + une compétence active débloquée (au choix du joueur, Q recommandé pour rester dans l'esprit du champion) — les autres se débloquent aux niveaux 2 et 3, l'Ultime au niveau 6 (voir Partie 1, section 5.2). Pour les mettre en jeu, le MJ peut partir d'une accroche de première session de son fil rouge de campagne.*
 
 ---
 

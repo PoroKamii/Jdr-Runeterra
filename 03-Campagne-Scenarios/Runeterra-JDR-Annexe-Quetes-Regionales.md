@@ -231,144 +231,146 @@ Un tirage au d8, ou un choix à la carte selon ce qui sert votre histoire du mom
 
 *Chaque lieu secondaire dessiné sur les 3 Atlas (Lot 1 : Demacia/Noxus/Freljord/Shurima ; Lot 2 : Piltover/Zaun/Ionia/Bilgewater ; Lot 3 : Îles Obscures/Ixtal/Targon/Kumungu) reçoit ici une accroche minute — de quoi justifier une halte plutôt qu'un simple nom sur une carte. Les capitales elles-mêmes ne sont pas reprises ici : elles ont déjà leurs 5 accroches en section 2. Quand un lieu permet de préciser où se déroule une quête déjà écrite en section 2, c'est signalé par une flèche (→).*
 
+**Colonne Palier [maison]** : palier de danger fixe du lieu (Manuel du MJ, Partie 3, section 1) : I Calme (niv. 1-5), II Dangereux (6-10), III Mortel (11-15), IV Légendaire (16-18+). Un Écho de guerre (fil rouge) ou une piste d'Horloge au palier 3+ peut le faire monter d'un cran.
+
 ### Demacia
 
-| Lieu | Accroche minute |
-|---|---|
-| **High Silvermere** *(cité des rapaces, Maison Crownguard)* | Une jeune recrue crownguard déserte son poste juste avant une inspection royale ; la ramener discrètement évite une humiliation publique à toute la Maison. |
-| **Uwendale** *(hameau des confins, patrie de Quinn)* | Des éclaireurs noxiens ont été repérés en territoire démacien près du hameau qui a vu naître Quinn — trop loin de la frontière pour être un hasard. |
-| **Terbisia** *(ravagée par un séisme, en reconstruction)* | Du matériel de chantier disparaît chaque nuit sur les fouilles ; sabotage d'un rival de la reconstruction, ou quelqu'un qui creuse pour autre chose que des fondations. |
-| **Wrenwall** *(château où Jarvan IV terrassa un dragon)* | La légende attire des chasseurs de gloire venus fouiller les environs pour un fragment d'écaille ou d'os du dragon — certains ne sont pas repartis. |
-| **Fossbarrow** *(ville-frontière, Hauts Plateaux Rocheux)* | Poste avancé isolé : une caravane annoncée depuis trois jours n'est toujours pas arrivée, et la route passe par un col qu'aucune patrouille n'a vérifié récemment. |
-| **Dawnhold** *(fort côtier)* | Une voile inconnue rôde au large depuis plusieurs nuits — repérage pirate bilgewatérien, ou quelque chose de plus inquiétant pour une garnison qui ne regarde d'habitude que vers l'intérieur des terres. |
-| **Bosquet de Petricite** *(Voûte des Runes, établi)* | La carrière qui fournit le Petricite du royaume est gardée jour et nuit ; un mage du refuge de Lux cherche discrètement à s'y introduire, pour des raisons qui ne sont pas forcément malveillantes. |
-| **Mur Sanglant** *(frontière Noxus)* | Fortification nommée d'après une bataille vieille de plusieurs générations ; un ancien combattant, aujourd'hui garde de faction, y voit ou y entend des choses que personne d'autre ne remarque. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **High Silvermere** *(cité des rapaces, Maison Crownguard)* | I | Une jeune recrue crownguard déserte son poste juste avant une inspection royale ; la ramener discrètement évite une humiliation publique à toute la Maison. |
+| **Uwendale** *(hameau des confins, patrie de Quinn)* | I | Des éclaireurs noxiens ont été repérés en territoire démacien près du hameau qui a vu naître Quinn — trop loin de la frontière pour être un hasard. |
+| **Terbisia** *(ravagée par un séisme, en reconstruction)* | I | Du matériel de chantier disparaît chaque nuit sur les fouilles ; sabotage d'un rival de la reconstruction, ou quelqu'un qui creuse pour autre chose que des fondations. |
+| **Wrenwall** *(château où Jarvan IV terrassa un dragon)* | II | La légende attire des chasseurs de gloire venus fouiller les environs pour un fragment d'écaille ou d'os du dragon — certains ne sont pas repartis. |
+| **Fossbarrow** *(ville-frontière, Hauts Plateaux Rocheux)* | II | Poste avancé isolé : une caravane annoncée depuis trois jours n'est toujours pas arrivée, et la route passe par un col qu'aucune patrouille n'a vérifié récemment. |
+| **Dawnhold** *(fort côtier)* | I | Une voile inconnue rôde au large depuis plusieurs nuits — repérage pirate bilgewatérien, ou quelque chose de plus inquiétant pour une garnison qui ne regarde d'habitude que vers l'intérieur des terres. |
+| **Bosquet de Petricite** *(Voûte des Runes, établi)* | I | La carrière qui fournit le Petricite du royaume est gardée jour et nuit ; un mage du refuge de Lux cherche discrètement à s'y introduire, pour des raisons qui ne sont pas forcément malveillantes. |
+| **Mur Sanglant** *(frontière Noxus)* | I | Fortification nommée d'après une bataille vieille de plusieurs générations ; un ancien combattant, aujourd'hui garde de faction, y voit ou y entend des choses que personne d'autre ne remarque. |
 
 ### Noxus
 
-| Lieu | Accroche minute |
-|---|---|
-| **La Chair-Fosse** *(arène gladiatoriale)* | → déjà couverte : voir **« Le combattant de la Chair-Fosse »**, section 2bis. |
-| **La Grande Barrière** | Fortification massive à la frontière ; un officier soupçonne qu'un tunnel de contrebande passe littéralement sous les fondations, mais n'a aucune preuve à présenter à sa hiérarchie. |
-| **Basilich** *(port sud, histoire de rébellions matées)* | Le souvenir des rébellions passées n'est pas si loin : des tracts circulent de nouveau dans les tavernes du port, et quelqu'un doit remonter la piste avant que le Trifarix n'envoie sa propre solution, brutale. |
-| **Trevale** *(terre natale de Riven)* | Un vétéran de la Première Guerre avec Ionia, originaire de Trevale comme Riven, refuse de parler de ce qu'il y a vu — jusqu'à ce qu'un objet retrouvé sur un champ de bataille ionien ravive tout. |
-| **Lac Sombre-Roche** *(Blackrock Mere)* | Des pêcheurs locaux évitent une zone précise du lac depuis des années ; le dernier à s'y être aventuré est revenu changé, ou n'est pas revenu du tout. |
-| **Porte des Lamentations** *(avant-poste, frontière Demacia)* | Poste-frontière au nom sinistre ; une négociation de prisonniers de guerre doit s'y tenir, et les deux camps se méfient assez pour vouloir des témoins neutres. |
-| **Monts d'Argent** | Territoire assez reculé pour qu'on y prête peu d'attention côté Noxus — jusqu'à ce qu'une garnison isolée cesse de faire son rapport. *(De quoi amener le groupe, sans le savoir, en bordure du territoire personnel de Kled — voir « Propriété de Kled », section 2bis.)* |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **La Chair-Fosse** *(arène gladiatoriale)* | I | → déjà couverte : voir **« Le combattant de la Chair-Fosse »**, section 2bis. |
+| **La Grande Barrière** | I | Fortification massive à la frontière ; un officier soupçonne qu'un tunnel de contrebande passe littéralement sous les fondations, mais n'a aucune preuve à présenter à sa hiérarchie. |
+| **Basilich** *(port sud, histoire de rébellions matées)* | I | Le souvenir des rébellions passées n'est pas si loin : des tracts circulent de nouveau dans les tavernes du port, et quelqu'un doit remonter la piste avant que le Trifarix n'envoie sa propre solution, brutale. |
+| **Trevale** *(terre natale de Riven)* | I | Un vétéran de la Première Guerre avec Ionia, originaire de Trevale comme Riven, refuse de parler de ce qu'il y a vu — jusqu'à ce qu'un objet retrouvé sur un champ de bataille ionien ravive tout. |
+| **Lac Sombre-Roche** *(Blackrock Mere)* | II | Des pêcheurs locaux évitent une zone précise du lac depuis des années ; le dernier à s'y être aventuré est revenu changé, ou n'est pas revenu du tout. |
+| **Porte des Lamentations** *(avant-poste, frontière Demacia)* | I | Poste-frontière au nom sinistre ; une négociation de prisonniers de guerre doit s'y tenir, et les deux camps se méfient assez pour vouloir des témoins neutres. |
+| **Monts d'Argent** | II | Territoire assez reculé pour qu'on y prête peu d'attention côté Noxus — jusqu'à ce qu'une garnison isolée cesse de faire son rapport. *(De quoi amener le groupe, sans le savoir, en bordure du territoire personnel de Kled — voir « Propriété de Kled », section 2bis.)* |
 
 ### Freljord
 
-| Lieu | Accroche minute |
-|---|---|
-| **Hearth-Home** *(forge d'Ornn, indépendante des tribus)* | → déjà couverte : voir **« La forge muette »**, section 2ter. |
-| **L'Abîme Hurlant** *(prison des Guetteurs — aussi Champ de Justice, 11bis)* | Un garde de la prison jure avoir entendu quelque chose répondre depuis l'intérieur, à un endroit où rien n'est censé pouvoir entendre, encore moins répondre. |
-| **Prison Glaciaire** *(confins nord)* | Un convoi de prisonniers ne s'est pas présenté au relais prévu ; tempête, évasion, ou une troisième explication que personne n'ose formuler en premier. |
-| **Terres Ursines** *(peuples des trolls/ours)* | Un différend de chasse entre un clan avarosan et les peuples locaux menace de dégénérer ; personne côté humain ne parle correctement leur langue. |
-| **Frostheld** *(en ruines, ancienne capitale avarosane incendiée)* | Des pillards de reliques fouillent régulièrement les cendres de l'ancienne capitale ; une Avarosane considère ça comme une profanation, peu importe ce que dit la loi sur les ruines abandonnées. |
-| **Rakelstake** *(pèlerinage avarosan, statue d'Avarosa)* | Un pèlerinage annuel approche, mais la statue elle-même montre des fissures inquiétantes que personne ne veut signaler avant la cérémonie. |
-| **Glaserport** *(port aux drakkars, Griffe d'Hiver)* | Un drakkar de la Griffe d'Hiver revient d'un raid avec un butin qui n'a rien à voir avec ce qui se pille d'habitude — et un équipage étrangement silencieux à ce sujet. |
-| **Naljaäg** *(village fluvial, jadis maudit)* | La malédiction est censée être levée depuis longtemps ; alors pourquoi le village recommence-t-il à en parler à voix basse ? |
-| **La Faille** *(frontière Noxus — aussi Champ de Justice, 11bis)* | Zone disputée entre tribus et Noxus ; une patrouille de chaque camp s'y est croisée cette semaine, et ni l'une ni l'autre ne veut admettre avoir tiré la première. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Hearth-Home** *(forge d'Ornn, indépendante des tribus)* | II | → déjà couverte : voir **« La forge muette »**, section 2ter. |
+| **L'Abîme Hurlant** *(prison des Guetteurs — aussi Champ de Justice, 11bis)* | II | Un garde de la prison jure avoir entendu quelque chose répondre depuis l'intérieur, à un endroit où rien n'est censé pouvoir entendre, encore moins répondre. |
+| **Prison Glaciaire** *(confins nord)* | II | Un convoi de prisonniers ne s'est pas présenté au relais prévu ; tempête, évasion, ou une troisième explication que personne n'ose formuler en premier. |
+| **Terres Ursines** *(peuples des trolls/ours)* | II | Un différend de chasse entre un clan avarosan et les peuples locaux menace de dégénérer ; personne côté humain ne parle correctement leur langue. |
+| **Frostheld** *(en ruines, ancienne capitale avarosane incendiée)* | I | Des pillards de reliques fouillent régulièrement les cendres de l'ancienne capitale ; une Avarosane considère ça comme une profanation, peu importe ce que dit la loi sur les ruines abandonnées. |
+| **Rakelstake** *(pèlerinage avarosan, statue d'Avarosa)* | II | Un pèlerinage annuel approche, mais la statue elle-même montre des fissures inquiétantes que personne ne veut signaler avant la cérémonie. |
+| **Glaserport** *(port aux drakkars, Griffe d'Hiver)* | II | Un drakkar de la Griffe d'Hiver revient d'un raid avec un butin qui n'a rien à voir avec ce qui se pille d'habitude — et un équipage étrangement silencieux à ce sujet. |
+| **Naljaäg** *(village fluvial, jadis maudit)* | II | La malédiction est censée être levée depuis longtemps ; alors pourquoi le village recommence-t-il à en parler à voix basse ? |
+| **La Faille** *(frontière Noxus — aussi Champ de Justice, 11bis)* | II | Zone disputée entre tribus et Noxus ; une patrouille de chaque camp s'y est croisée cette semaine, et ni l'une ni l'autre ne veut admettre avoir tiré la première. |
 
 ### Ionia
 
-| Lieu | Accroche minute |
-|---|---|
-| **Omikayalan** *(le Cœur du Monde, bosquet sacré)* | Un esprit gardien du bosquet refuse depuis peu la présence de pèlerins qu'il accueillait sans problème auparavant — signe d'un déséquilibre plus large, ou grief très personnel ? |
-| **Weh'le** *(port fantôme, village caché)* | Le village n'apparaît qu'à ceux qu'il choisit de laisser entrer ; le groupe y est convié pour une raison qu'on ne leur explique qu'une fois sur place. |
-| **Wuju** *(village natal de Zed)* | Un habitant de Wuju prétend avoir aperçu Zed près du village — improbable pour l'Ordre de l'Ombre, mais assez crédible pour inquiéter certains anciens. |
-| **Col de Jyom** | Passage stratégique entre deux vallées ; une caravane marchande refuse désormais de l'emprunter sans escorte armée, sans vouloir dire pourquoi précisément. |
-| **Zhyun méridional** | Région rurale épargnée par l'occupation noxienne jusqu'ici — jusqu'à ce qu'une patrouille y soit repérée pour la première fois. |
-| **Monastère de Hirana** *(arts martiaux, harmonie intérieure)* | Un moine met le groupe au défi de résoudre un différend sans un seul coup porté — une leçon d'harmonie déguisée en service à rendre. |
-| **Île de Galrin** *(occupée par Noxus, établi)* | Un réseau de résistance locale a besoin de faire passer un message vers le continent sans que l'occupant ne l'intercepte. |
-| **Fae'lor** *(château flottant occupé, établi)* | Le château autrefois symbole de pouvoir spirituel sert aujourd'hui de garnison noxienne ; un ancien gardien du lieu refuse de partir, et l'occupant ne sait pas encore quoi faire de lui. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Omikayalan** *(le Cœur du Monde, bosquet sacré)* | II | Un esprit gardien du bosquet refuse depuis peu la présence de pèlerins qu'il accueillait sans problème auparavant — signe d'un déséquilibre plus large, ou grief très personnel ? |
+| **Weh'le** *(port fantôme, village caché)* | I | Le village n'apparaît qu'à ceux qu'il choisit de laisser entrer ; le groupe y est convié pour une raison qu'on ne leur explique qu'une fois sur place. |
+| **Wuju** *(village natal de Zed)* | I | Un habitant de Wuju prétend avoir aperçu Zed près du village — improbable pour l'Ordre de l'Ombre, mais assez crédible pour inquiéter certains anciens. |
+| **Col de Jyom** | I | Passage stratégique entre deux vallées ; une caravane marchande refuse désormais de l'emprunter sans escorte armée, sans vouloir dire pourquoi précisément. |
+| **Zhyun méridional** | I | Région rurale épargnée par l'occupation noxienne jusqu'ici — jusqu'à ce qu'une patrouille y soit repérée pour la première fois. |
+| **Monastère de Hirana** *(arts martiaux, harmonie intérieure)* | I | Un moine met le groupe au défi de résoudre un différend sans un seul coup porté — une leçon d'harmonie déguisée en service à rendre. |
+| **Île de Galrin** *(occupée par Noxus, établi)* | II | Un réseau de résistance locale a besoin de faire passer un message vers le continent sans que l'occupant ne l'intercepte. |
+| **Fae'lor** *(château flottant occupé, établi)* | II | Le château autrefois symbole de pouvoir spirituel sert aujourd'hui de garnison noxienne ; un ancien gardien du lieu refuse de partir, et l'occupant ne sait pas encore quoi faire de lui. |
 
 ### Piltover
 
-| Lieu | Accroche minute |
-|---|---|
-| **Hexgate** *(porte commerciale, symbole du progrès)* | Un droit de passage est brusquement contesté entre deux guildes marchandes, bloquant tout un quai de la Hexgate au pire moment possible. |
-| **Les Quais** *(flotte marchande internationale)* | Une cargaison déclarée «fragile, ne pas ouvrir» attire une attention bien trop précise de la part d'un inspecteur du Conseil. |
-| **Zoo de Piltover** | Une créature exotique s'est échappée de son enclos — pas franchement dangereuse, mais suffisamment précieuse pour que son propriétaire engage discrètement le groupe plutôt que d'alerter les autorités. |
-| **Les Portes du Soleil** *(Sun Gates, canal vers Shurima)* | Un chargement à destination de Shurima est bloqué en douane pour une raison qui sent la manœuvre politique plus que la procédure. |
-| **Marché Frontalier** *(Boundary Markets, zone mixte avec Zaun)* | Zone où Piltover et Zaun se croisent sans vraiment se mélanger ; un vol commis ici pose une question de juridiction que personne ne veut trancher en premier. |
-| **Fort de l'Eau Stagnante** *(prison, île au large)* | Un prisonnier de haute valeur (politique, pas criminel de droit commun) demande une audience avec le groupe — sans que personne ne sache comment il a su qu'ils existaient. |
-| **La Falaise** *(l'Effondrement, au-dessus de Zaun)* | Le point où Piltover surplombe littéralement Zaun ; un accident de convoyeur (ou un sabotage) menace de faire tomber bien plus que des marchandises sur les toits en contrebas. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Hexgate** *(porte commerciale, symbole du progrès)* | I | Un droit de passage est brusquement contesté entre deux guildes marchandes, bloquant tout un quai de la Hexgate au pire moment possible. |
+| **Les Quais** *(flotte marchande internationale)* | I | Une cargaison déclarée «fragile, ne pas ouvrir» attire une attention bien trop précise de la part d'un inspecteur du Conseil. |
+| **Zoo de Piltover** | I | Une créature exotique s'est échappée de son enclos — pas franchement dangereuse, mais suffisamment précieuse pour que son propriétaire engage discrètement le groupe plutôt que d'alerter les autorités. |
+| **Les Portes du Soleil** *(Sun Gates, canal vers Shurima)* | I | Un chargement à destination de Shurima est bloqué en douane pour une raison qui sent la manœuvre politique plus que la procédure. |
+| **Marché Frontalier** *(Boundary Markets, zone mixte avec Zaun)* | I | Zone où Piltover et Zaun se croisent sans vraiment se mélanger ; un vol commis ici pose une question de juridiction que personne ne veut trancher en premier. |
+| **Fort de l'Eau Stagnante** *(prison, île au large)* | I | Un prisonnier de haute valeur (politique, pas criminel de droit commun) demande une audience avec le groupe — sans que personne ne sache comment il a su qu'ils existaient. |
+| **La Falaise** *(l'Effondrement, au-dessus de Zaun)* | I | Le point où Piltover surplombe littéralement Zaun ; un accident de convoyeur (ou un sabotage) menace de faire tomber bien plus que des marchandises sur les toits en contrebas. |
 
 ### Zaun
 
-| Lieu | Accroche minute |
-|---|---|
-| **Le Puisard** *(strate la plus basse — Les Ruelles, marché noir)* | → cadre naturel de « Sevrage » et « Guerre de Barons » (section 2sexies) si vous cherchez un décor précis plutôt qu'une simple mention. |
-| **La Promenade** *(strate des riches)* | Un riche mécène veut «nettoyer» son image en finançant une œuvre caritative dans le Puisard — sincère, ou façade pour blanchir autre chose ? |
-| **L'Entresol** *(strate du commerce)* | Un marchand respecté de l'Entresol vend, sans le savoir (ou en le sachant très bien), des composants volés à un laboratoire d'un Baron Chimique. |
-| **Filon Chemtech** *(veine minière, cœur de l'industrie)* | Une équipe de mineurs a cessé toute communication depuis deux jours après avoir signalé une poche de gaz «qui n'a pas le bon aspect». |
-| **Rising Howl** *(élévateur reliant Zaun à Piltover)* | Le seul passage officiel entre les deux cités tombe en panne à un moment très inopportun pour quelqu'un qui a un besoin urgent et discret de traverser. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Le Puisard** *(strate la plus basse — Les Ruelles, marché noir)* | II | → cadre naturel de « Sevrage » et « Guerre de Barons » (section 2sexies) si vous cherchez un décor précis plutôt qu'une simple mention. |
+| **La Promenade** *(strate des riches)* | I | Un riche mécène veut «nettoyer» son image en finançant une œuvre caritative dans le Puisard — sincère, ou façade pour blanchir autre chose ? |
+| **L'Entresol** *(strate du commerce)* | I | Un marchand respecté de l'Entresol vend, sans le savoir (ou en le sachant très bien), des composants volés à un laboratoire d'un Baron Chimique. |
+| **Filon Chemtech** *(veine minière, cœur de l'industrie)* | II | Une équipe de mineurs a cessé toute communication depuis deux jours après avoir signalé une poche de gaz «qui n'a pas le bon aspect». |
+| **Rising Howl** *(élévateur reliant Zaun à Piltover)* | I | Le seul passage officiel entre les deux cités tombe en panne à un moment très inopportun pour quelqu'un qui a un besoin urgent et discret de traverser. |
 
 ### Shurima
 
-| Lieu | Accroche minute |
-|---|---|
-| **Nerimazeth** *(« capitale » rivale de Xerath)* | → lieu naturel pour situer **« Les manœuvres de Xerath »** (section 2septies) si vous voulez ancrer la quête à un endroit précis plutôt que rester abstrait. |
-| **Nashramae** *(port nord, occupé par Noxus)* | → cité côtière naturelle pour situer **« Cargaison compromettante »** (section 2septies, lien Piltover/Maison Medarda) — le groupe y découvre le trafic d'armes sur place. |
-| **Bel'Zhun** *(port nord occupé, insurrection active, établi)* | L'insurrection déjà mentionnée en section 2quinquies (« La vieille querelle Medarda ») a précisément son foyer ici ; un contact local propose au groupe de choisir un camp, pas seulement d'observer. |
-| **Amakra** *(en ruines, patrie détruite de Samira)* | Un groupe de pillards cherche encore un trésor supposé enfoui sous les ruines de la cité détruite qui a vu naître Samira — elle-même pourrait ne pas apprécier qu'on y touche. |
-| **Bibliothèque de Nasus** *(savoir ancien)* | Un érudit obtient un accès rarissime à la Bibliothèque, à condition de rapporter un texte précis égaré depuis des siècles quelque part dans le désert. |
-| **Grand Saï** *(mer de dunes)* | Une caravane s'est perdue dans les dunes mouvantes après qu'un guide expérimenté a insisté qu'un raccourci existait — il n'en existe pas, officiellement. |
-| **Kalamanda** *(ville du nord, dirigée par Azir localement)* | Une ville prospère depuis la découverte d'un riche gisement d'or et de gemmes tout proche — gisement qui attire justement les convoitises de Noxus, une tension économique qui ne demande qu'un prétexte pour dégénérer. |
-| **La Brèche de Cristal** *(cratère magique au sud de Kalamanda — aussi Champ de Justice, 11bis)* | Des érudits shurimais et une expédition étrangère se disputent l'accès au site pour des raisons de recherche opposées — l'une veut comprendre le cratère, l'autre l'exploiter. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Nerimazeth** *(« capitale » rivale de Xerath)* | II | → lieu naturel pour situer **« Les manœuvres de Xerath »** (section 2septies) si vous voulez ancrer la quête à un endroit précis plutôt que rester abstrait. |
+| **Nashramae** *(port nord, occupé par Noxus)* | I | → cité côtière naturelle pour situer **« Cargaison compromettante »** (section 2septies, lien Piltover/Maison Medarda) — le groupe y découvre le trafic d'armes sur place. |
+| **Bel'Zhun** *(port nord occupé, insurrection active, établi)* | II | L'insurrection déjà mentionnée en section 2quinquies (« La vieille querelle Medarda ») a précisément son foyer ici ; un contact local propose au groupe de choisir un camp, pas seulement d'observer. |
+| **Amakra** *(en ruines, patrie détruite de Samira)* | II | Un groupe de pillards cherche encore un trésor supposé enfoui sous les ruines de la cité détruite qui a vu naître Samira — elle-même pourrait ne pas apprécier qu'on y touche. |
+| **Bibliothèque de Nasus** *(savoir ancien)* | II | Un érudit obtient un accès rarissime à la Bibliothèque, à condition de rapporter un texte précis égaré depuis des siècles quelque part dans le désert. |
+| **Grand Saï** *(mer de dunes)* | II | Une caravane s'est perdue dans les dunes mouvantes après qu'un guide expérimenté a insisté qu'un raccourci existait — il n'en existe pas, officiellement. |
+| **Kalamanda** *(ville du nord, dirigée par Azir localement)* | I | Une ville prospère depuis la découverte d'un riche gisement d'or et de gemmes tout proche — gisement qui attire justement les convoitises de Noxus, une tension économique qui ne demande qu'un prétexte pour dégénérer. |
+| **La Brèche de Cristal** *(cratère magique au sud de Kalamanda — aussi Champ de Justice, 11bis)* | II | Des érudits shurimais et une expédition étrangère se disputent l'accès au site pour des raisons de recherche opposées — l'une veut comprendre le cratère, l'autre l'exploiter. |
 
 ### Ixtal
 
-| Lieu | Accroche minute |
-|---|---|
-| **Chambre de Skarner** *(antre souterrain, sous Ixaocan)* | → lieu naturel pour situer **« La méfiance de Skarner »** (section 2octies) — le Conseil hésite même à envoyer des messagers jusque-là. |
-| **Arcologie du Feu** *(magma, roche, magnétisme)* | Un dérèglement mineur dans les protections élémentaires de l'arcologie inquiète ses habitants bien plus que ce que le Conseil veut bien admettre publiquement. |
-| **Arcologie de l'Eau** *(eau, glace, vapeur)* | Une créature aquatique inconnue s'est installée dans les canaux de l'arcologie ; ni tout à fait un intrus, ni tout à fait la bienvenue. |
-| **Village de Kiilash** *(avant-poste rural)* | Le village le plus exposé à la frontière défendue par magie signale des passages suspects juste après la tombée de la nuit, trois nuits de suite. |
-| **Delta Serpentin** *(frontière naturelle, Shurima)* | Frontière naturelle entre les deux régions ; un différend commercial discret s'y joue entre marchands ixtaliens et shurimais, sans que ni l'un ni l'autre gouvernement ne soit officiellement au courant. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Chambre de Skarner** *(antre souterrain, sous Ixaocan)* | III | → lieu naturel pour situer **« La méfiance de Skarner »** (section 2octies) — le Conseil hésite même à envoyer des messagers jusque-là. |
+| **Arcologie du Feu** *(magma, roche, magnétisme)* | II | Un dérèglement mineur dans les protections élémentaires de l'arcologie inquiète ses habitants bien plus que ce que le Conseil veut bien admettre publiquement. |
+| **Arcologie de l'Eau** *(eau, glace, vapeur)* | II | Une créature aquatique inconnue s'est installée dans les canaux de l'arcologie ; ni tout à fait un intrus, ni tout à fait la bienvenue. |
+| **Village de Kiilash** *(avant-poste rural)* | II | Le village le plus exposé à la frontière défendue par magie signale des passages suspects juste après la tombée de la nuit, trois nuits de suite. |
+| **Delta Serpentin** *(frontière naturelle, Shurima)* | II | Frontière naturelle entre les deux régions ; un différend commercial discret s'y joue entre marchands ixtaliens et shurimais, sans que ni l'un ni l'autre gouvernement ne soit officiellement au courant. |
 
 ### Targon
 
-| Lieu | Accroche minute |
-|---|---|
-| **Marus Omegnum** *(sanctuaire Lunari, établi — apparaît rarement)* | → lieu de **« Les armes de la Lune »** et de **« La montagne se dévoile »** (section 2novies) quand vous avez besoin d'un décor précis plutôt que d'une simple mention. |
-| **La Pierre des Adieux** *(limite du camp, début de l'ascension)* | → dernier point civilisé avant l'ascension : bon décor de départ pour **« L'exilé démacien »** (section 2novies). |
-| **Grottes Rakkor** *(base de la montagne)* | Un groupe de Rakkor teste quiconque approche avant de le laisser continuer l'ascension — pas par hostilité, mais parce que la montagne elle-même ne pardonne pas l'imprudence. |
-| **La Voie Voûtée** | Chemin ancien taillé dans la roche ; un pèlerin blessé y est retrouvé, convaincu d'avoir vu «quelque chose» qui ne devrait pas se trouver sur ce sentier précis. |
-| **Sommet** *(le Forgeron d'Étoiles rôderait ici)* | → écho lointain possible de **« Réconciliation ou répression »** (section 2novies) pour qui veut ouvrir cette porte plus tard — rien à en faire avant que la table ne soit prête. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Marus Omegnum** *(sanctuaire Lunari, établi — apparaît rarement)* | III | → lieu de **« Les armes de la Lune »** et de **« La montagne se dévoile »** (section 2novies) quand vous avez besoin d'un décor précis plutôt que d'une simple mention. |
+| **La Pierre des Adieux** *(limite du camp, début de l'ascension)* | I | → dernier point civilisé avant l'ascension : bon décor de départ pour **« L'exilé démacien »** (section 2novies). |
+| **Grottes Rakkor** *(base de la montagne)* | I | Un groupe de Rakkor teste quiconque approche avant de le laisser continuer l'ascension — pas par hostilité, mais parce que la montagne elle-même ne pardonne pas l'imprudence. |
+| **La Voie Voûtée** | II | Chemin ancien taillé dans la roche ; un pèlerin blessé y est retrouvé, convaincu d'avoir vu «quelque chose» qui ne devrait pas se trouver sur ce sentier précis. |
+| **Sommet** *(le Forgeron d'Étoiles rôderait ici)* | IV | → écho lointain possible de **« Réconciliation ou répression »** (section 2novies) pour qui veut ouvrir cette porte plus tard — rien à en faire avant que la table ne soit prête. |
 
 ### Bilgewater
 
-| Lieu | Accroche minute |
-|---|---|
-| **Île de Buhru** *(peuple indigène, patrie d'Illaoi)* | → lieu d'origine naturel pour approfondir « L'idole volée » (section 2decies) si vous voulez y situer une scène plutôt qu'une simple mention. |
-| **Temple de la Mère Serpente** *(religion de Nagakabouros, Illaoi)* | Un fidèle prétend avoir reçu une vision contredisant celles d'Illaoi elle-même — hérésie, épreuve, ou vraie divergence à l'intérieur du culte ? |
-| **Havre Gris** *(port secondaire, ravagé lors d'une Moisson)* | → décor concret pour rejouer **« La Moisson »** (section 2undecies, Îles Obscures) côté Bilgewater : ce port précis a déjà payé le prix une fois, et le sait. |
-| **Pont du Serpent** | Point de passage obligé entre deux quartiers du port ; un péage «non-officiel» y est prélevé par quelqu'un qui n'a aucune autorité légale pour le faire — mais assez de muscle pour que personne ne conteste. |
-| **Fleet Street** *(tavernes et distilleries de rhum)* | Une distillerie renommée refuse de vendre sa dernière cuvée à qui que ce soit — rumeur locale : elle serait ratée au point d'être dangereuse, pas juste mauvaise. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Île de Buhru** *(peuple indigène, patrie d'Illaoi)* | I | → lieu d'origine naturel pour approfondir « L'idole volée » (section 2decies) si vous voulez y situer une scène plutôt qu'une simple mention. |
+| **Temple de la Mère Serpente** *(religion de Nagakabouros, Illaoi)* | I | Un fidèle prétend avoir reçu une vision contredisant celles d'Illaoi elle-même — hérésie, épreuve, ou vraie divergence à l'intérieur du culte ? |
+| **Havre Gris** *(port secondaire, ravagé lors d'une Moisson)* | I | → décor concret pour rejouer **« La Moisson »** (section 2undecies, Îles Obscures) côté Bilgewater : ce port précis a déjà payé le prix une fois, et le sait. |
+| **Pont du Serpent** | I | Point de passage obligé entre deux quartiers du port ; un péage «non-officiel» y est prélevé par quelqu'un qui n'a aucune autorité légale pour le faire — mais assez de muscle pour que personne ne conteste. |
+| **Fleet Street** *(tavernes et distilleries de rhum)* | I | Une distillerie renommée refuse de vendre sa dernière cuvée à qui que ce soit — rumeur locale : elle serait ratée au point d'être dangereuse, pas juste mauvaise. |
 
 ### Îles Obscures
 
 *Terrain à jouer avec prudence, comme rappelé en section 2undecies : jamais une destination normale.*
 
-| Lieu | Accroche minute |
-|---|---|
-| **Helia** *(en ruines, ancienne capitale des Îles Bénies)* | Un groupe d'érudits téméraires cherche à cartographier les ruines de l'ancienne capitale avant qu'un rival (ou la Brume elle-même) ne les en empêche. |
-| **Pont des Îles Bénies** | Dernier vestige reliant symboliquement les Îles à ce qu'elles étaient avant Viego ; le traverser à rebours, vers le continent, n'est jamais anodin pour qui y a mis les pieds. |
-| **Les Eaux de Vie** *(source corrompue par le rituel de Viego)* | Une petite quantité de l'eau corrompue a été prélevée et vendue comme «relique» sur un marché noir loin d'ici — quelqu'un doit la retrouver avant qu'elle ne cause des dégâts ailleurs. |
-| **Bibliothèque engloutie** *(savoir des Îles Bénies, ruines arcaniques)* | Un texte englouti pourrait éclairer un pan du rituel de Viego encore mal compris — encore faut-il descendre le chercher, et remonter avec. |
-| **L'Allée Torse** *(forêt tordue par la Brume)* | La forêt elle-même semble réorganiser ses chemins d'une visite à l'autre ; un guide prétend connaître un moyen fiable de s'y retrouver, pour un prix élevé. |
-| **La Forêt Torturée** *(gardée par le Culte de l'Araignée — aussi Champ de Justice, 11bis)* | Le lieu où Elise (Annexe Champions), grande prêtresse du culte, ramène chaque année une cohorte de disciples en sacrifice à Vilemaw (Manuel du MJ, section 11) — un rituel qui approche justement, et qui donne un vrai compte à rebours si le groupe veut intervenir avant la prochaine offrande. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Helia** *(en ruines, ancienne capitale des Îles Bénies)* | III | Un groupe d'érudits téméraires cherche à cartographier les ruines de l'ancienne capitale avant qu'un rival (ou la Brume elle-même) ne les en empêche. |
+| **Pont des Îles Bénies** | II | Dernier vestige reliant symboliquement les Îles à ce qu'elles étaient avant Viego ; le traverser à rebours, vers le continent, n'est jamais anodin pour qui y a mis les pieds. |
+| **Les Eaux de Vie** *(source corrompue par le rituel de Viego)* | III | Une petite quantité de l'eau corrompue a été prélevée et vendue comme «relique» sur un marché noir loin d'ici — quelqu'un doit la retrouver avant qu'elle ne cause des dégâts ailleurs. |
+| **Bibliothèque engloutie** *(savoir des Îles Bénies, ruines arcaniques)* | III | Un texte englouti pourrait éclairer un pan du rituel de Viego encore mal compris — encore faut-il descendre le chercher, et remonter avec. |
+| **L'Allée Torse** *(forêt tordue par la Brume)* | II | La forêt elle-même semble réorganiser ses chemins d'une visite à l'autre ; un guide prétend connaître un moyen fiable de s'y retrouver, pour un prix élevé. |
+| **La Forêt Torturée** *(gardée par le Culte de l'Araignée — aussi Champ de Justice, 11bis)* | III | Le lieu où Elise (Annexe Champions), grande prêtresse du culte, ramène chaque année une cohorte de disciples en sacrifice à Vilemaw (Manuel du MJ, section 11) — un rituel qui approche justement, et qui donne un vrai compte à rebours si le groupe veut intervenir avant la prochaine offrande. |
 
 ### Kumungu *(petite région hors des 12 officielles — traiter comme les cités-états mineures, Manuel du MJ section 11)*
 
-| Lieu | Accroche minute |
-|---|---|
-| **Mudtown** *(cité franche côtière, jeu et contrebande)* | Un jeu d'argent local, réputé honnête depuis des années, est soudain accusé de tricherie par un joueur qui a tout perdu — vengeance, coïncidence, ou vraie escroquerie récente ? |
-| **Ruines englouties** *(vestiges de l'ancienne nation, établi)* | Une expédition financée depuis Piltover cherche à cartographier les ruines englouties — mais néglige complètement les tribus locales qui les considèrent comme sacrées. |
-| **Jardins de Zyr** *(plantes carnivores, magie élémentaire)* | Un botaniste imprudent a rapporté une graine des Jardins sans en mesurer le danger ; elle a commencé à pousser dans un lieu où personne ne s'y attend. |
-| **Repaire de Nidalee** *(territoire des tribus rares, aucune autorité centrale)* | Nidalee (Annexe Champions) traque un chasseur qui s'aventure trop souvent sur son territoire sans jamais se faire prendre — jusqu'ici. |
+| Lieu | Palier | Accroche minute |
+|---|---|---|
+| **Mudtown** *(cité franche côtière, jeu et contrebande)* | I | Un jeu d'argent local, réputé honnête depuis des années, est soudain accusé de tricherie par un joueur qui a tout perdu — vengeance, coïncidence, ou vraie escroquerie récente ? |
+| **Ruines englouties** *(vestiges de l'ancienne nation, établi)* | II | Une expédition financée depuis Piltover cherche à cartographier les ruines englouties — mais néglige complètement les tribus locales qui les considèrent comme sacrées. |
+| **Jardins de Zyr** *(plantes carnivores, magie élémentaire)* | II | Un botaniste imprudent a rapporté une graine des Jardins sans en mesurer le danger ; elle a commencé à pousser dans un lieu où personne ne s'y attend. |
+| **Repaire de Nidalee** *(territoire des tribus rares, aucune autorité centrale)* | II | Nidalee (Annexe Champions) traque un chasseur qui s'aventure trop souvent sur son territoire sans jamais se faire prendre — jusqu'ici. |
 
 ---
 

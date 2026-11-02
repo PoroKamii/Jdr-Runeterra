@@ -15,19 +15,37 @@ Rappel des outils d'arbitrage déjà détaillés dans le **Manuel du Joueur** (s
 
 *Pour un accès rapide en pleine session aux outils ci-dessous (équilibrage, durée de combat, boss/pièges express, Escouades, voyage, butin, prix, réputation sociale), voir la **Fiche Résumé : Guide du Maître du Jeu**, le pendant MJ de la Fiche Guide de Combat côté joueur.*
 
-## 2. Rythme de montée en niveau et structure de campagne
+## 2. Rythme de montée en niveau : les jalons [maison]
+
+En monde ouvert, le groupe ne monte pas de niveau parce qu'une session est terminée : il monte quand il **franchit un jalon**, c'est-à-dire un accomplissement qui change quelque chose dans le monde, quel que soit le chemin pris pour y arriver. Un combat isolé n'est jamais un jalon.
+
+**Qu'est-ce qui compte comme jalon ?**
+
+| Jalon | Exemple |
+|---|---|
+| Terminer une quête majeure ou une quête de capitale | Démasquer le traître du Conseil de Piltover (Annexe Quêtes régionales) |
+| Faire bouger une piste de l'Horloge du Monde d'un palier, dans un sens ou dans l'autre | Escorter le clan déserteur vers l'alliance d'Ashe (Freljord, palier 1 → 2) |
+| Obtenir un éclat de Rune du Monde | Récupérer l'éclat gardé dans une ruine shurimaise |
+| Vaincre un boss ou un monstre épique (section 10) | Abattre le Héraut de la Faille |
+| Accomplir l'objectif personnel d'un PJ | La vengeance d'un PJ noxien enfin obtenue |
+
+**Repère de rythme : environ 1 jalon par session de 3-4 h.** Si deux sessions passent sans jalon, glissez une occasion (rumeur, prime, PNJ qui vient chercher le groupe). Les niveaux 2 et 3 viennent plus vite, en général dès la première session, pour débloquer Q/W/E.
+
+**Plafonds : lisser la progression avec le fil rouge.** Chaque campagne suit un fil rouge en 4 étapes (Partie 3). Chaque étape fixe un niveau maximum, calé sur les paliers d'Ultime :
+
+| Étape du fil rouge | Niveaux atteignables | Palier débloqué |
+|---|---|---|
+| Éveil | 1 → 6 | Ultime rang 1 |
+| Montée | 6 → 11 | Ultime rang 2 |
+| Crise | 11 → 16 | Ultime rang 3 |
+| Dénouement | 16 → 18 | Plafond final |
+
+- **Groupe au plafond** : un jalon de plus ne donne pas de niveau. Il rapporte à la place +1 de réputation dans la région concernée ou un objet (section 8), au choix du MJ.
+- **Groupe en retard** : si le fil rouge passe à l'étape suivante alors que le groupe est sous le niveau de départ de cette étape, il gagne immédiatement 1 niveau de rattrapage.
+
+*Exemple : le groupe est niveau 5, en plein Éveil. Il récupère un éclat de Rune et passe niveau 6 (plafond). Les deux quêtes suivantes lui rapportent de la réputation et un objet, mais pas de niveau. Quand le fil rouge bascule en Montée, la progression reprend.*
 
 *Pour dater vos événements de campagne sans en inventer un de toutes pièces : le monde utilise déjà un calendrier basé sur la fondation de Noxus — "Avant Noxus" (AvN) et "Après Noxus" (ApN). La durée exacte d'une année n'est jamais précisée dans le lore, donc pas besoin de la faire correspondre à une année réelle : servez-vous-en simplement pour situer vos événements les uns par rapport aux autres (ex. "cette ruine remonte à environ 300 AvN").*
-
-La règle générale (Manuel du Joueur, Partie 1, section 5.2) est **1 niveau par session ou par arc narratif important**, pas par combat individuel. Voici un déroulé concret pour construire une progression complète niveau 1 → 18 :
-
-| Étape | Durée | Niveaux | Objectif |
-|---|---|---|---|
-| **Scénario tuto** | 2 à 4h | Niveau 1 → 2-3 | Prise en main rapide : débloquer les 3 compétences Q/W/E de base, tester le d100, une première rencontre simple |
-| **Scénario/campagne d'ouverture** | Soit 1 session ~10h, soit 2 parties distinctes | Niveau 3 → 6 | Partie exploration/énigmes/voyage (montée progressive), puis un combat de boss qui débloque l'Ultime au niveau 6 |
-| **Campagne longue** | Arc narratif complet | Niveau 6 → 18 | Quêtes régionales, événements liés à la réputation, montée en puissance jusqu'au plafond de niveau |
-
-Ce découpage n'est qu'une base — libre à vous de l'étirer ou de la resserrer selon le rythme de votre groupe.
 
 ## 2bis. Un personnage meurt : et après ?
 
@@ -424,7 +442,7 @@ Il y a des siècles, au sortir des **Guerres Runiques** qui ont ravagé Runeterr
 - **La Brèche de Cristal** — le cratère magique au nord-ouest de Shurima (déjà mentionné comme lieu géographique, voir aussi Ixtal pour le lien avec les Brackern).
 - **La Forêt Torturée** — une forêt maudite au cœur des Îles Obscures, où l'usage intensif de magie (les Guerres Runiques, mais aussi la proximité de Zaun) a fini par tordre la flore en un terrain étrange. Elle abrite l'essence de deux esprits autrefois mortels, morts pendant la Ruine, honorés chacun par un autel opposé — l'un tourné vers la lumière, l'autre vers l'ombre. La forêt est gardée par la même entité arachnéenne — **Vilemaw** — que vénère déjà le Culte de l'Araignée (voir plus haut), dont la grande prêtresse n'est autre qu'**Elise** elle-même, la Reine-Araignée.
 
-*Ce que ces lieux cachent vraiment, et le rôle qu'y joue Ryze, est un secret de campagne — développé dans les documents de campagne (voir Runeterra-JDR-Campagne-Principale-Ouverture.md), pas ici. Cette fiche reste volontairement neutre pour rester utilisable même hors de cette trame précise.*
+*Ce que ces lieux deviennent dans le fil rouge « Les Échos de la Guerre » est un secret de campagne, développé dans `Runeterra-JDR-Campagne-FilRouge-EchosDeLaGuerre.md`, pas ici. Cette fiche reste volontairement neutre pour rester utilisable avec n'importe quel fil rouge.*
 
 **Le Néant** — Aucune politique, une force de la nature hostile, née d'une rupture provoquée par la cité rebelle d'Icathia lors de sa révolte contre l'ancien empire shurimais (voir aussi la Rune du Néant, Manuel du Joueur, section 8.2). Avant sa chute, Icathia possédait son propre gouvernement, un conseil de dirigeants aujourd'hui disparu avec la cité elle-même — une piste utile pour une quête d'exploration dans ses ruines avec un peu de contexte historique. Certains cultes corrompus, disséminés dans d'autres régions, vénèrent le Néant comme une transcendance à atteindre. Menace universelle que toutes les régions redoutent — un bon prétexte pour forcer une coopération temporaire entre ennemis jurés.
 
@@ -793,13 +811,259 @@ Les stats ont été calculées à partir du niveau moyen de chaque créature, av
 
 ---
 
-# PARTIE 3 — À VENIR
+# PARTIE 3 — JOUER EN MONDE OUVERT
 
-Emplacement réservé pour les futurs suppléments de campagne :
-- **Scénario tuto** détaillé (prise en main, niveau 1 → 2-3)
-- **Scénario/campagne d'ouverture** (niveau 3 → 6)
-- **Campagne longue** — arc narratif, quêtes régionales, événements liés à la réputation
-- **PNJ notables et factions par région** — figures et accroches narratives
+Runeterra se joue en bac à sable : les joueurs vont où ils veulent, et leurs actions ont des conséquences. Trois outils encadrent cette liberté : les **zones à niveau fixe** (section 1), l'**Horloge du Monde** (section 2), qui fait vivre la politique des régions, et le **fil rouge** (section 3), une trame légère qui donne à chaque campagne un début et une fin et règle le rythme de progression (Partie 1, section 2).
+
+## 1. Zones à niveau fixe [maison]
+
+Le monde ne s'adapte pas au groupe. Chaque région a des **abords** (routes, villes, campagnes) et un **cœur** (lieux reculés et sites dangereux), chacun avec un palier de danger fixe. Les paliers reprennent les tranches de niveau de l'or (Partie 1, section 8).
+
+| Palier | Niveau | Ce que ça veut dire |
+|---|---|---|
+| I : Calme | 1-5 | Voyager, commercer, petites quêtes |
+| II : Dangereux | 6-10 | Il faut être préparé |
+| III : Mortel | 11-15 | Groupe aguerri uniquement |
+| IV : Légendaire | 16-18+ | Divinités, Ascendus, monstres de fin de campagne |
+
+| Région | Abords | Cœur | Lieu le plus dangereux (bestiaire, Partie 2) |
+|---|---|---|---|
+| Demacia | I | II | Temple de la Lumière, Golem de Lumière (III) |
+| Piltover | I | II | Laboratoires, Chimère expérimentale (III) |
+| Bandle City | I | I-II | Fée sylvestre corrompue (II) |
+| Noxus | I | II | Bastion Immortel, Colosse noxien (II-III) |
+| Freljord | I | II | Grottes des Pics Givrés, Géant des Glaces (III) |
+| Zaun | I | II | Laboratoires secrets, Ravageur chimique (III) |
+| Kumungu | I | II | Ruines Cachées, Anaconda géant (III) |
+| Ionia | I | II | Sanctuaire des Esprits, Dragon élémentaire (IV) |
+| Shurima | I | II | Disque Solaire, Demi-dieu Ascendant (IV) |
+| Bilgewater | I | III | Gouffre des Marées, Kraken ancestral (IV) |
+| Targon | I | III | Temple du Soleil, Aspect du Soleil (IV) |
+| Ixtal | II | III | Forêts d'Ixaocan, Basilic géant (III) |
+| Îles Obscures | II | III | Lance de Vengeance (IV) |
+| Néant | II | III | Aberration majeure (III-IV) |
+
+*Ixtal et les Îles Obscures n'ont pas de palier I : on ne commence pas une campagne derrière la frontière magique ixtalienne ou dans la Brume.*
+
+**Trois règles simples :**
+1. **On construit la rencontre au niveau de la zone, pas du groupe** (Partie 1, sections 6 et 6ter, inchangées). Un groupe niveau 4 qui entre sur les Îles Obscures affronte des créatures de niveau 6-8.
+2. **Toujours prévenir avant.** Une zone trop dangereuse s'annonce au moins une fois : rumeur, carcasses, PNJ qui déconseille la route. Si les joueurs y vont quand même, c'est leur choix, et la fuite doit rester possible.
+3. **Le monde peut rendre une zone plus dangereuse.** Quand une piste de l'Horloge du Monde atteint le palier 3 ou plus, les abords de la région concernée montent d'un palier (ex. guerre larvée au Freljord : les routes du nord passent de I à II).
+
+*Exemple : un groupe niveau 5 veut gravir le Mont Targon pour trouver un éclat de Rune. Les pentes basses (I) sont jouables, mais un pèlerin redescendu les avertit que les Protecteurs célestes gardent la crête (III). Ils peuvent tenter le coup, revenir plus tard, ou chercher un moyen détourné (un guide Rakkor, une faveur des Solari).*
+
+---
+
+## 2. L'Horloge du Monde — Runeterra vit sans attendre les joueurs
+
+**Principe.** Même si le groupe ne fait rien pendant plusieurs semaines de temps narratif, le monde continue d'évoluer : les tensions déjà écrites en Partie 1 (section 11) avancent toutes seules, à un rythme lent mais réel. Les joueurs peuvent influencer ces tensions par leurs choix, mais ils n'ont jamais à les déclencher pour qu'elles existent. Aucun nouveau jet, aucune nouvelle stat : cet outil ne touche jamais au combat, seulement au décor politique.
+
+**8 pistes, 5 paliers chacune (0 à 4).** Toutes démarrent à 0. Six pistes progressent par conflit (guerre, politique de crise) ; deux (Targon, Ixtal) progressent par le débat religieux ou interne, sans jamais devenir une guerre — un bon rappel que le monde n'a pas besoin d'être partout en flammes pour bouger. Chaque palier est une description prête à annoncer aux joueurs sous forme de rumeur ou d'événement — jamais besoin d'improviser sous pression.
+
+**1. Freljord — vers l'unification totale**
+
+| Palier | Situation | Conséquence sur le monde | Conséquence pour les aventuriers |
+|---|---|---|---|
+| 0 | Ashe (Avarosan) et Lissandra (Gardiens du Givre) tiennent une alliance de circonstance — Ashe y cherche une vraie unification par la diplomatie, Lissandra y voit surtout un moyen de garder son secret (les Guetteurs, Partie 1, section 11) enterré sous une paix stable. Sejuani, à la tête de la Griffe d'Hiver, n'y voit qu'une soumission déguisée et garde ses guerriers mobilisés. | Statu quo politique, rien ne bouge. | Aucun effet. |
+| 1 | Des rumeurs disent que même certains capitaines de la Griffe d'Hiver trouvent la posture de Sejuani plus coûteuse (raids qui échouent, ressources qui manquent) qu'utile. | Tensions internes discrètes côté Griffe d'Hiver, invisibles de l'extérieur. | Une rumeur au comptoir, rien de plus. |
+| 2 | Un capitaine mineur de la Griffe d'Hiver fait défection avec son clan vers l'alliance — Sejuani crie à la traîtrise et resserre son emprise sur ceux qui restent, quitte à devenir plus brutale envers les siens. | Le rapport de force penche un peu plus vers l'alliance ; la Griffe d'Hiver se radicalise en interne. | Patrouilles nerveuses sur les routes du nord : jet de Discrétion ou Persuasion pour passer sans encombre. Fourrures et vivres importés du Freljord +20% de prix. |
+| 3 | Des escarmouches éclatent ouvertement ; Sejuani mise sur des raids éclairs pour saper le moral de l'alliance avant qu'elle ne se renforce davantage. | État de guerre larvée dans le nord ; Demacia et Noxus renforcent leurs propres frontières par précaution (voir Répercussions extra-régionales, plus bas). | Traverser le territoire contesté demande un jet de Discrétion ou Persuasion (Désavantage si le groupe est identifiable comme extérieur) pour éviter une embuscade. Certains marchands du nord refusent de vendre à qui semble neutre. |
+| 4 | Bataille décisive. **Si l'alliance Ashe/Lissandra l'emporte** : la Griffe d'Hiver est forcée à l'intégration, Sejuani perd son autorité — et Lissandra gagne un contrôle presque total sur le Freljord unifié, la rapprochant dangereusement de pouvoir enterrer son secret pour de bon. **Si la Griffe d'Hiver l'emporte** : l'alliance vole en éclats, Ashe est capturée ou en fuite, et le chaos qui suit relâche justement la surveillance annuelle de la Salle des Neuf (Partie 1, section 11). | Bascule politique durable du Freljord — voir les deux issues dans la colonne Situation. | Routes du Freljord fermées plusieurs semaines de temps narratif. Le camp vainqueur conditionne l'accès à l'Abîme Hurlant (taxe, escorte imposée, ou accès facilité si le groupe l'a aidé). |
+
+**Palier spécial (optionnel) — Le Réveil des Anciens.** À utiliser à la place du palier 4 « politique » ci-dessus si vous préférez donner à l'issue du Freljord une couleur mythique plutôt que purement humaine. Ornn, Volibear et Anivia sont trois divinités mineures freljordiennes, frères et sœurs jadis proches (Partie 1, section 13, panthéon freljordien) : Volibear se nourrit du sang versé dans la guerre et gagne en puissance à mesure que le conflit s'envenime ; Anivia, protectrice des mortels, s'oppose ouvertement à son frère pour limiter le massacre ; Ornn, le plus ancien des trois, ne se mêle jamais des affaires mortelles de bon gré mais finit toujours par intervenir pour « remettre ses cadets impétueux à leur place » lorsque leur querelle menace de tout raser.
+
+| | |
+|---|---|
+| **Situation** | La guerre entre l'alliance et la Griffe d'Hiver a fait couler assez de sang pour que Volibear se réveille physiquement quelque part sur le champ de bataille, prenant parti pour le camp le plus sanguinaire (souvent la Griffe d'Hiver, mais rien n'empêche un capitaine de l'alliance de céder à la même tentation). Anivia se manifeste à son tour pour protéger les mortels pris entre les deux, sans forcément choisir de camp politique. |
+| **Conséquence sur le monde** | Le conflit humain devient secondaire face à l'affrontement entre les deux divinités ; le Freljord entier retient son souffle, quelle que soit l'issue politique déjà en cours. |
+| **Conséquence pour les aventuriers** | Une vraie rencontre avec un être de rang divin (Bestiaire ou statistiques de créature légendaire, au choix du MJ) plutôt qu'une bataille purement politique. S'ils s'interposent ou aident Anivia à raisonner Ornn avant que celui-ci n'intervienne par la force, ils peuvent influencer directement la suite sans avoir à choisir entre Ashe et Sejuani. Une fois Ornn intervenu, le conflit mortel retombe presque instantanément — mais le Freljord n'oublie jamais qu'un dieu a dû se déplacer pour calmer ses enfants. |
+
+**2. Piltover/Zaun — le siège encore fragile**
+
+| Palier | Situation | Conséquence sur le monde | Conséquence pour les aventuriers |
+|---|---|---|---|
+| 0 | Zaun a obtenu un siège au Conseil après des années de lutte politique, occupé par une représentante zaunite de fraîche date ; dans les faits, ce sont toujours les Barons Chimiques — des industriels de l'ombre qui contrôlent la production de chimtech dans le Puisard — qui dictent la vie quotidienne. | Statu quo, rien ne bouge. | Aucun effet. |
+| 1 | Un Baron Chimique influent répand des rumeurs sur l'intégrité de la représentante zaunite, cherchant à la discréditer avant qu'elle ne gagne trop d'indépendance vis-à-vis de lui. | Manœuvre politique discrète, encore invisible du grand public. | Une rumeur au comptoir, rien de plus. |
+| 2 | Un scandale de corruption éclate (pots-de-vin, chimtech de contrebande) ; l'opinion publique piltovienne, déjà méfiante envers Zaun, se retourne contre elle. | Le scandale devient public, l'opinion piltovienne se durcit contre Zaun. | Objets hextech/chimtech (Manuel du Joueur) +15% de prix (spéculation, contrôles renforcés). Jet d'Érudition ou Persuasion en Désavantage pour obtenir un accès ou une licence de recherche officielle à Piltover. |
+| 3 | Une motion est déposée au Conseil pour supprimer purement et simplement le siège zaunite, portée par les élus les plus hostiles à toute réforme. | Une motion de suppression du siège zaunite est officiellement déposée au Conseil. | Le Puisard devient plus tendu : Désavantage sur les jets de Discrétion pour qui n'a pas de contact local. Plusieurs échoppes ferment temporairement. |
+| 4 | Crise politique majeure. **Si le siège est supprimé** : Zaun retombe sous le contrôle informel des Barons Chimiques. **Si le siège est sauvé** (soutien populaire, intervention extérieure) : la représentante en sort renforcée et peut devenir une alliée durable, mais s'être mis les Barons Chimiques à dos a un prix. | Bascule politique durable pour Zaun — voir les deux issues dans la colonne Situation. | Si supprimé : accès légal à Zaun se referme, marché noir hextech/chimtech +30% de prix mais sans limite de disponibilité. Si sauvé : accès facilité à Zaun si le groupe y a contribué, mais un Baron Chimique devient un ennemi actif. |
+
+**3. Demacia — crise de succession**
+
+| Palier | Situation | Conséquence sur le monde | Conséquence pour les aventuriers |
+|---|---|---|---|
+| 0 | Le trône attend le couronnement de l'héritier légitime de la lignée Lightshield, retardé par la méfiance du Conseil et des grandes Maisons après l'assassinat du roi précédent. La récente Grande Rébellion des Mages a déjà forcé la dissolution officielle des chasseurs de mages, une réforme que plusieurs loyalistes conservateurs cherchent discrètement à faire annuler. | Statu quo, rien ne bouge. | Aucun effet. |
+| 1 | Un prétendant issu d'une des grandes Maisons (Crownguard, Buvelle, Laurent ou Durand) gagne en soutien populaire en promettant d'assouplir encore les Lois de Pierre. | Un prétendant réformiste gagne discrètement du terrain politique. | Une rumeur au comptoir, rien de plus. |
+| 2 | Un incident impliquant un membre des Illuminateurs (l'ordre secret de mages protecteurs des frontières, Partie 1, section 11) éclate publiquement, ravivant la panique anti-magie que la Rébellion venait tout juste d'apaiser. | La panique anti-magie refait surface publiquement à l'échelle du royaume. | Tout personnage utilisant ouvertement la magie en public à Demacia risque un Désavantage à son prochain jet de Discrétion (patrouilles alertées) ; +1 aux jets d'Intimidation des gardes envers quiconque semble suspect. |
+| 3 | Fracture ouverte entre loyalistes de la ligne dure et réformistes gravitant autour de la nouvelle gouverneure du refuge des mages (Lux, Annexe Champions) — chacun accuse l'autre de mettre le royaume en danger. | Le royaume se fracture publiquement en deux camps politiques déclarés. | Voyager à travers Demacia demande un jet de Persuasion pour passer les points de contrôle sans encombre ; un personnage connu pour être mage risque une interpellation, sans jet, en pur RP. |
+| 4 | Couronnement contesté ou coup de force. **Si les réformistes l'emportent** : les Lois de Pierre s'assouplissent significativement, les mages regagnent une place légale à Demacia. **Si la ligne dure l'emporte** : un tour de vis sévère frappe même les Illuminateurs, la répression anti-magie redevient une réalité quotidienne. | Bascule politique durable pour Demacia — voir les deux issues dans la colonne Situation. | Accès à Demacia se resserre ou s'ouvre pour tout personnage magique du groupe selon l'issue — bonus/malus au jugement du MJ sur toute interaction officielle dans le royaume pour le reste de la campagne. |
+
+**4. Noxus/Ionia — le Trifarix et l'occupation**
+
+| Palier | Situation | Conséquence sur le monde | Conséquence pour les aventuriers |
+|---|---|---|---|
+| 0 | Le Trifarix — Swain (Vision), Darius (Force), et un troisième siège appelé la Ruse dont l'identité reste un mystère même pour les Noxiens — gouverne Noxus à parts égales depuis la chute de l'ancien empereur ; en Ionia occupée, cette façade d'ordre masque mal des tensions jamais éteintes. | Statu quo, rien ne bouge. | Aucun effet. |
+| 1 | Des rumeurs sur l'identité réelle de la Ruse circulent jusque dans les tavernes des cités voisines — certains l'imaginent liée à une guilde d'assassins, d'autres à une puissance bien plus ancienne. | Rien de structurel encore, une curiosité de tavernes. | Une rumeur au comptoir, rien de plus. |
+| 2 | La résistance ionienne, jamais totalement éteinte depuis l'invasion, s'intensifie dans les territoires occupés — sabotages, embuscades, soutien discret de la population locale. | La résistance ionienne gagne en intensité et en soutien populaire dans les zones occupées. | Voyager dans les territoires ioniens occupés demande un jet de Discrétion ou Survie pour éviter une embuscade (résistants ou patrouilles noxiennes, selon le camp perçu du groupe). Biens ioniens importés +20% de prix. |
+| 3 | Un des trois membres du Trifarix est visé par une tentative d'assassinat — Darius soupçonne aussitôt la Ruse d'un coup monté, Swain temporise, la méfiance mutuelle grandit au sommet de l'empire. | La méfiance interne au sommet de l'empire noxien devient un secret de polichinelle. | Obtenir une aide ou un laissez-passer noxien officiel devient plus difficile (Désavantage sur le jet de Persuasion concerné) — la moindre requête extérieure est vue comme suspecte. |
+| 4 | Rupture ouverte. **Si le Trifarix éclate** : Noxus se fragmente en factions rivales, l'occupation d'Ionia se relâche, une vraie fenêtre de libération s'ouvre pour la résistance. **Si le Trifarix se resserre au contraire** (un coup manqué qui ressoude les trois membres) : renforcement massif des troupes noxiennes en Ionia, couvre-feu, répression accrue. | Bascule politique durable pour Noxus et Ionia — voir les deux issues dans la colonne Situation. | Accès à l'Ionie occupée devient soit plus facile mais politiquement instable (guerre civile noxienne larvée), soit totalement verrouillé (couvre-feu, contrôles systématiques) selon l'issue. |
+
+**5. Shurima — la guerre des deux empereurs**
+
+| Palier | Situation | Conséquence sur le monde | Conséquence pour les aventuriers |
+|---|---|---|---|
+| 0 | Azir, l'empereur ressuscité et Ascendu, tente de restaurer l'ancienne gloire de Shurima depuis sa cité relevée des sables ; Xerath, l'Ascendu renégat qui l'a jadis trahi au moment de son ascension, se considère lui aussi légitime à régner et rassemble ses propres partisans dans l'ombre du désert. | Statu quo, rien ne bouge. | Aucun effet. |
+| 1 | Des escarmouches frontalières éclatent entre tribus fidèles à Azir et groupes se réclamant de Xerath, sans qu'aucun camp ne l'emporte clairement. | Escarmouches localisées, sans bascule claire. | Une rumeur au comptoir, rien de plus. |
+| 2 | Une cité-oasis bascule ouvertement dans l'un des deux camps, forçant les voyageurs neutres à choisir une couleur avant même d'y entrer. | Une première cité-oasis choisit officiellement son camp. | Traverser une zone disputée demande un jet de Discrétion ou Survie pour éviter d'être repéré comme neutre/suspect. Eau et vivres +25% de prix en zone de guerre. |
+| 3 | Une bataille rangée devient imminente ; chaque camp cherche à convaincre les dernières tribus indécises de le rejoindre avant le choc final. | Le désert shurimais bascule en état de guerre imminente généralisée. | Aucun passage garanti dans la zone sans escorte ou sauf-conduit (jet de Persuasion pour l'obtenir). |
+| 4 | Un des deux camps tombe. **Si Azir l'emporte** : Shurima amorce une reconstruction politique, mais la méfiance envers les Ascendus grandit dans la population mortelle. **Si Xerath l'emporte (ou survit et se renforce)** : le désert devient plus instable et dangereux, les ruines shurimaises anciennes deviennent nettement plus disputées et surveillées. | Bascule politique durable pour Shurima — voir les deux issues dans la colonne Situation. | Accès aux ruines et sites archéologiques shurimais facilité ou fermé selon le vainqueur — pertinent si le groupe cherche un éclat de Rune du Monde dans les ruines. |
+
+**6. Bilgewater — l'autorité disputée**
+
+| Palier | Situation | Conséquence sur le monde | Conséquence pour les aventuriers |
+|---|---|---|---|
+| 0 | Miss Fortune s'est imposée comme capitaine dominante après avoir fait exploser le navire amiral de Gangplank devant tout le port ; mais l'ancien reaver king a survécu, défiguré, et prépare sa revanche loin des regards. | Statu quo, rien ne bouge. | Aucun effet. |
+| 1 | Des rumeurs affirment que Gangplank a été aperçu, vivant, dans un port éloigné — la plupart des habitants refusent d'y croire, préférant la légende de sa mort. | Rumeur non confirmée, la légende officielle tient encore. | Une rumeur au comptoir, rien de plus. |
+| 2 | Un équipage rival profite du flou pour tenter de reformer un Conclave des Corsaires, cherchant à récupérer une part du pouvoir laissé vacant. | Une tentative concrète de recomposition du pouvoir portuaire se met en place. | Prix des services portuaires (réparations, ravitaillement, passage) +20%. Jet de Persuasion ou Intimidation pour naviguer sans être racketté par l'un des camps en présence. |
+| 3 | Gangplank refait surface publiquement, rallie d'anciens fidèles et lance ses premiers coups contre les intérêts de Miss Fortune. | Le retour de Gangplank devient un fait public et armé. | Bagarres fréquentes dans le port : Désavantage sur les jets de Discrétion pour éviter d'être mêlé à un affrontement improvisé entre bandes rivales. |
+| 4 | Guerre ouverte pour le contrôle du port. **Si Miss Fortune l'emporte définitivement** : une répression sanglante s'abat sur tout ce qui reste fidèle à Gangplank, l'ordre revient mais dans la peur. **Si Gangplank reprend le port** : Bilgewater retombe sous une loi du plus fort brutale. | Bascule politique durable pour Bilgewater — voir les deux issues dans la colonne Situation. | Accès au port fermé plusieurs semaines de temps narratif pendant le conflit ; la nouvelle autorité impose ses propres taxes à la réouverture (ex. +50% sur les taxes de mouillage sous Gangplank). |
+
+**7. Targon — le schisme silencieux**
+*Une piste sans guerre : Targon avance par la foi et la politique religieuse, pas par les armées.*
+
+| Palier | Situation | Conséquence sur le monde | Conséquence pour les aventuriers |
+|---|---|---|---|
+| 0 | Les Solari vénèrent le Soleil comme unique Aspect légitime ; les Lunari, exilés depuis une purge historique, survivent en clandestinité. Le Marus Omegnum, sanctuaire Lunari, dort dans le Royaume des Esprits. | Statu quo religieux, rien ne bouge. | Aucun effet. |
+| 1 | Des pèlerins rapportent des présages célestes inhabituels (comètes, alignements rares) — certains murmurent que le Marus Omegnum pourrait bientôt se matérialiser. | Rumeurs d'un signe céleste imminent, sans confirmation. | Une rumeur au comptoir, rien de plus. |
+| 2 | Un pratiquant Lunari est publiquement dénoncé par des zélotes Solari — pas une bataille, un procès religieux, exemplaire et humiliant. | Un procès public ravive la tension entre les deux cultes dans une cité targonienne. | Jet de Discrétion ou Persuasion en Désavantage pour tout personnage suspecté de sympathies Lunari lors d'une interaction officielle sur la montagne. |
+| 3 | Le Marus Omegnum se matérialise réellement lors d'un événement céleste rare, forçant Solari et Lunari à se retrouver physiquement sur le même site sacré pour la première fois depuis des générations. | Une confrontation religieuse directe devient inévitable, sous l'œil de toute la montagne. | Accéder au site lors de l'événement demande un jet de Persuasion ou Érudition (connaître le bon rituel/protocole) — une occasion rare d'obtenir une faveur des deux cultes à la fois. |
+| 4 | Dénouement religieux. **Si une réconciliation s'impose** : les deux Aspects sont reconnus comme légitimes, une première dans l'histoire de Targon. **Si la ligne dure Solari l'emporte** : la répression s'intensifie, les Lunari sont poussés plus profondément dans la clandestinité. | Bascule théologique durable pour Targon — voir les deux issues dans la colonne Situation. | Accès facilité ou fermé à l'un ou l'autre culte pour tout personnage lié à Targon, selon l'issue — pertinent pour tout PJ Solari, Lunari ou Aspect. |
+
+**8. Ixtal — le débat de l'isolement**
+*Une autre piste sans guerre : Ixtal avance par le débat interne, pas par le conflit ouvert.*
+
+| Palier | Situation | Conséquence sur le monde | Conséquence pour les aventuriers |
+|---|---|---|---|
+| 0 | Le Conseil des Yun Tal maintient une isolation stricte ; une jeune génération curieuse du monde extérieur commence tout juste à s'exprimer, sans réel pouvoir encore. | Statu quo isolationniste, rien ne bouge. | Aucun effet. |
+| 1 | Une faction discrète de jeunes Yun Tal fait circuler une pétition informelle pour un contact limité avec l'extérieur. | Un débat interne s'amorce, encore loin des oreilles du Conseil. | Une rumeur au comptoir, rien de plus (probablement rapportée par un marchand ayant tenté sa chance à la frontière). |
+| 2 | Une expédition étrangère (souvent la Guilde des Explorateurs de Piltover) force la frontière et est repoussée par la magie défensive du territoire — preuve à la fois du danger extérieur et de sa détermination. | Un incident frontalier confirmé nourrit les deux camps du débat interne. | Toute tentative d'approcher la frontière ixtalienne sans contact local demande un jet de Discrétion ou Survie (Désavantage) pour ne pas être repoussé par la magie défensive elle-même. |
+| 3 | Le débat atteint le Conseil lui-même : une proposition formelle d'assouplissement de l'isolement divise ouvertement les Yun Tal. | Le Conseil se fracture publiquement sur la question de l'ouverture. | Un contact ixtalien existant devient une ressource précieuse — jet de Persuasion pour obtenir une audience informelle avec un membre du Conseil favorable à l'ouverture. |
+| 4 | Décision du Conseil. **Si l'ouverture l'emporte** : un canal de contact limité et contrôlé s'ouvre avec l'extérieur, une première depuis des générations. **Si l'isolement se durcit** : la frontière magique se renforce encore, rendant Ixtal plus difficile d'accès que jamais — et Skarner, déjà méfiant depuis l'ancienne alliance avec Shurima, y voit une confirmation de ses craintes. | Bascule politique durable pour Ixtal — voir les deux issues dans la colonne Situation. | Si ouverture : accès légal (rare et encadré) à Ixtal pour la première fois, quêtes diplomatiques possibles. Si durcissement : Ixtal devient une région quasiment infranchissable pour le reste de la campagne, sauf contact déjà établi. |
+
+**Répercussions extra-régionales.** Le monde ne réagit pas en vase clos : quand une piste atteint le palier 3 ou plus, vérifiez si une région liée réagit à son tour — un simple contrecoup à une ligne, jamais une nouvelle piste à gérer en plus.
+
+| Piste qui avance (palier 3+) | Région(s) qui réagit(ssent) | Effet |
+|---|---|---|
+| Freljord | Demacia et Noxus | Les deux royaumes renforcent leurs propres frontières nord par précaution, chacun soupçonnant l'autre de vouloir profiter du chaos freljordien. |
+| Demacia | Noxus | Le Trifarix surveille de près l'issue de la crise démacienne — toute agitation y est lue comme une occasion ou une menace, selon le camp qui l'emporte. |
+| Noxus/Ionia | Demacia | Demacia, rival historique de Noxus (Première Guerre, Partie 1, section 11), est tenté d'apporter un soutien clandestin à la résistance ionienne — risque d'incident diplomatique si cela s'ébruite. |
+| Piltover/Zaun | Shurima et Ixtal | La Guilde des Explorateurs piltovienne intensifie ses expéditions dans les ruines shurimaises et ses tentatives d'approche de la frontière ixtalienne pour financer la crise interne — une pression étrangère de plus sur deux régions déjà sur la corde raide. |
+| Shurima | Noxus | Le Trifarix voit dans l'instabilité shurimaise une occasion d'étendre discrètement son influence, dans la continuité de l'intérêt noxien déjà établi pour la région. |
+| Bilgewater | Toutes les régions | Le port étant un carrefour commercial neutre, son instabilité fait grimper de 10% le prix de tout bien qui y transite habituellement, quelle que soit la région d'origine du groupe. |
+| Targon | Demacia | La coutume démacienne de la Couronne de Pierre (exiler un soldat déshonoré sur la montagne, Partie 1, section 11) devient un sujet brûlant : envoyer quelqu'un gravir Targon en pleine crise religieuse a des conséquences bien plus incertaines qu'avant. |
+
+*Ces contrecoups sont des suggestions, pas des obligations : n'activez que ceux qui servent votre histoire du moment.*
+
+**Relations bilatérales entre régions limitrophes — une échelle de réputation, indépendante des paliers internes.** Les répercussions ci-dessus ne se déclenchent que si une piste interne dépasse 3 — mais la relation entre deux voisins directs peut évoluer, en bien ou en mal, sans que ni l'un ni l'autre ne soit en crise interne (un incident frontalier isolé, une alliance de circonstance, une trahison découverte...). Pour ça, gardez un second compteur, complètement séparé des 8 pistes : une **réputation bilatérale** sur une échelle à 5 crans, pour chaque paire de régions qui partagent une vraie frontière (terrestre ou maritime rapprochée) sur la carte. Ce compteur ne bouge jamais tout seul par tirage — seulement quand un événement précis le justifie, à votre initiative ou suite à une action des joueurs.
+
+| Réputation | Effet |
+|---|---|
+| **-2 Ennemis** | Hostilité ouverte, même si chacune reste calme en interne : frontière commune fermée ou fortement surveillée, tout personnage affilié à l'une est mal reçu par l'autre. |
+| **-1 Méfiants** | Tension reconnue publiquement : jet de Persuasion en Désavantage pour toute démarche officielle impliquant les deux régions à la fois (contrat commercial, laissez-passer croisé, alliance ponctuelle). |
+| **0 Statu quo** | Relation neutre ou normale, rien à signaler. |
+| **+1 Amicaux** | Coopération informelle : jet de Persuasion en Avantage pour toute démarche impliquant les deux régions ; commerce facilité (-10% sur les biens importés de l'une vers l'autre). |
+| **+2 Alliés** | Frontière ouverte, coopération active (militaire, commerciale ou diplomatique) : accès facilité aux deux territoires pour quiconque est en bons termes avec l'un des deux, et une demande d'aide officielle a de bonnes chances d'aboutir. |
+
+**Les paires limitrophes à suivre** (toutes les frontières terrestres ou maritimes rapprochées de la carte) :
+
+| Paire | Nature du voisinage | Réputation de départ |
+|---|---|---|
+| Freljord ↔ Demacia | Frontière terrestre | 0 |
+| Freljord ↔ Noxus | Frontière terrestre | 0 |
+| Demacia ↔ Noxus | Frontière terrestre — rivalité historique (Première Guerre, Partie 1, section 11) | -1 |
+| Noxus ↔ Piltover/Zaun | Frontière terrestre (isthme) | 0 |
+| Noxus ↔ Ionia | Frontière maritime — territoires ioniens occupés par Noxus | -2 |
+| Piltover/Zaun ↔ Shurima | Frontière terrestre | 0 |
+| Piltover/Zaun ↔ Ixtal | Frontière terrestre | 0 |
+| Shurima ↔ Ixtal | Frontière terrestre | 0 |
+| Shurima ↔ Targon | Frontière maritime rapprochée | 0 |
+| Bilgewater ↔ Ixtal | Frontière maritime rapprochée | 0 |
+| Bilgewater ↔ Îles Obscures | Frontière maritime rapprochée | -1 |
+
+*Ces valeurs de départ sont des suggestions cohérentes avec le lore déjà établi (Partie 1, section 11) — libre à vous de les ajuster avant le lancement de la campagne.*
+
+**Générateur d'incident bilatéral (d6)**, à tirer ou choisir quand vous voulez faire bouger une relation sans passer par les 8 pistes principales :
+
+| d6 | Incident | Effet suggéré |
+|---|---|---|
+| 1 | Une accusation publique (espionnage, sabotage) vise l'autre région, fondée ou non. | -1 sur l'échelle de réputation. |
+| 2 | Un incident frontalier isolé (contrebande, patrouille qui déborde) dégénère en scandale diplomatique. | -1 sur l'échelle de réputation. |
+| 3 | Une trahison ou un double jeu ancien est découvert, ravivant une vieille rancune. | -1 (-2 si c'est particulièrement humiliant pour l'une des deux). |
+| 4 | Un traité commercial, une aide militaire ponctuelle ou un mariage arrangé aboutit avec succès. | +1 sur l'échelle de réputation. |
+| 5 | Un geste de bonne volonté marquant est accompli (échange de prisonniers, aide humanitaire, secours lors d'une catastrophe). | +1 sur l'échelle de réputation. |
+| 6 | Les joueurs eux-mêmes règlent ou aggravent la situation par une action marquante. | +1 ou -1, au jugement du MJ. |
+
+Ce compteur reste volontairement simple : pas de table de paliers narratifs détaillée comme pour les 8 pistes principales, juste de quoi justifier un jet en Avantage/Désavantage ou une frontière ouverte/fermée entre deux voisins précis, sans que ça n'affecte leur situation interne respective.
+
+**Faire avancer l'Horloge.** Entre deux sessions, ou pendant une scène calme de voyage/repos, tirez 1d10 :
+- **1 à 8** → la piste correspondante avance d'un palier (max 4) : 1 Freljord, 2 Piltover/Zaun, 3 Demacia, 4 Noxus/Ionia, 5 Shurima, 6 Bilgewater, 7 Targon, 8 Ixtal.
+- **9** → le fil rouge gagne 1 point de tension (section 3). Il ne change jamais d'étape sur un simple tirage : le monde pousse la menace, mais ce sont les jalons qui la font basculer.
+- **10** → accalmie : rien ne bouge structurellement ce mois-ci. Tirez plutôt une rumeur neutre dans la table ci-dessous, pour nourrir l'ambiance sans conséquence durable.
+
+Un palier 4 n'est pas une fin en soi : notez ce qui s'est passé (qui a gagné, qui a perdu) et laissez la piste s'y stabiliser jusqu'à ce que vous en fassiez un vrai arc de quête, si vous le souhaitez — rien n'oblige à l'exploiter immédiatement.
+
+**L'influence des joueurs.** Une action marquante du groupe (empêcher un assassinat, percer une conspiration locale, contrecarrer ou au contraire servir un agent du fil rouge) peut librement faire avancer **ou reculer** une piste d'un palier, au jugement du MJ — sans jet, en pure conséquence narrative. C'est le seul levier qui permette aux joueurs de vraiment infléchir le monde, sans jamais être obligés de le faire.
+
+**Comment la nouvelle arrive au groupe (d6).**
+
+| d6 | Vecteur |
+|---|---|
+| 1 | Un colporteur ou marchand de passage la raconte au comptoir d'une auberge. |
+| 2 | Un journal ou un crieur public (Piltover, Demacia) l'annonce. |
+| 3 | Un PNJ déjà connu du groupe leur écrit ou les contacte directement. |
+| 4 | Ils croisent des réfugiés ou des voyageurs fuyant la zone concernée. |
+| 5 | Un hermite ou un érudit itinérant — de ceux qui vivent dangereusement longtemps et en savent toujours un peu trop — laisse échapper une remarque bien informée sans vouloir s'expliquer davantage. |
+| 6 | Ils la découvrent eux-mêmes sur le terrain (signe physique, PNJ témoin). |
+
+**Carnet de suivi (à dupliquer pour chaque campagne).** Un simple tableau à tenir à jour au fil des sessions — rien à calculer, juste cocher le palier courant.
+
+| Piste | Palier actuel | Dernière mise à jour (session) | Note |
+|---|---|---|---|
+| Freljord | 0/4 | | |
+| Piltover/Zaun | 0/4 | | |
+| Demacia | 0/4 | | |
+| Noxus/Ionia | 0/4 | | |
+| Shurima | 0/4 | | |
+| Bilgewater | 0/4 | | |
+| Targon | 0/4 | | |
+| Ixtal | 0/4 | | |
+| Fil rouge (tension) | étape : ___ / tension : 0 | | |
+
+---
+
+## 3. Le fil rouge : une trame légère [maison]
+
+Le fil rouge donne à la campagne un début et une fin sans imposer de chemin. Il avance tout seul si les joueurs l'ignorent, et ce sont leurs choix qui décident de la forme qu'il prend à la fin. Il règle aussi le rythme de progression : chaque étape fixe un niveau plafond (Partie 1, section 2).
+
+**Un fil rouge prêt à jouer existe :** *Les Échos de la Guerre* (document de campagne `Runeterra-JDR-Campagne-FilRouge-EchosDeLaGuerre.md`, réservé au MJ). La méthode ci-dessous permet d'en construire un autre sur le même modèle.
+
+**Les 5 ingrédients :**
+
+1. **Une menace avec un but simple**, en une phrase. Elle agit surtout par des agents, et rarement en personne avant la Crise.
+2. **Un enjeu disputé : 6 objets-clés** (éclats, reliques, secrets…), placés 2 par étape dans des zones de palier I, II puis III (section 1). Idéalement, chacun a aussi un usage pour les joueurs (une Rune de craft, par exemple), pour que le garder ou le céder soit un vrai choix.
+3. **4 étapes**, qui avancent selon le nombre d'objets-clés réclamés, par qui que ce soit :
+
+| Objets-clés réclamés | Étape | Niveaux |
+|---|---|---|
+| 0-1 | Éveil | 1 → 6 |
+| 2-3 | Montée | 6 → 11 |
+| 4-5 | Crise | 11 → 16 |
+| 6 | Dénouement | 16 → 18 |
+
+4. **Une tension de 0 à 5**, qui monte de +1 sur un 9 au d10 de l'Horloge du Monde (section 2), et selon les choix des joueurs (à définir : par exemple +1 quand ils utilisent un objet-clé, -1 quand ils le mettent à l'abri). **À 5, un coup de théâtre** survient, puis la tension retombe à 0. Il suit toujours le même schéma : le monde réagit (palier de danger +1 sur la zone, piste d'Horloge +1), puis le groupe a jusqu'au prochain tirage de l'Horloge pour intervenir, faute de quoi la menace s'empare d'un objet-clé.
+5. **Une fin par détenteur possible.** Au Dénouement, celui qui détient le plus d'objets-clés (la menace, une faction, le groupe, un allié) décide de la situation de départ du dernier affrontement, jamais de son issue. Écrivez une ligne par détenteur.
+
+**Un objet-clé obtenu par le groupe est toujours un jalon.**
 
 ---
 

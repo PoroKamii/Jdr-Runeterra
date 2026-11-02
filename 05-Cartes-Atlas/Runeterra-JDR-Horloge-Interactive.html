@@ -451,7 +451,7 @@
 
 <div id="controls">
   <h2>Horloge du Monde — état actuel</h2>
-  <p class="subhint">Déplace un curseur pour faire avancer une piste (Campagne-Principale-Ouverture, section 7). La carte, les liens de tension et le panneau se mettent à jour en direct.</p>
+  <p class="subhint">Déplace un curseur pour faire avancer une piste (Manuel du MJ, Partie 3, section 2). La carte, les liens de tension et le panneau se mettent à jour en direct.</p>
   <div id="html-legend">
     <strong>Légende — paliers des pistes</strong>
     <div class="legend-row"><span class="legend-swatch" style="border-color:#d6a53a"></span> Palier 1 — tension naissante, encore une rumeur</div>
@@ -474,7 +474,7 @@
     <div class="track-row" data-track="bilgewater"><label>Bilgewater</label><input type="range" min="0" max="4" value="0"><span class="val">Palier 0</span></div>
     <div class="track-row" data-track="targon"><label>Targon</label><input type="range" min="0" max="4" value="0"><span class="val">Palier 0</span></div>
     <div class="track-row" data-track="ixtal"><label>Ixtal</label><input type="range" min="0" max="4" value="0"><span class="val">Palier 0</span></div>
-    <div class="track-row" data-track="neant"><label>Le Néant</label><input type="range" min="0" max="4" value="0"><span class="val">Palier 0</span></div>
+    <div class="track-row" data-track="filrouge"><label>Fil rouge (tension)</label><input type="range" min="0" max="5" value="0"><span class="val">Tension 0</span></div>
   </div>
   <div id="controls-buttons">
     <button id="btn-save">Enregistrer l'état</button>
@@ -483,12 +483,12 @@
     <span id="save-status"></span>
   </div>
   <div id="ripples">
-    <strong>Répercussions extra-régionales actives (palier 3+) :</strong>
+    <strong>Répercussions actives (pistes au palier 3+, fil rouge à 5) :</strong>
     <ul id="ripples-list"><li class="none">Aucune pour l'instant.</li></ul>
   </div>
   <div id="bilateral-panel">
-    <strong>Réputation bilatérale entre voisins directs (Campagne-Principale-Ouverture, section 7)</strong>
-    <p class="subhint">À bouger seulement suite à un événement précis (voir le générateur d'incident, section 7) — jamais par tirage automatique.</p>
+    <strong>Réputation bilatérale entre voisins directs (Manuel du MJ, Partie 3, section 2)</strong>
+    <p class="subhint">À bouger seulement suite à un événement précis (voir le générateur d'incident, Manuel du MJ, Partie 3, section 2) — jamais par tirage automatique.</p>
     <div class="bilateral-grid">
       <div class="bilateral-row" data-link="tl-freljord-demacia"><label>Freljord ↔ Demacia</label><select><option value="-2">-2 Ennemis</option><option value="-1">-1 Méfiants</option><option value="0" selected>0 Statu quo</option><option value="1">+1 Amicaux</option><option value="2">+2 Alliés</option></select></div>
       <div class="bilateral-row" data-link="tl-freljord-noxus"><label>Freljord ↔ Noxus</label><select><option value="-2">-2 Ennemis</option><option value="-1">-1 Méfiants</option><option value="0" selected>0 Statu quo</option><option value="1">+1 Amicaux</option><option value="2">+2 Alliés</option></select></div>
@@ -547,12 +547,12 @@ var REGION_DATA = {"freljord": {"label": "FRELJORD", "summary": "Trois tribus ri
     bilgewater: ['bilgewater'],
     targon: ['targon'],
     ixtal: ['ixtal'],
-    neant: ['lafaille', 'abimehurlant', 'brechedecristal', 'forettorturee']
+    filrouge: ['lafaille', 'abimehurlant', 'brechedecristal', 'forettorturee']
   };
 
   var TRACK_LABELS = {
     freljord: 'Freljord', piltoverzaun: 'Piltover/Zaun', demacia: 'Demacia',
-    noxusionia: 'Noxus/Ionia', shurima: 'Shurima', bilgewater: 'Bilgewater', targon: 'Targon', ixtal: 'Ixtal', neant: 'Le Néant'
+    noxusionia: 'Noxus/Ionia', shurima: 'Shurima', bilgewater: 'Bilgewater', targon: 'Targon', ixtal: 'Ixtal', filrouge: 'Fil rouge (tension)'
   };
 
   var SITUATIONS = {
@@ -561,63 +561,64 @@ var REGION_DATA = {"freljord": {"label": "FRELJORD", "summary": "Trois tribus ri
       "Doutes internes chez la Griffe d'Hiver — rien de visible de l'extérieur.",
       "Défection d'un clan de la Griffe d'Hiver vers l'alliance ; tensions armées ponctuelles.",
       "Escarmouches ouvertes ; routes du nord dangereuses pour les voyageurs.",
-      "Bataille décisive — bascule politique durable du Freljord (voir Manuel du MJ, 11ter)."
+      "Bataille décisive — bascule politique durable du Freljord (voir Manuel du MJ, Partie 3, section 2)."
     ],
     piltoverzaun: [
       "Siège zaunite au Conseil, mais les Barons Chimiques gouvernent le Puisard en sous-main.",
       "Un Baron Chimique cherche discrètement à discréditer la représentante zaunite.",
       "Scandale de corruption public ; l'opinion piltovienne se retourne contre Zaun.",
       "Motion déposée au Conseil pour supprimer le siège zaunite.",
-      "Crise politique majeure — siège supprimé ou sauvé (voir Manuel du MJ, 11ter)."
+      "Crise politique majeure — siège supprimé ou sauvé (voir Manuel du MJ, Partie 3, section 2)."
     ],
     demacia: [
       "Succession en crise depuis l'assassinat du roi ; Lois de Pierre toujours en vigueur.",
       "Un prétendant réformiste gagne du terrain en promettant d'assouplir les Lois de Pierre.",
       "Incident public impliquant un Illuminateur ; panique anti-magie ravivée.",
       "Fracture ouverte entre ligne dure et réformistes (autour de Lux).",
-      "Couronnement contesté — bascule politique durable (voir Manuel du MJ, 11ter)."
+      "Couronnement contesté — bascule politique durable (voir Manuel du MJ, Partie 3, section 2)."
     ],
     noxusionia: [
       "Trifarix stable en façade (Swain, Darius, la Ruse) ; occupation ionienne tendue mais figée.",
       "Rumeurs sur l'identité réelle de la Ruse.",
       "La résistance ionienne s'intensifie dans les territoires occupés.",
       "Tentative d'assassinat contre un membre du Trifarix ; méfiance interne noxienne.",
-      "Rupture ouverte — Trifarix qui éclate ou se resserre (voir Manuel du MJ, 11ter)."
+      "Rupture ouverte — Trifarix qui éclate ou se resserre (voir Manuel du MJ, Partie 3, section 2)."
     ],
     shurima: [
       "Azir (empereur ressuscité) et Xerath (Ascendu renégat) se disputent la légitimité.",
       "Escarmouches frontalières entre partisans des deux camps.",
       "Une cité-oasis bascule ouvertement dans l'un des deux camps.",
       "Bataille rangée imminente entre les deux forces.",
-      "Un des deux camps tombe — bascule majeure du pouvoir shurimais (voir Manuel du MJ, 11ter)."
+      "Un des deux camps tombe — bascule majeure du pouvoir shurimais (voir Manuel du MJ, Partie 3, section 2)."
     ],
     bilgewater: [
       "Miss Fortune domine le port ; Gangplank, défiguré, survit et complote en secret.",
       "Rumeurs que Gangplank a été aperçu vivant.",
       "Un équipage rival tente de reformer un Conclave des Corsaires.",
       "Gangplank refait surface publiquement et rallie d'anciens fidèles.",
-      "Guerre ouverte pour le port — l'autorité change de mains (voir Manuel du MJ, 11ter)."
+      "Guerre ouverte pour le port — l'autorité change de mains (voir Manuel du MJ, Partie 3, section 2)."
     ],
     targon: [
       "Solari orthodoxes, Lunari clandestins ; le Marus Omegnum dort dans le Royaume des Esprits.",
       "Présages célestes inhabituels ; certains murmurent un réveil prochain du Marus Omegnum.",
       "Un pratiquant Lunari est publiquement dénoncé par des zélotes Solari.",
       "Le Marus Omegnum se matérialise ; Solari et Lunari se retrouvent face à face.",
-      "Dénouement religieux — réconciliation des deux Aspects ou répression accrue (voir Manuel du MJ, 11ter)."
+      "Dénouement religieux — réconciliation des deux Aspects ou répression accrue (voir Manuel du MJ, Partie 3, section 2)."
     ],
     ixtal: [
       "Isolation stricte du Conseil des Yun Tal ; une jeune génération curieuse s'exprime sans pouvoir réel.",
       "Une pétition informelle pour un contact limité avec l'extérieur circule discrètement.",
       "Une expédition étrangère force la frontière et est repoussée par la magie défensive.",
       "Le débat atteint le Conseil lui-même ; une proposition d'ouverture le divise.",
-      "Décision du Conseil — canal limité ouvert ou frontière renforcée (voir Manuel du MJ, 11ter)."
+      "Décision du Conseil — canal limité ouvert ou frontière renforcée (voir Manuel du MJ, Partie 3, section 2)."
     ],
-    neant: [
-      "Sceaux des Champs de Justice intacts, sauf la Faille (fragilisée).",
-      "Rumeurs isolées de disparitions ou de « taches » ternes.",
-      "Un second Champ de Justice montre des signes de corruption.",
-      "Panique locale ; les autorités réagissent selon leur politique déjà établie.",
-      "Un Champ de Justice cède réellement — nouvel acte de campagne (voir Campagne-Principale-Ouverture, section 6)."
+    filrouge: [
+      "Tension 0 — le monde est calme ; les Champs de Justice dorment.",
+      "Tension 1 — quelques vétérans jurent entendre des batailles anciennes la nuit.",
+      "Tension 2 — des Résonnants commencent à se montrer ; les rumeurs d'éclats circulent.",
+      "Tension 3 — des tempêtes runiques brèves frappent des lieux reculés.",
+      "Tension 4 — un ancien champ de bataille gronde ; l'Écho est imminent.",
+      "Tension 5 — un Écho de guerre se déclenche (fil rouge, section 5) ; la tension retombe ensuite à 0."
     ]
   };
 
@@ -630,10 +631,10 @@ var REGION_DATA = {"freljord": {"label": "FRELJORD", "summary": "Trois tribus ri
     bilgewater: "Bilgewater (palier 3+) : +10% sur tous les biens qui transitent habituellement par le port, pour toutes les régions.",
     targon: "Targon (palier 3+) : la coutume démacienne de la Couronne de Pierre devient un sujet brûlant, aux conséquences incertaines.",
     ixtal: "Ixtal (palier 3+) : la Guilde des Explorateurs de Piltover intensifie ses tentatives d'approche de la frontière.",
-    neant: "Le Néant (palier 3+) : les régions proches du Champ touché réagissent selon leur politique déjà établie."
+    filrouge: "Fil rouge (tension 5) : un Écho de guerre se déclenche — abords du site +1 palier de danger, piste d'Horloge de la région +1, fenêtre pour agir avant que l'Archiviste ne s'empare de l'éclat. Remettez ensuite la tension à 0."
   };
 
-  var state = { freljord: 0, piltoverzaun: 0, demacia: 0, noxusionia: 0, shurima: 0, bilgewater: 0, targon: 0, ixtal: 0, neant: 0 };
+  var state = { freljord: 0, piltoverzaun: 0, demacia: 0, noxusionia: 0, shurima: 0, bilgewater: 0, targon: 0, ixtal: 0, filrouge: 0 };
   var STORAGE_KEY = 'horloge-du-monde-etat';
 
   var PALIER_STROKE = ['#00000000', '#d6a53a', '#d9822f', '#c8502d', '#a81818'];
@@ -645,7 +646,7 @@ var REGION_DATA = {"freljord": {"label": "FRELJORD", "summary": "Trois tribus ri
         var el = document.getElementById('overlay-' + regionKey);
         if (!el) return;
         el.setAttribute('fill', 'none');
-        el.setAttribute('stroke', PALIER_STROKE[p]);
+        el.setAttribute('stroke', PALIER_STROKE[Math.min(p, 4)]);
         el.setAttribute('stroke-width', p === 0 ? 0 : 3 + p * 1.5);
         el.setAttribute('opacity', p === 0 ? 0 : 0.9);
       });
@@ -688,7 +689,8 @@ var REGION_DATA = {"freljord": {"label": "FRELJORD", "summary": "Trois tribus ri
     var list = document.getElementById('ripples-list');
     var active = [];
     Object.keys(RIPPLES).forEach(function(track) {
-      if (state[track] >= 3) active.push(RIPPLES[track]);
+      var seuil = track === 'filrouge' ? 5 : 3;
+      if (state[track] >= seuil) active.push(RIPPLES[track]);
     });
     if (active.length === 0) {
       list.innerHTML = '<li class="none">Aucune pour l\'instant.</li>';
@@ -700,7 +702,7 @@ var REGION_DATA = {"freljord": {"label": "FRELJORD", "summary": "Trois tribus ri
   function updateRow(track) {
     var row = document.querySelector('.track-row[data-track="' + track + '"]');
     if (!row) return;
-    row.querySelector('.val').textContent = 'Palier ' + state[track];
+    row.querySelector('.val').textContent = (track === 'filrouge' ? 'Tension ' : 'Palier ') + state[track];
   }
 
   function renderAll() {
@@ -748,7 +750,7 @@ var REGION_DATA = {"freljord": {"label": "FRELJORD", "summary": "Trois tribus ri
     if (track) {
       var p = state[track];
       var extra = document.createElement('p');
-      extra.innerHTML = '<strong>Horloge du Monde — ' + TRACK_LABELS[track] + ', palier ' + p + ' :</strong><br>' + SITUATIONS[track][p];
+      extra.innerHTML = '<strong>Horloge du Monde — ' + TRACK_LABELS[track] + (track === 'filrouge' ? ', tension ' : ', palier ') + p + ' :</strong><br>' + SITUATIONS[track][p];
       window.MapUI.panelContent.appendChild(extra);
     }
   });
